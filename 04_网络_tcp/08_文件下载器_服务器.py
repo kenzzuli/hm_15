@@ -1,8 +1,9 @@
 # 文件下载器 服务器端
 import socket
 import os
-from config import buffer_size
 from tqdm import tqdm
+
+buffer_size = 1024 * 100  # 100k
 
 
 def upload(client_socket, file_list, base_dir):
@@ -48,7 +49,7 @@ def upload(client_socket, file_list, base_dir):
 
 def download(tcp_client_socket, base_dir):
     # 发送任意一条数据
-    tcp_client_socket.send("a".encode("utf-8"))
+    tcp_client_socket.send("_".encode("utf-8"))
     # 接收文件名称
     file_name = tcp_client_socket.recv(buffer_size).decode("utf-8")
     if file_name == "quit":
@@ -93,8 +94,10 @@ def file_downloader_server():
 
         while True:
             # 服务器上的文件列表
-            file_list = os.listdir("./cloud_resources")
             base_dir = os.path.join(os.getcwd(), "cloud_resources")
+            if not os.path.exists(base_dir):
+                os.mkdir(base_dir)
+            file_list = os.listdir(base_dir)
 
             # 等待客户端选择
             print("等待客户端选择功能...")
