@@ -10,6 +10,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/04_网络_tcp/local_download/1.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
       </map>
     </option>
   </component>

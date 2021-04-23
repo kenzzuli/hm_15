@@ -6,7 +6,7 @@ def tcp_client():
     # 1.创建socket
     tcp_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     # 2.连接服务器
-    local_addr = "127.0.0.1", 4444
+    local_addr = "127.0.0.1", 3333
     tcp_socket.bind(local_addr)
     dest_addr = "127.0.0.1", 8888
     tcp_socket.connect(dest_addr)
