@@ -93,7 +93,7 @@ def upload(tcp_client_socket, base_dir):
 def file_downloader_client():
     # 本地资源路径
     base_dir = os.path.join(os.getcwd(), "local_download")
-    # 如果文件不存在，创建该文件
+    # 如果目录不存在，创建该目录
     if not os.path.exists(base_dir):
         os.mkdir(base_dir)
     # 创建tcp socket
