@@ -3,15 +3,8 @@
 import threading
 import socket
 
-# 创建socket
-udp_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-# 指定源地址和目标地址
-local_addr = "127.0.0.1", 4444
-des_addr = "127.0.0.1", 8888
-udp_socket.bind(local_addr)
 
-
-def receive_msg():
+def receive_msg(udp_socket):
     while True:
         recv_data = udp_socket.recvfrom(1024)
         if recv_data[0].decode() == "quit":
@@ -20,7 +13,7 @@ def receive_msg():
         print("\n对方：" + recv_data[0].decode() + "\n自己：", end="")
 
 
-def send_msg():
+def send_msg(udp_socket, des_addr):
     while True:
         msg = input("自己：")
         udp_socket.sendto(msg.encode(), des_addr)
@@ -34,8 +27,14 @@ def chat():
     print("*" * 50)
     print("欢迎使用UDP聊天工具，输入quit退出！")
     print("*" * 50)
-    t1 = threading.Thread(target=receive_msg)
-    t2 = threading.Thread(target=send_msg)
+    # 创建socket
+    udp_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    # 指定源地址和目标地址
+    local_addr = "127.0.0.1", 4444
+    des_addr = "127.0.0.1", 8888
+    udp_socket.bind(local_addr)
+    t1 = threading.Thread(target=receive_msg, args=(udp_socket,))
+    t2 = threading.Thread(target=send_msg, args=(udp_socket, des_addr))
     t1.start()
     t2.start()
 
