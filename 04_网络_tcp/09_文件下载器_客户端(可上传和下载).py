@@ -3,7 +3,7 @@ import socket
 import os
 from tqdm import tqdm
 
-buffer_size = 1024 * 1024 * 100  # 100M
+buffer_size = 1024 * 100  # 100k
 
 
 def download(tcp_client_socket, base_dir):
@@ -73,7 +73,7 @@ def upload(tcp_client_socket, base_dir):
                 total_length = 0
                 with tqdm(total=file_size, unit="B", unit_scale=True, unit_divisor=1024) as t:
                     while True:
-                        t.set_description("Uploading [{}]".format(file_name))
+                        t.set_description("Sending [{}]".format(file_name))
                         content = f.read(buffer_size)
                         tcp_client_socket.send(content)
                         t.update(len(content))
@@ -93,7 +93,7 @@ def upload(tcp_client_socket, base_dir):
 def file_downloader_client():
     # 本地资源路径
     base_dir = os.path.join(os.getcwd(), "local_download")
-    # 如果文件不存在，创建该文件
+    # 如果目录不存在，创建该目录
     if not os.path.exists(base_dir):
         os.mkdir(base_dir)
     # 创建tcp socket
