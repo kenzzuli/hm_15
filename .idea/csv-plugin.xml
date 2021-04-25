@@ -24,6 +24,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/05_多任务-线程/12_多线程共享全部变量的问题.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
