@@ -38,6 +38,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/06_多任务-进程/04_queue的基本使用.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
