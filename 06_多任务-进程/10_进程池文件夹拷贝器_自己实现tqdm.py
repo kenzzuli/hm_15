@@ -1,9 +1,6 @@
-# 仅可以拷贝文件夹中的文件，如果文件夹中嵌套文件夹，就不行了，要递归实现
-# 这里就不重复造轮子了
-# 如果进程池里的进程产生异常，主进程是看不到的
+# 自己实现进度条刷新，确定进度条完整
 from multiprocessing import Manager, Pool
 import os
-from tqdm import tqdm
 
 
 def copy(q, file_name, source_folder, dest_folder):
@@ -47,26 +44,35 @@ if __name__ == '__main__':
     # 向进程池添加任务
     for file in file_list:
         po.apply_async(copy, (q, file, source_folder, dest_folder))
-    # 使用进度条
-    # with tqdm(total=len(file_list)) as t:
-    #     while True:
-    #         t.set_description("Copying")
-    #         # 将进度条更新到某个位置
-    #         t.n = q.qsize()
-    #         t.refresh()  # 刷新
-    #         if q.qsize() == len(file_list):
-    #             t.n = q.qsize()  # 由于多进程，两次获取的qsize()可能不同，会出现进度条没走完的情况
-    #             t.refresh()  # 所以这里也要刷新一次
-    #             break
-    # 可使用变量接收一下qsize()的结果，确保每次循环中的值不变
-    with tqdm(total=len(file_list)) as pbar:
-        while True:
-            pbar.set_description("Copying")
-            copied_file_num = q.qsize()
-            pbar.n = copied_file_num
-            pbar.refresh()
-            if copied_file_num == len(file_list):
-                break
+
     po.close()  # 关闭进程池，不再接收新的任务
-    po.join()  # 让主进程等待进程池的任务全部执行结束后再向下执行
+
+    # 手动实现进度条
+
+    # 方法1
+    # 由于多进程，循环中两次使用qsize()获取的值可能不一样，导致进度条显示不完整，所以要在if判断中再加一次打印信息
+    # while True:
+    #     # \r每次回到行首
+    #     print("\rCopying %.2f%%" % (q.qsize() * 100.0 / len(file_list)), end="")
+    #     if q.qsize() == len(file_list):
+    #         # 这里还是要加上输出，不然进度条不完整
+    #         print("\rCopying %.2f%%" % (q.qsize() * 100.0 / len(file_list)))
+    #         break
+    while True:
+        copied_file_num = q.qsize()
+        print("\rCopying %.2f%%" % (copied_file_num * 100.0 / len(file_list)), end="")
+        if copied_file_num == len(file_list):
+            print()  # 加一个换行
+            break
+
+    # 方法2
+    # 每次循环中，打印时的copied_file_num和if判断中的copied_file_num一样，不会变化，进度条能完整显示
+    # copied_file_num = 0
+    # while True:
+    #     q.get()
+    #     copied_file_num += 1
+    #     print("\rCopying %.2f%%" % (copied_file_num / len(file_list) * 100), end="")
+    #     if copied_file_num == len(file_list):
+    #         print("")  # 加一个换行
+    #         break
     print("拷贝结束")

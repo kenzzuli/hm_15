@@ -45,6 +45,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/06_多任务-进程/10_进程池文件夹拷贝器_自己实现tqdm.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
