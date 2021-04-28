@@ -59,6 +59,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/07_多任务-协程/07_用迭代器生成Fibonacci数列.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
