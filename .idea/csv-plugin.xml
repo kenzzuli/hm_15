@@ -52,6 +52,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/07_多任务-协程/05_实现真正的迭代器.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
