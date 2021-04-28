@@ -66,6 +66,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/07_多任务-协程/11_通过send来唤醒生成器.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
