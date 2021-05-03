@@ -45,6 +45,34 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/06_多任务-进程/10_进程池文件夹拷贝器_自己实现tqdm.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/07_多任务-协程/05_实现真正的迭代器.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/07_多任务-协程/07_用迭代器生成Fibonacci数列.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/07_多任务-协程/11_通过send来唤醒生成器.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
