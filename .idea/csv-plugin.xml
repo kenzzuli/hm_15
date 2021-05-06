@@ -80,6 +80,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/12_python提高-1/07_多模块导入/recv_msg.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/12_python提高-1/08_继承.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
