@@ -94,6 +94,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/13_python提高-2/03_新式类中有三种装饰器.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/13_python提高-2/05_新式类中三种装饰器-练习.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
