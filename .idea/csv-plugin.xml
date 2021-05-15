@@ -108,6 +108,27 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/19_闭包、装饰器/03_装饰器.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/19_闭包、装饰器/06_对有参数无返回值的函数进行装饰.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/19_闭包、装饰器/11_多个装饰器装饰同一个函数.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
