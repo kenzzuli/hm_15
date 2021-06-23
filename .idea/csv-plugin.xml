@@ -10,6 +10,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/04_网络_tcp/03_循环为多个客户端服务.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/04_网络_tcp/05_循环为多个客户端服务多次.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/04_网络_tcp/local_download/1.csv">
           <value>
             <Attribute>
@@ -73,6 +87,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/09_http协议/01_用tcp实现一次http传输.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/12_python提高-1/05_私有化，变量命名方法.py">
           <value>
             <Attribute>
@@ -123,6 +144,20 @@
           </value>
         </entry>
         <entry key="/19_闭包、装饰器/11_多个装饰器装饰同一个函数.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/22_元类、实现ORM/gui.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/数据结构与算法/01_timeit.py">
           <value>
             <Attribute>
               <option name="separator" value="," />

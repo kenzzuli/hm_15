@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e6e3320f-abb4-4a78-97a6-45d55fcc3d6a" name="my_spider" url="">
+        <fileTransfer rootFolder="/home/nlplab/tmp" accessType="SFTP" host="10.2.38.201" port="22" sshConfigId="41ae39e5-f326-4c5c-b55a-8a0dd08f5a47" sshConfig="nlplab@10.2.38.201:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

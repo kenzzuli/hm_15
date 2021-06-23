@@ -4,20 +4,20 @@ import socket
 
 def tcp_server():
     # 创建socket
-    tcp_tcp_server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    tcp_server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
     # 绑定ip
     local_addr = "127.0.0.1", 8888
-    tcp_tcp_server_socket.bind(local_addr)
+    tcp_server_socket.bind(local_addr)
 
     # 监听(让socket由主动变为被动)
-    tcp_tcp_server_socket.listen(128)
+    tcp_server_socket.listen(128)
     # 循环为多个客户端服务
     while True:
         print("等待客户端连接...")
         # 默认先阻塞，直到有客户端连接
         # 如果有客户端来连接服务器，就会产生一个新的socket专门为这个客户端服务
-        client_socket, client_addr = tcp_tcp_server_socket.accept()
+        client_socket, client_addr = tcp_server_socket.accept()
         print("新的客户端已经到来：%s" % str(client_addr))
 
         # 循环为单个客户端服务多次
@@ -37,7 +37,7 @@ def tcp_server():
         # 关闭socket
         client_socket.close()
         print("服务完毕")
-    tcp_tcp_server_socket.close()
+    tcp_server_socket.close()
 
 
 if __name__ == '__main__':
