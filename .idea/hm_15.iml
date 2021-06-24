@@ -4,6 +4,7 @@
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/04_网络_tcp/cloud_resources" />
       <excludeFolder url="file://$MODULE_DIR$/04_网络_tcp/local_download" />
+      <excludeFolder url="file://$MODULE_DIR$/09_http协议/html" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.6 (nlp)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />

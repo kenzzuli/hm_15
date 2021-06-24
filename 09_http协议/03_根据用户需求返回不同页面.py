@@ -1,6 +1,9 @@
 import socket
 import re
 
+# 配置服务器文件路径
+base_dir = "./html"
+
 
 def handle_client(client_socket):
     """为客户端服务"""
@@ -12,21 +15,23 @@ def handle_client(client_socket):
     # 3.组装应答头和应答体
     # 如果url为/，则跳转到index.html
     if url == "/":
-        url = "/index.html"
+        url = base_dir + "/index.html"
+    else:
+        url = base_dir + url
+    print("请求的内容为：", url)
 
-    file_path = "./html" + url
     try:
-        response_header = "HTTP/1.1 200 0K \r\n\r\n"  # 用空白行将应答头和应答体分割
-        # errors="ignore"必须加上，因为读取的文件可能出问题
-        with open(file_path, mode="r", encoding="utf-8", errors="ignore") as f:
-            response_body = "".join(f.readlines())
-    except IOError:
-        response_header = "HTTP/1.1 404 Error \r\n\r\n"
-        response_body = "<h1>404 Page Not Found</h1>"
-    finally:
+        with open(url, mode="rb") as f:  # 必须以rb的形式读取，因为有时传输的是图片
+            response_body = f.read()
+    except IOError:  # 如果出现异常
+        response_header = "HTTP/1.1 404 Error \r\n\r\n".encode("utf-8")
+        response_body = "<h1>404 Page Not Found</h1>".encode("utf-8")
+    else:  # 如果没有异常
+        response_header = "HTTP/1.1 200 0K \r\n\r\n".encode("utf-8")
+    finally:  # 无论是否有异常，都组装应答
         response = response_header + response_body
     # 4.返回应答
-    client_socket.send(response.encode("utf-8"))
+    client_socket.send(response)
     # 5.关闭套接字
     client_socket.close()
 
@@ -35,7 +40,7 @@ def main():
     """完成整体的流程控制"""
     # 1.创建套接字
     tcp_server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    # 设置服务器先close，即服务器4次挥手后资源能立即释放，这样在下次运行程序时，可以立即绑定端口，不必等待，不然会报错。
+    # 设置套接字选项，服务器4次挥手后资源能立即释放，这样在下次运行程序时，可以立即绑定端口，不必等待，不然会报错。
     # [Errno 98] address already in use.
     tcp_server_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
     # 2.绑定

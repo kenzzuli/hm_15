@@ -18,7 +18,7 @@ def tcp_server():
     # 监听(让socket由主动变为被动)
     tcp_server_socket.listen(128)
     # i 用来标记访问次数
-    i = 0
+    i = 1
     while True:
         # 默认先阻塞，直到有客户端连接
         # 如果有客户端来连接服务器，就会产生一个新的socket专门为这个客户端服务
@@ -50,7 +50,7 @@ def tcp_server():
         # Accept-Language: en,en-US;q=0.9,zh-CN;q=0.8,zh;q=0.7,zh-TW;q=0.6
 
         # 发送数据 包含应答头和应答体
-        send_data = "HTTP/1.1 200 0K\r\n\r\n<h1>{} times </h1>".format(i // 2)  # 这里i除以2是因为每次浏览器都发送了两次请求
+        send_data = "HTTP/1.1 200 0K\r\n\r\n<h1>{} times </h1>".format(i)
         client_socket.send(send_data.encode())
         i += 1
         print(i)
