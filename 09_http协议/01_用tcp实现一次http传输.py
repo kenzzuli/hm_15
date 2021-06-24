@@ -9,6 +9,8 @@ def tcp_server():
     # 创建socket
     tcp_server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
+    # 设置服务器先close，即服务器4次挥手后资源能立即释放，这样在下次运行程序时，可以立即绑定端口，不必等待。
+    tcp_server_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
     # 绑定ip
     local_addr = "127.0.0.1", 8888
     tcp_server_socket.bind(local_addr)
