@@ -115,6 +115,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/09_http协议/test.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/12_python提高-1/05_私有化，变量命名方法.py">
           <value>
             <Attribute>

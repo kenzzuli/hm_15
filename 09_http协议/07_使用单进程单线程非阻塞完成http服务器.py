@@ -93,8 +93,10 @@ def main():
 BASE_DIR = "./html"
 # 配置服务器地址
 # SERVER_ADDR = HOST, PORT = "127.0.0.1", 8888
-# 想让同一局域网内其他电脑访问该网站，要把网址改为0.0.0.0
-SERVER_ADDR = HOST, PORT = "0.0.0.0", 8888
+# 想让同一局域网内其他电脑访问该网站，要把ip改为0.0.0.0
+# SERVER_ADDR = HOST, PORT = "0.0.0.0", 8888
+# 或者ip直接留空
+SERVER_ADDR = HOST, PORT = "", 8888
 
 if __name__ == '__main__':
     main()
