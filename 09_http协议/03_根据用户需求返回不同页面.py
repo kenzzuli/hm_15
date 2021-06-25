@@ -9,8 +9,8 @@ def handle_client(client_socket):
     """为客户端服务"""
     # 1.接收浏览器发送的请求
     recv_data = client_socket.recv(1024).decode("utf-8")
-    # 2.获取请求的url
-    url = re.match(r"^GET\s(\S+)\s", recv_data).group(1)
+    # 2.获取请求的url \S+匹配GET POST PUT DEL等  \s匹配空白字符 (\S+)匹配url \s匹配空白字符
+    url = re.match(r"^\S+\s(\S+)\s", recv_data).group(1)
 
     # 3.组装应答头和应答体
     # 如果url为/，则跳转到index.html
@@ -19,6 +19,10 @@ def handle_client(client_socket):
     else:
         url = base_dir + url
     print("请求的内容为：", url)
+    # 请求的内容为： ./html/index.html
+    # 请求的内容为： ./html/classic.css
+    # 请求的内容为： ./html/images/qt-logo.png
+    # 请求的内容为： ./html/images/trolltech-logo.png
 
     try:
         with open(url, mode="rb") as f:  # 必须以rb的形式读取，因为有时传输的是图片

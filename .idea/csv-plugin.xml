@@ -101,6 +101,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/09_http协议/04_使用多进程完成http服务器.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/09_http协议/07_使用单进程单线程非阻塞完成http服务器.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/12_python提高-1/05_私有化，变量命名方法.py">
           <value>
             <Attribute>
