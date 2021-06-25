@@ -16,11 +16,11 @@ class WSGIServer(object):
         self.tcp_server_socket.listen(128)
         # 设为非堵塞
         self.tcp_server_socket.setblocking(False)
+        # 用来保存所有的client_socket
+        self.client_socket_list = list()
 
     def serve_forever(self):
         """循环运行web服务器，等待客户端连接并为客户端服务"""
-        # 用来保存所有的client_socket
-        client_socket_list = list()
         while True:
             # time.sleep(0.9)
             try:
@@ -31,20 +31,19 @@ class WSGIServer(object):
             else:
                 # 设为非堵塞
                 client_socket.setblocking(False)
-                client_socket_list.append(client_socket)
+                self.client_socket_list.append(client_socket)
             # 这里用copy是因为在遍历一个列表时，不能对列表进行增删操作，否则会遍历不完整。
             # list.copy()是浅拷贝，拷贝的是引用，没有拷贝内容，即两个列表都指向相同的sockets。
             # 协程是单线程，socket等资源只有一份，每个socket也只需关闭一次。
-            client_socket_list_back = client_socket_list.copy()
+            client_socket_list_back = self.client_socket_list.copy()
 
-            print("处理前client_socket数量为:", len(client_socket_list))
+            print("处理前client_socket数量为:", len(self.client_socket_list))
             for client_socket in client_socket_list_back:
-                self.handle_client(client_socket, client_socket_list)
+                self.handle_client(client_socket)
 
-            print("处理后client_socket数量为:", len(client_socket_list))
+            print("处理后client_socket数量为:", len(self.client_socket_list))
 
-    @staticmethod
-    def handle_client(client_socket, client_socket_list):
+    def handle_client(self, client_socket):
         """为一个客户端服务"""
         try:
             # 1.接收浏览器发送的请求
@@ -77,7 +76,7 @@ class WSGIServer(object):
             # 5.关闭套接字
             client_socket.close()
             # 6.从列表中删去该套接字
-            client_socket_list.remove(client_socket)
+            self.client_socket_list.remove(client_socket)
             print("已经向客户端发送信息，且关闭套接字")
 
 
