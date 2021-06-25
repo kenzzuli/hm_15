@@ -115,6 +115,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/09_http协议/08_使用单进程单线程非阻塞完成http服务器.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/09_http协议/test.py">
           <value>
             <Attribute>

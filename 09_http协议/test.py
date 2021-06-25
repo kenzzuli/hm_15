@@ -28,7 +28,7 @@ class WSGIServer(object):
         # 等待对方链接
         while True:
 
-            time.sleep(0.5)  # for test
+            # time.sleep(0.5)  # for test
 
             try:
                 new_socket, new_addr = self.server_socket.accept()
@@ -80,7 +80,7 @@ class WSGIServer(object):
             response_body = "file not found, 请输入正确的url"
             response_header = "HTTP/1.1 404 not found\r\n"
             response_header += "Content-Type: text/html; charset=utf-8\r\n"
-            response_header += "Content-Length: %d\r\n" % (len(response_body))
+            # response_header += "Content-Length: %d\r\n" % (len(response_body))
             response_header += "\r\n"
 
             # 将header返回给浏览器
@@ -94,7 +94,7 @@ class WSGIServer(object):
 
             response_body = content
             response_header = "HTTP/1.1 200 OK\r\n"
-            response_header += "Content-Length: %d\r\n" % (len(response_body))
+            # response_header += "Content-Length: %d\r\n" % (len(response_body))
             response_header += "\r\n"
 
             # 将header返回给浏览器
