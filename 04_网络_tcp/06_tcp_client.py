@@ -6,6 +6,8 @@ import socket
 def tcp_client():
     # 1.创建socket
     tcp_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    # 即使加上套接字选项，也无法瞬间复用这个地址。可以用 05_循环.py 来实验。
+    tcp_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
     # 2.连接服务器
     local_addr = "127.0.0.1", 3333
     tcp_socket.bind(local_addr)

@@ -5,6 +5,7 @@ import socket
 def tcp_server():
     # 创建socket
     tcp_server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    tcp_server_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 
     # 绑定ip
     local_addr = "127.0.0.1", 8888
@@ -18,6 +19,7 @@ def tcp_server():
         # 默认先阻塞，直到有客户端连接
         # 如果有客户端来连接服务器，就会产生一个新的socket专门为这个客户端服务
         client_socket, client_addr = tcp_server_socket.accept()
+        client_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
         print("新的客户端已经到来：%s" % str(client_addr))
 
         # 循环为单个客户端服务多次
