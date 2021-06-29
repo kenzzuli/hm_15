@@ -199,6 +199,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="$APPLICATION_CONFIG_DIR$/consoles/db/3bc4893d-22d6-4ff1-a13e-15fdb280698e/console.sql">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="$APPLICATION_CONFIG_DIR$/consoles/db/3bc4893d-22d6-4ff1-a13e-15fdb280698e/console_1.sql">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/数据结构与算法/01_timeit.py">
           <value>
             <Attribute>
