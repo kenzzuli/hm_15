@@ -3,5 +3,8 @@
   <component name="SqlDialectMappings">
     <file url="file://$PROJECT_DIR$/14_mysql基本使用/basic.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/15_mysql查询/01_查询和条件.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/15_mysql查询/02_order.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/15_mysql查询/03_function.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/15_mysql查询/04_groupby.sql" dialect="MySQL" />
   </component>
 </project>

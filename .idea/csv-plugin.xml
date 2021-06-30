@@ -171,6 +171,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/15_mysql查询/03_function.sql">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/19_闭包、装饰器/03_装饰器.py">
           <value>
             <Attribute>
