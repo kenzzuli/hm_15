@@ -178,6 +178,27 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/16_mysql与python交互/04_增加数据.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/16_mysql与python交互/05_参数化防止sql注入.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/16_mysql与python交互/06_防止sql注入.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/19_闭包、装饰器/03_装饰器.py">
           <value>
             <Attribute>

@@ -10,5 +10,9 @@
     <file url="file://$PROJECT_DIR$/16_mysql与python交互/01_mysql练习.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/16_mysql与python交互/02_查询数据.py" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/16_mysql与python交互/03_面向对象查询数据.py" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/16_mysql与python交互/04_增加数据.py" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/16_mysql与python交互/05_sql注入.py" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/16_mysql与python交互/06_防止sql注入.py" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/17_mysql高级/03_索引.sql" dialect="MySQL" />
   </component>
 </project>
