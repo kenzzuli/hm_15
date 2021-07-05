@@ -6,7 +6,7 @@ import sys
 
 class WSGIServer(object):
 
-    def __init__(self, port, app):
+    def __init__(self, port, app, conf):
         # 1.创建套接字
         self.tcp_server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         # 设置套接字选项
@@ -16,6 +16,7 @@ class WSGIServer(object):
         # 3.监听，并指定队列长度为128
         self.tcp_server_socket.listen(128)
         self.app = app
+        self.conf = conf
         print("Serving HTTP on Port {}".format(port))
 
     def serve_forever(self):
@@ -74,7 +75,7 @@ class WSGIServer(object):
                 url = "/index.html"
             # 组装
             try:  # 尝试打开文件
-                with open(BASE_DIR + url, mode="rb") as f:  # 必须以rb的形式读取，因为有时传输的是图片
+                with open(self.conf["static_path"] + url, mode="rb") as f:  # 必须以rb的形式读取，因为有时传输的是图片
                     response_body = f.read()
             except Exception:  # 如果出现异常
                 response_header = "HTTP/1.1 404 Error \r\n\r\n".encode("utf-8")
@@ -106,12 +107,16 @@ def main():
             return
         # 设置框架
         try:
+            # 打开配置文件
+            with open("./web_server.conf", mode="r", encoding="utf-8") as f:
+                conf = eval(f.read())
+
             # 分割框架名和函数名
             frame_name, func_name = sys.argv[2].split(":")
 
             # 导入框架
             # 将dynamic添加到系统路径，这样才能在dynamic中找到mini_frame.py
-            sys.path.append("./dynamic")
+            sys.path.append(conf["dynamic_path"])
             # 解释器找的是frame_name.py
             # import frame_name
             # 解释器找的是frame_name变量的值，frame_name的值是"mini_frame",导入的是mini_frame.py
@@ -131,13 +136,10 @@ def main():
         print("请按照如下命令行格式运行 python web_server.py 8888 mini_frame:application")
         return
     # 初始化服务器
-    httpd = WSGIServer(port, app)
+    httpd = WSGIServer(port, app, conf)
     # 开始服务
     httpd.serve_forever()
 
-
-# 配置服务器服务静态资源时的路径
-BASE_DIR = "./static"
 
 if __name__ == '__main__':
     main()
