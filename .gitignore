@@ -10,3 +10,5 @@
 /18_WSGI/07_替换模板中的数据/templates/
 /18_WSGI/08_运行web服务器时指定端口和框架/static/
 /18_WSGI/08_运行web服务器时指定端口和框架/templates/
+/18_WSGI/09_让web服务器支持配置文件/static/
+/18_WSGI/09_让web服务器支持配置文件/templates/
