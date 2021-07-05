@@ -4,7 +4,7 @@ template_path = "./templates"
 func_dict = dict()
 
 
-def route(url):  # 这里保存了url，即"index.py"
+def route(url):  # 这里保存了url，即"index.html"
     def set_func(func):  # 这里保存了原始的index函数，主程序通过字典调用的是原始的index函数，而不是装饰后的index函数
         func_dict[url] = func  # 向字典存储键值对
 
@@ -21,7 +21,7 @@ def read_from_file(file_path):
         return f.read()
 
 
-@route("/index.py")  # route("/index.py")执行的结果指向set_func，用set_func装饰index
+@route("/index.html")  # route("/index.html")执行的结果指向set_func，用set_func装饰index
 def index(file_name):
     # 这里的路径 都要按照python最开始的执行文件的路径来算。
     # python运行的是web_server.py 所有的路径都以该文件所在的路径来计算
@@ -32,7 +32,7 @@ def index(file_name):
     return content
 
 
-@route("/center.py")
+@route("/center.html")
 def center(file_name):
     file_name = file_name.replace(".py", ".html")
     content = read_from_file(template_path + file_name)
@@ -41,12 +41,12 @@ def center(file_name):
     return content
 
 
-@route("/login.py")
+@route("/login.html")
 def login(file_name):
     return "login"
 
 
-@route("register.py")
+@route("register.html")
 def register(file_name):
     return "register"
 
