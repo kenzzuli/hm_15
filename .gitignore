@@ -1,3 +1,6 @@
 /09_http协议/html/
 /18_WSGI/01_多进程_web服务器/html/
 /18_WSGI/02_web服务器中集成了解析动态请求的功能/html/
+/18_WSGI/03_将web服务器和逻辑处理的代码分开/html/
+/18_WSGI/04_将web服务器和逻辑处理的代码分开_升级版/html/
+/18_WSGI/05_让web服务器支持WSGI协议/html/

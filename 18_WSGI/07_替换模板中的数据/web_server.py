@@ -1,7 +1,7 @@
 import socket
 import re
 from multiprocessing import Process
-import os
+from dynamic import mini_frame
 
 
 class WSGIServer(object):
@@ -31,34 +31,66 @@ class WSGIServer(object):
             # 这一句必须加上，不然浏览器一直在等待接收，在转圈。
             client_socket.close()
 
-    @staticmethod
-    def handle_client(client_socket):
+    def handle_client(self, client_socket):
         """为一个客户端服务"""
-        # print("当前子进程pid为:", os.getpid())
         # 1.接收浏览器发送的请求
+        env = dict()
+        # 防止后面url为None，报错
+        url = ""
         recv_data = client_socket.recv(1024).decode("utf-8")
+        # 按行分割，方便字典存储
+        lines = recv_data.splitlines()
+        for line in lines:
+            ret = line.split(": ")
+            if len(ret) == 2:
+                (key, value) = line.split(": ")
+                env[key] = value
+        # print(env)
         # 2.获取请求的url \S+匹配GET POST PUT DEL等  \s匹配空白字符 (\S+)匹配url \s匹配空白字符
-        url = re.match(r"^\S+\s(\S+)\s", recv_data).group(1)
+        ret = re.match(r"^\S+\s(\S+)\s", lines[0])
+        if ret:
+            url = ret.group(1)
         # 3.组装应答头和应答体
-        # 设置默认页面，如果url为/，则跳转到index.html
-        if url == "/":
-            url = "/index.html"
+        # 3.1 如果浏览器请求的是动态资源
+        if url.endswith(".py"):
+            # 框架中的application返回body
+            env['url'] = url
+            response_body = mini_frame.application(env, self.set_response_header)
+            if isinstance(response_body, str):
+                response_body = response_body.encode("utf-8")
+            # 拼接header
+            response_header = "HTTP/1.1 %s\r\n" % self.status_code
+            for i in self.headers:
+                response_header += "%s:%s\r\n" % (i[0], i[1])
+            response_header += "\r\n"
+            response_header = response_header.encode("utf-8")
 
-        # 组装
-        try:  # 尝试打开文件
-            with open(BASE_DIR + url, mode="rb") as f:  # 必须以rb的形式读取，因为有时传输的是图片
-                response_body = f.read()
-        except Exception:  # 如果出现异常
-            response_header = "HTTP/1.1 404 Error \r\n\r\n".encode("utf-8")
-            response_body = "<h1>404 Page Not Found</h1>".encode("utf-8")
-        else:  # 如果没有异常
-            response_header = "HTTP/1.1 200 0K \r\n\r\n".encode("utf-8")
-        finally:  # 无论是否有异常，都组装应答
-            response = response_header + response_body
+        # 3.2 如果浏览器请求的是静态资源，如html/css/js/png/gif等
+        else:
+            # 设置默认页面，如果url为/，则跳转到index.html
+            if url == "/":
+                url = "/index.html"
+            # 组装
+            try:  # 尝试打开文件
+                with open(BASE_DIR + url, mode="rb") as f:  # 必须以rb的形式读取，因为有时传输的是图片
+                    response_body = f.read()
+            except Exception:  # 如果出现异常
+                response_header = "HTTP/1.1 404 Error \r\n\r\n".encode("utf-8")
+                response_body = "<h1>404 Page Not Found</h1>".encode("utf-8")
+            else:  # 如果没有异常
+                response_header = "HTTP/1.1 200 0K \r\n\r\n".encode("utf-8")
+        # 拼接应答
+        response = response_header + response_body
         # 4.返回应答
         client_socket.send(response)
         # 5.关闭套接字
         client_socket.close()
+
+    def set_response_header(self, status_code, headers):
+        self.status_code = status_code
+        # 在服务器中增加server信息，而不是在框架中增加
+        self.headers = [('server', 'mini_frame v1.0')]
+        self.headers += headers
 
 
 def main():
@@ -70,7 +102,7 @@ def main():
 
 
 # 配置服务器服务静态资源时的路径
-BASE_DIR = "./html"
+BASE_DIR = "./static"
 # 配置服务器地址
 # SERVER_ADDR = HOST, PORT = "127.0.0.1", 8888
 # 想让同一局域网内其他电脑访问该网站，要把网址改为0.0.0.0

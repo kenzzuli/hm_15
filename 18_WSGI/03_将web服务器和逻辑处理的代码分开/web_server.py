@@ -2,6 +2,8 @@ import socket
 import re
 from multiprocessing import Process
 import os
+import time
+import mini_frame
 
 
 class WSGIServer(object):
@@ -40,21 +42,28 @@ class WSGIServer(object):
         # 2.获取请求的url \S+匹配GET POST PUT DEL等  \s匹配空白字符 (\S+)匹配url \s匹配空白字符
         url = re.match(r"^\S+\s(\S+)\s", recv_data).group(1)
         # 3.组装应答头和应答体
-        # 设置默认页面，如果url为/，则跳转到index.html
-        if url == "/":
-            url = "/index.html"
 
-        # 组装
-        try:  # 尝试打开文件
-            with open(BASE_DIR + url, mode="rb") as f:  # 必须以rb的形式读取，因为有时传输的是图片
-                response_body = f.read()
-        except Exception:  # 如果出现异常
-            response_header = "HTTP/1.1 404 Error \r\n\r\n".encode("utf-8")
-            response_body = "<h1>404 Page Not Found</h1>".encode("utf-8")
-        else:  # 如果没有异常
+        # 3.1 如果浏览器请求的是动态资源
+        if url.endswith(".py"):
             response_header = "HTTP/1.1 200 0K \r\n\r\n".encode("utf-8")
-        finally:  # 无论是否有异常，都组装应答
-            response = response_header + response_body
+            response_body = mini_frame.login().encode("utf-8")
+
+        # 3.2 如果浏览器请求的是静态资源，如html/css/js/png/gif等
+        else:
+            # 设置默认页面，如果url为/，则跳转到index.html
+            if url == "/":
+                url = "/index.html"
+            # 组装
+            try:  # 尝试打开文件
+                with open(BASE_DIR + url, mode="rb") as f:  # 必须以rb的形式读取，因为有时传输的是图片
+                    response_body = f.read()
+            except Exception:  # 如果出现异常
+                response_header = "HTTP/1.1 404 Error \r\n\r\n".encode("utf-8")
+                response_body = "<h1>404 Page Not Found</h1>".encode("utf-8")
+            else:  # 如果没有异常
+                response_header = "HTTP/1.1 200 0K \r\n\r\n".encode("utf-8")
+        # 拼接应答
+        response = response_header + response_body
         # 4.返回应答
         client_socket.send(response)
         # 5.关闭套接字

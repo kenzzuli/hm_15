@@ -199,6 +199,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/18_WSGI/08_运行web服务器时指定端口和框架/dynamic/mini_frame.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/18_WSGI/08_运行web服务器时指定端口和框架/web_server.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/19_闭包、装饰器/03_装饰器.py">
           <value>
             <Attribute>

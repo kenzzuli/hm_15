@@ -1,21 +1,23 @@
 import socket
 import re
 from multiprocessing import Process
-import os
-import time
+from dynamic import mini_frame
+import sys
 
 
 class WSGIServer(object):
 
-    def __init__(self, server_addr):
+    def __init__(self, port, frame):
         # 1.创建套接字
         self.tcp_server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         # 设置套接字选项
         self.tcp_server_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
         # 2.绑定
-        self.tcp_server_socket.bind(server_addr)
+        self.tcp_server_socket.bind(("", port))
         # 3.监听，并指定队列长度为128
         self.tcp_server_socket.listen(128)
+        self.frame = frame
+        print("Serving HTTP on Port {}".format(port))
 
     def serve_forever(self):
         """循环运行web服务器，等待客户端连接并为客户端服务"""
@@ -32,20 +34,39 @@ class WSGIServer(object):
             # 这一句必须加上，不然浏览器一直在等待接收，在转圈。
             client_socket.close()
 
-    @staticmethod
-    def handle_client(client_socket):
+    def handle_client(self, client_socket):
         """为一个客户端服务"""
-        # print("当前子进程pid为:", os.getpid())
         # 1.接收浏览器发送的请求
+        env = dict()
+        # 防止后面url为None，报错
+        url = ""
         recv_data = client_socket.recv(1024).decode("utf-8")
+        # 按行分割，方便字典存储
+        lines = recv_data.splitlines()
+        for line in lines:
+            ret = line.split(": ")
+            if len(ret) == 2:
+                (key, value) = line.split(": ")
+                env[key] = value
+        # print(env)
         # 2.获取请求的url \S+匹配GET POST PUT DEL等  \s匹配空白字符 (\S+)匹配url \s匹配空白字符
-        url = re.match(r"^\S+\s(\S+)\s", recv_data).group(1)
+        ret = re.match(r"^\S+\s(\S+)\s", lines[0])
+        if ret:
+            url = ret.group(1)
         # 3.组装应答头和应答体
-
         # 3.1 如果浏览器请求的是动态资源
         if url.endswith(".py"):
-            response_header = "HTTP/1.1 200 0K \r\n\r\n".encode("utf-8")
-            response_body = "<h1>Current Time : {}</h1>".format(time.ctime()).encode("utf-8")
+            # 框架中的application返回body
+            env['url'] = url
+            response_body = mini_frame.application(env, self.set_response_header)
+            if isinstance(response_body, str):
+                response_body = response_body.encode("utf-8")
+            # 拼接header
+            response_header = "HTTP/1.1 %s\r\n" % self.status_code
+            for i in self.headers:
+                response_header += "%s:%s\r\n" % (i[0], i[1])
+            response_header += "\r\n"
+            response_header = response_header.encode("utf-8")
 
         # 3.2 如果浏览器请求的是静态资源，如html/css/js/png/gif等
         else:
@@ -68,20 +89,28 @@ class WSGIServer(object):
         # 5.关闭套接字
         client_socket.close()
 
+    def set_response_header(self, status_code, headers):
+        self.status_code = status_code
+        # 在服务器中增加server信息，而不是在框架中增加
+        self.headers = [('server', 'mini_frame v1.0')]
+        self.headers += headers
+
 
 def main():
+    if len(sys.argv) == 3 and sys.argv[1].isdigit():
+        port = int(sys.argv[1])
+        frame = sys.argv[2]
+    else:
+        print("请按照如下命令行格式运行 python web_server.py 8888 mini_web")
+        return
     # 初始化服务器
-    httpd = WSGIServer(SERVER_ADDR)
-    print("Serving HTTP on {}:{}".format(HOST, PORT))
+    httpd = WSGIServer(port, frame)
     # 开始服务
     httpd.serve_forever()
 
 
 # 配置服务器服务静态资源时的路径
-BASE_DIR = "./html"
-# 配置服务器地址
-# SERVER_ADDR = HOST, PORT = "127.0.0.1", 8888
-# 想让同一局域网内其他电脑访问该网站，要把网址改为0.0.0.0
-SERVER_ADDR = HOST, PORT = "0.0.0.0", 8888
+BASE_DIR = "./static"
+
 if __name__ == '__main__':
     main()
