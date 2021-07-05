@@ -1,13 +1,12 @@
 import socket
 import re
 from multiprocessing import Process
-from dynamic import mini_frame
 import sys
 
 
 class WSGIServer(object):
 
-    def __init__(self, port, frame):
+    def __init__(self, port, app):
         # 1.创建套接字
         self.tcp_server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         # 设置套接字选项
@@ -16,7 +15,7 @@ class WSGIServer(object):
         self.tcp_server_socket.bind(("", port))
         # 3.监听，并指定队列长度为128
         self.tcp_server_socket.listen(128)
-        self.frame = frame
+        self.app = app
         print("Serving HTTP on Port {}".format(port))
 
     def serve_forever(self):
@@ -58,7 +57,7 @@ class WSGIServer(object):
         if url.endswith(".py"):
             # 框架中的application返回body
             env['url'] = url
-            response_body = mini_frame.application(env, self.set_response_header)
+            response_body = self.app(env, self.set_response_header)
             if isinstance(response_body, str):
                 response_body = response_body.encode("utf-8")
             # 拼接header
@@ -97,14 +96,37 @@ class WSGIServer(object):
 
 
 def main():
-    if len(sys.argv) == 3 and sys.argv[1].isdigit():
-        port = int(sys.argv[1])
-        frame = sys.argv[2]
+    if len(sys.argv) == 3:
+        # 设置端口
+        try:
+            port = int(sys.argv[1])
+        except Exception as e:
+            print(e)
+            print("端口错误，请重新输入")
+            return
+        # 设置框架
+        try:
+            # 分割框架名和函数名
+            frame_name, func_name = sys.argv[2].split(":")
+            # 将dynamic添加到系统路径，这样才能在dynamic中找到mini_frame.py
+            sys.path.append("./dynamic")
+            # 获取局部变量字典
+            # {'func_name': 'application', 'frame_name': 'mini_frame', 'port': 8888}
+            loc = locals()
+            exec("from {} import {} as app".format(frame_name, func_name))
+            # 从局部变量字典中获取app变量
+            # {'func_name': 'application', 'frame_name': 'mini_frame', 'port': 8888, 'loc': {...},
+            # 'app': <function application at 0x7feb6bb6be18>}
+            app = loc['app']
+        except Exception as e:
+            print(e)
+            print("框架错误，请重新输入")
+            return
     else:
-        print("请按照如下命令行格式运行 python web_server.py 8888 mini_web")
+        print("请按照如下命令行格式运行 python web_server.py 8888 mini_frame:application")
         return
     # 初始化服务器
-    httpd = WSGIServer(port, frame)
+    httpd = WSGIServer(port, app)
     # 开始服务
     httpd.serve_forever()
 

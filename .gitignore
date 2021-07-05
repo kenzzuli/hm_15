@@ -4,3 +4,9 @@
 /18_WSGI/03_将web服务器和逻辑处理的代码分开/html/
 /18_WSGI/04_将web服务器和逻辑处理的代码分开_升级版/html/
 /18_WSGI/05_让web服务器支持WSGI协议/html/
+/18_WSGI/06_实现模板文件/static/
+/18_WSGI/06_实现模板文件/templates/
+/18_WSGI/07_替换模板中的数据/static/
+/18_WSGI/07_替换模板中的数据/templates/
+/18_WSGI/08_运行web服务器时指定端口和框架/static/
+/18_WSGI/08_运行web服务器时指定端口和框架/templates/
