@@ -248,6 +248,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/20_mini_web框架、添加路由、MySQL/05_替换模板/dynamic/mini_frame.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/22_元类、实现ORM/gui.py">
           <value>
             <Attribute>
