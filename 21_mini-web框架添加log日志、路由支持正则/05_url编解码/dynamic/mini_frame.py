@@ -1,5 +1,6 @@
 import re
 from pymysql import *
+import urllib.parse
 
 template_path = "./templates"
 func_dict = dict()
@@ -108,6 +109,7 @@ def modify_stock_info(*args):
     ret = args[0]
     stock_code = ret.group(1)
     note_info = ret.group(2)
+    note_info = urllib.parse.unquote(note_info)
     conn = connect(user="root", password="liulei123", host="localhost", database="stock_db", charset="utf8")
     cursor = conn.cursor()
     sql = "update focus set note_info = %s where info_id = (select id from info where code = %s);"
