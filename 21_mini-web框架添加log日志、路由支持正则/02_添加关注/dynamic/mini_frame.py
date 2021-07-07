@@ -41,7 +41,8 @@ def add_focus(*args):
         conn.close()
         return "股票代码(%s)不存在" % stock_code
     # 3.判断是否已经关注过这个股票
-    cursor.execute("select info.code from info right join focus on focus.info_id = info.id where code=%s;", [stock_code])
+    cursor.execute("select info.code from info right join focus on focus.info_id = info.id where code=%s;",
+                   [stock_code])
     # 如果能查到结果，说明已经关注了，无需再次关注
     if cursor.fetchall():
         cursor.close()
@@ -53,15 +54,6 @@ def add_focus(*args):
         cursor.close()
         conn.close()
         return "添加自选成功(%s)" % stock_code
-
-
-
-
-
-
-
-
-    return "add ok %s ..." % stock_code
 
 
 @route(r"/index.html")  # route("/index.html")执行的结果指向set_func，用set_func装饰index

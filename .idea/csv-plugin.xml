@@ -255,6 +255,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/21_mini-web框架添加log日志、路由支持正则/03_取消关注/dynamic/mini_frame.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/22_元类、实现ORM/gui.py">
           <value>
             <Attribute>
