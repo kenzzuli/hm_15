@@ -269,6 +269,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/21_mini-web框架添加log日志、路由支持正则/添加log日志功能/1_log_输出到终端.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/22_元类、实现ORM/gui.py">
           <value>
             <Attribute>
