@@ -1,6 +1,7 @@
 import re
 from pymysql import *
 import urllib.parse
+import logging
 
 template_path = "./templates"
 func_dict = dict()
@@ -200,6 +201,25 @@ from info inner join focus on focus.info_id = info.id;"""
 def application(environ, start_response):
     start_response('200 OK', [('Content-Type', 'text/html;charset=utf-8')])
     url = environ['url']
+    logger = logging.getLogger()
+    logger.setLevel(logging.DEBUG)
+
+    logfile = "./log/log.txt"
+    file_handler = logging.FileHandler(logfile, mode="a")
+    file_handler.setLevel(logging.DEBUG)
+
+    console_handler = logging.StreamHandler()
+    console_handler.setLevel(logging.DEBUG)
+
+    formatter = logging.Formatter("%(asctime)s - %(filename)s[line:%(lineno)d] - %(levelname)s: %(message)s")
+    file_handler.setFormatter(formatter)
+    console_handler.setFormatter(formatter)
+
+    logger.addHandler(file_handler)
+    logger.addHandler(console_handler)
+
+    logger.debug("当前请求的文件为: %s" % url)
+
     try:
         # 完整的for循环包括else！✅
         for pattern, func in func_dict.items():
@@ -214,6 +234,7 @@ def application(environ, start_response):
                 return func_dict[pattern](ret)
         # 如果遍历字典，都无法匹配到
         else:
+            logger.warning("没有对应的函数")
             return "请求的url(%s)没有对应的函数..." % url
 
     except Exception as e:

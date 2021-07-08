@@ -276,6 +276,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/22_元类、实现ORM/07_元类实现orm.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/22_元类、实现ORM/gui.py">
           <value>
             <Attribute>

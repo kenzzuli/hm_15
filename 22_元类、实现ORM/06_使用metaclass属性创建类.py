@@ -4,8 +4,11 @@ class UpperAttrMetaClass(type):
         for key, value in class_attr.items():
             if not key.startswith("__"):
                 new_attr[key.upper()] = value
-
-        return type(class_name, class_parents, new_attr)
+        # 两种写法都行
+        # 这是复用父类的方法
+        return type.__new__(cls, class_name, class_parents, class_attr)
+        # 这是完全重新创建类对象
+        # return type(class_name, class_parents, new_attr)
 
 
 class Foo(object, metaclass=UpperAttrMetaClass):
