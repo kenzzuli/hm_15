@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="SqlDialectMappings">
-    <file url="file://$PROJECT_DIR$/14_mysql基本使用/basic.sql" dialect="MySQL" />
-    <file url="file://$PROJECT_DIR$/15_mysql查询/01_查询和条件.sql" dialect="MySQL" />
-    <file url="file://$PROJECT_DIR$/15_mysql查询/02_order.sql" dialect="MySQL" />
-    <file url="file://$PROJECT_DIR$/15_mysql查询/03_function.sql" dialect="MySQL" />
-    <file url="file://$PROJECT_DIR$/15_mysql查询/04_groupby.sql" dialect="MySQL" />
-    <file url="file://$PROJECT_DIR$/15_mysql查询/09_全部.sql" dialect="MySQL" />
-    <file url="file://$PROJECT_DIR$/16_mysql与python交互/01_mysql练习.sql" dialect="MySQL" />
-    <file url="file://$PROJECT_DIR$/16_mysql与python交互/02_查询数据.py" dialect="MySQL" />
-    <file url="file://$PROJECT_DIR$/16_mysql与python交互/03_面向对象查询数据.py" dialect="MySQL" />
-    <file url="file://$PROJECT_DIR$/16_mysql与python交互/04_增加数据.py" dialect="MySQL" />
-    <file url="file://$PROJECT_DIR$/16_mysql与python交互/05_sql注入.py" dialect="MySQL" />
-    <file url="file://$PROJECT_DIR$/16_mysql与python交互/06_防止sql注入.py" dialect="MySQL" />
-    <file url="file://$PROJECT_DIR$/17_mysql高级/03_索引.sql" dialect="MySQL" />
-    <file url="file://$PROJECT_DIR$/20_mini_web框架添加路由、MySQL/04_从数据库查询数据/dynamic/mini_frame.py" dialect="MySQL" />
-    <file url="file://$PROJECT_DIR$/20_mini_web框架添加路由、MySQL/04_从数据库查询数据/创建和导入数据库.sql" dialect="MySQL" />
-    <file url="file://$PROJECT_DIR$/20_mini_web框架添加路由、MySQL/05_替换模板/dynamic/mini_frame.py" dialect="MySQL" />
-    <file url="file://$PROJECT_DIR$/21_mini-web框架添加log日志、路由支持正则/02_添加关注/dynamic/mini_frame.py" dialect="MySQL" />
-    <file url="file://$PROJECT_DIR$/21_mini-web框架添加log日志、路由支持正则/03_取消关注/dynamic/mini_frame.py" dialect="MySQL" />
-    <file url="file://$PROJECT_DIR$/21_mini-web框架添加log日志、路由支持正则/04_修改股票信息/dynamic/mini_frame.py" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/05_python高级/14_mysql基本使用/basic.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/05_python高级/15_mysql查询/01_查询和条件.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/05_python高级/15_mysql查询/02_order.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/05_python高级/15_mysql查询/03_function.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/05_python高级/15_mysql查询/04_groupby.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/05_python高级/15_mysql查询/09_全部.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/05_python高级/16_mysql与python交互/01_mysql练习.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/05_python高级/16_mysql与python交互/02_查询数据.py" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/05_python高级/16_mysql与python交互/03_面向对象查询数据.py" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/05_python高级/16_mysql与python交互/04_增加数据.py" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/05_python高级/16_mysql与python交互/05_sql注入.py" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/05_python高级/16_mysql与python交互/06_防止sql注入.py" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/05_python高级/17_mysql高级/03_索引.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/05_python高级/20_mini_web框架添加路由、MySQL/04_从数据库查询数据/dynamic/mini_frame.py" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/05_python高级/20_mini_web框架添加路由、MySQL/04_从数据库查询数据/创建和导入数据库.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/05_python高级/20_mini_web框架添加路由、MySQL/05_替换模板/dynamic/mini_frame.py" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/05_python高级/21_mini-web框架添加log日志、路由支持正则/02_添加关注/dynamic/mini_frame.py" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/05_python高级/21_mini-web框架添加log日志、路由支持正则/03_取消关注/dynamic/mini_frame.py" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/05_python高级/21_mini-web框架添加log日志、路由支持正则/04_修改股票信息/dynamic/mini_frame.py" dialect="MySQL" />
   </component>
 </project>

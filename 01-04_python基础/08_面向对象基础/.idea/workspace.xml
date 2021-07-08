@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cb52af57-fea6-433d-8d7b-2ccbb560bc43" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ko9ZuX06WE2uRPOXWqqvkhrtbV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RunManager" selected="Python.hm_17_私有属性和方法">
+    <configuration name="hm_13_摆放家具_03_添加家具" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="08_面向对象基础" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hm_13_摆放家具_03_添加家具.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="hm_14_士兵突击_01_枪类" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="08_面向对象基础" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hm_14_士兵突击_01_枪类.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="hm_15_士兵突击_02_士兵类" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="08_面向对象基础" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hm_15_士兵突击_02_士兵类.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="hm_16_士兵突击_03_士兵开火" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="08_面向对象基础" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hm_16_士兵突击_03_士兵开火.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="hm_17_私有属性和方法" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="08_面向对象基础" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hm_17_私有属性和方法.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.hm_17_私有属性和方法" />
+        <item itemvalue="Python.hm_16_士兵突击_03_士兵开火" />
+        <item itemvalue="Python.hm_15_士兵突击_02_士兵类" />
+        <item itemvalue="Python.hm_14_士兵突击_01_枪类" />
+        <item itemvalue="Python.hm_13_摆放家具_03_添加家具" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cb52af57-fea6-433d-8d7b-2ccbb560bc43" name="Default Changelist" comment="" />
+      <created>1606356135650</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606356135650</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1747" height="392" key="GridCell.Tab.0.bottom" timestamp="1606481389113">
+      <screen x="942" y="-1415" width="2560" height="1415" />
+    </state>
+    <state width="1578" height="268" key="GridCell.Tab.0.bottom/0.25.1680.929@0.25.1680.929" timestamp="1606366068556" />
+    <state width="1747" height="358" key="GridCell.Tab.0.bottom/942.-1415.2560.1319/-1618.-1415.2560.1415/0.25.1680.1025@942.-1415.2560.1319" timestamp="1606465355993" />
+    <state width="1747" height="392" key="GridCell.Tab.0.bottom/942.-1415.2560.1415/-1618.-1415.2560.1415/0.25.1680.929@942.-1415.2560.1415" timestamp="1606481389113" />
+    <state width="1747" height="392" key="GridCell.Tab.0.center" timestamp="1606481389113">
+      <screen x="942" y="-1415" width="2560" height="1415" />
+    </state>
+    <state width="1578" height="268" key="GridCell.Tab.0.center/0.25.1680.929@0.25.1680.929" timestamp="1606366068556" />
+    <state width="1747" height="358" key="GridCell.Tab.0.center/942.-1415.2560.1319/-1618.-1415.2560.1415/0.25.1680.1025@942.-1415.2560.1319" timestamp="1606465355992" />
+    <state width="1747" height="392" key="GridCell.Tab.0.center/942.-1415.2560.1415/-1618.-1415.2560.1415/0.25.1680.929@942.-1415.2560.1415" timestamp="1606481389113" />
+    <state width="1747" height="392" key="GridCell.Tab.0.left" timestamp="1606481389113">
+      <screen x="942" y="-1415" width="2560" height="1415" />
+    </state>
+    <state width="1578" height="268" key="GridCell.Tab.0.left/0.25.1680.929@0.25.1680.929" timestamp="1606366068555" />
+    <state width="1747" height="358" key="GridCell.Tab.0.left/942.-1415.2560.1319/-1618.-1415.2560.1415/0.25.1680.1025@942.-1415.2560.1319" timestamp="1606465355992" />
+    <state width="1747" height="392" key="GridCell.Tab.0.left/942.-1415.2560.1415/-1618.-1415.2560.1415/0.25.1680.929@942.-1415.2560.1415" timestamp="1606481389113" />
+    <state width="1747" height="392" key="GridCell.Tab.0.right" timestamp="1606481389113">
+      <screen x="942" y="-1415" width="2560" height="1415" />
+    </state>
+    <state width="1578" height="268" key="GridCell.Tab.0.right/0.25.1680.929@0.25.1680.929" timestamp="1606366068556" />
+    <state width="1747" height="358" key="GridCell.Tab.0.right/942.-1415.2560.1319/-1618.-1415.2560.1415/0.25.1680.1025@942.-1415.2560.1319" timestamp="1606465355993" />
+    <state width="1747" height="392" key="GridCell.Tab.0.right/942.-1415.2560.1415/-1618.-1415.2560.1415/0.25.1680.929@942.-1415.2560.1415" timestamp="1606481389113" />
+    <state width="1747" height="392" key="GridCell.Tab.1.bottom" timestamp="1606481389114">
+      <screen x="942" y="-1415" width="2560" height="1415" />
+    </state>
+    <state width="1578" height="268" key="GridCell.Tab.1.bottom/0.25.1680.929@0.25.1680.929" timestamp="1606366068557" />
+    <state width="1747" height="392" key="GridCell.Tab.1.bottom/942.-1415.2560.1415/-1618.-1415.2560.1415/0.25.1680.929@942.-1415.2560.1415" timestamp="1606481389114" />
+    <state width="1747" height="392" key="GridCell.Tab.1.center" timestamp="1606481389114">
+      <screen x="942" y="-1415" width="2560" height="1415" />
+    </state>
+    <state width="1578" height="268" key="GridCell.Tab.1.center/0.25.1680.929@0.25.1680.929" timestamp="1606366068557" />
+    <state width="1747" height="392" key="GridCell.Tab.1.center/942.-1415.2560.1415/-1618.-1415.2560.1415/0.25.1680.929@942.-1415.2560.1415" timestamp="1606481389114" />
+    <state width="1747" height="392" key="GridCell.Tab.1.left" timestamp="1606481389113">
+      <screen x="942" y="-1415" width="2560" height="1415" />
+    </state>
+    <state width="1578" height="268" key="GridCell.Tab.1.left/0.25.1680.929@0.25.1680.929" timestamp="1606366068557" />
+    <state width="1747" height="392" key="GridCell.Tab.1.left/942.-1415.2560.1415/-1618.-1415.2560.1415/0.25.1680.929@942.-1415.2560.1415" timestamp="1606481389113" />
+    <state width="1747" height="392" key="GridCell.Tab.1.right" timestamp="1606481389114">
+      <screen x="942" y="-1415" width="2560" height="1415" />
+    </state>
+    <state width="1578" height="268" key="GridCell.Tab.1.right/0.25.1680.929@0.25.1680.929" timestamp="1606366068557" />
+    <state width="1747" height="392" key="GridCell.Tab.1.right/942.-1415.2560.1415/-1618.-1415.2560.1415/0.25.1680.929@942.-1415.2560.1415" timestamp="1606481389114" />
+    <state x="2391" y="-898" key="refactoring.ChangeSignatureDialog" timestamp="1606398859848">
+      <screen x="942" y="-1415" width="2560" height="1415" />
+    </state>
+    <state x="2391" y="-898" key="refactoring.ChangeSignatureDialog/942.-1415.2560.1415/-1618.-1415.2560.1415/0.25.1680.929@942.-1415.2560.1415" timestamp="1606398859848" />
+    <state x="1365" y="-1209" width="838" height="1032" key="search.everywhere.popup" timestamp="1606469080147">
+      <screen x="942" y="-1415" width="2560" height="1415" />
+    </state>
+    <state x="1365" y="-1209" width="838" height="1032" key="search.everywhere.popup/942.-1415.2560.1415/-1618.-1415.2560.1415/0.25.1680.929@942.-1415.2560.1415" timestamp="1606469080147" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/hm_03_设置对象属性.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/hm_06_利用参数设置属性初始值.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/hm_12_摆放家具_02_房子类.py</url>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/hm_12_默认参数为可变数据类型.py</url>
+          <line>58</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/hm_12_测试.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/hm_15_士兵突击_02_士兵类.py</url>
+          <line>62</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/hm_17_私有属性和方法.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

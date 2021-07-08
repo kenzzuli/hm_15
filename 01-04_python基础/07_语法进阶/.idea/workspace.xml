@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4e5f15d6-fe78-4d1b-8c34-45dbfb67db66" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1kPYukjEX65AooxpV2yBi8yGwfL" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunManager" selected="Python.hm_20_递归求和">
+    <configuration name="hm_15_多值参数" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="07_语法进阶" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hm_15_多值参数.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="hm_16_多值参数求和" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="07_语法进阶" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hm_16_多值参数求和.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="hm_17_元组和字典的拆包" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="07_语法进阶" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hm_17_元组和字典的拆包.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="hm_18_递归函数的特点" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="07_语法进阶" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hm_18_递归函数的特点.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="hm_20_递归求和" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="07_语法进阶" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hm_20_递归求和.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.hm_20_递归求和" />
+        <item itemvalue="Python.hm_18_递归函数的特点" />
+        <item itemvalue="Python.hm_17_元组和字典的拆包" />
+        <item itemvalue="Python.hm_16_多值参数求和" />
+        <item itemvalue="Python.hm_15_多值参数" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4e5f15d6-fe78-4d1b-8c34-45dbfb67db66" name="Default Changelist" comment="" />
+      <created>1605603917820</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605603917820</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1578" height="328" key="GridCell.Tab.0.bottom" timestamp="1606356135084">
+      <screen x="942" y="-1415" width="2560" height="1415" />
+    </state>
+    <state width="1578" height="159" key="GridCell.Tab.0.bottom/-3008.-43.3008.1571/0.25.1920.1175@0.25.1920.1175" timestamp="1606104418931" />
+    <state width="1578" height="159" key="GridCell.Tab.0.bottom/-3008.-43.3008.1667/0.25.1920.1079@0.25.1920.1079" timestamp="1606114963269" />
+    <state width="1578" height="328" key="GridCell.Tab.0.bottom/942.-1415.2560.1415/-1618.-1415.2560.1415/0.25.1680.929@942.-1415.2560.1415" timestamp="1606356135084" />
+    <state width="1578" height="328" key="GridCell.Tab.0.center" timestamp="1606356135083">
+      <screen x="942" y="-1415" width="2560" height="1415" />
+    </state>
+    <state width="1578" height="159" key="GridCell.Tab.0.center/-3008.-43.3008.1571/0.25.1920.1175@0.25.1920.1175" timestamp="1606104418930" />
+    <state width="1578" height="159" key="GridCell.Tab.0.center/-3008.-43.3008.1667/0.25.1920.1079@0.25.1920.1079" timestamp="1606114963268" />
+    <state width="1578" height="328" key="GridCell.Tab.0.center/942.-1415.2560.1415/-1618.-1415.2560.1415/0.25.1680.929@942.-1415.2560.1415" timestamp="1606356135083" />
+    <state width="1578" height="328" key="GridCell.Tab.0.left" timestamp="1606356135082">
+      <screen x="942" y="-1415" width="2560" height="1415" />
+    </state>
+    <state width="1578" height="159" key="GridCell.Tab.0.left/-3008.-43.3008.1571/0.25.1920.1175@0.25.1920.1175" timestamp="1606104418930" />
+    <state width="1578" height="159" key="GridCell.Tab.0.left/-3008.-43.3008.1667/0.25.1920.1079@0.25.1920.1079" timestamp="1606114963268" />
+    <state width="1578" height="328" key="GridCell.Tab.0.left/942.-1415.2560.1415/-1618.-1415.2560.1415/0.25.1680.929@942.-1415.2560.1415" timestamp="1606356135082" />
+    <state width="1578" height="328" key="GridCell.Tab.0.right" timestamp="1606356135083">
+      <screen x="942" y="-1415" width="2560" height="1415" />
+    </state>
+    <state width="1578" height="159" key="GridCell.Tab.0.right/-3008.-43.3008.1571/0.25.1920.1175@0.25.1920.1175" timestamp="1606104418931" />
+    <state width="1578" height="159" key="GridCell.Tab.0.right/-3008.-43.3008.1667/0.25.1920.1079@0.25.1920.1079" timestamp="1606114963268" />
+    <state width="1578" height="328" key="GridCell.Tab.0.right/942.-1415.2560.1415/-1618.-1415.2560.1415/0.25.1680.929@942.-1415.2560.1415" timestamp="1606356135083" />
+    <state width="1578" height="328" key="GridCell.Tab.1.bottom" timestamp="1606356135085">
+      <screen x="942" y="-1415" width="2560" height="1415" />
+    </state>
+    <state width="1578" height="328" key="GridCell.Tab.1.bottom/-3008.-43.3008.1667/0.25.1920.1079@0.25.1920.1079" timestamp="1606113515742" />
+    <state width="1578" height="328" key="GridCell.Tab.1.bottom/942.-1415.2560.1415/-1618.-1415.2560.1415/0.25.1680.929@942.-1415.2560.1415" timestamp="1606356135085" />
+    <state width="1578" height="328" key="GridCell.Tab.1.center" timestamp="1606356135084">
+      <screen x="942" y="-1415" width="2560" height="1415" />
+    </state>
+    <state width="1578" height="328" key="GridCell.Tab.1.center/-3008.-43.3008.1667/0.25.1920.1079@0.25.1920.1079" timestamp="1606113515741" />
+    <state width="1578" height="328" key="GridCell.Tab.1.center/942.-1415.2560.1415/-1618.-1415.2560.1415/0.25.1680.929@942.-1415.2560.1415" timestamp="1606356135084" />
+    <state width="1578" height="328" key="GridCell.Tab.1.left" timestamp="1606356135084">
+      <screen x="942" y="-1415" width="2560" height="1415" />
+    </state>
+    <state width="1578" height="328" key="GridCell.Tab.1.left/-3008.-43.3008.1667/0.25.1920.1079@0.25.1920.1079" timestamp="1606113515740" />
+    <state width="1578" height="328" key="GridCell.Tab.1.left/942.-1415.2560.1415/-1618.-1415.2560.1415/0.25.1680.929@942.-1415.2560.1415" timestamp="1606356135084" />
+    <state width="1578" height="328" key="GridCell.Tab.1.right" timestamp="1606356135085">
+      <screen x="942" y="-1415" width="2560" height="1415" />
+    </state>
+    <state width="1578" height="328" key="GridCell.Tab.1.right/-3008.-43.3008.1667/0.25.1920.1079@0.25.1920.1079" timestamp="1606113515741" />
+    <state width="1578" height="328" key="GridCell.Tab.1.right/942.-1415.2560.1415/-1618.-1415.2560.1415/0.25.1680.929@942.-1415.2560.1415" timestamp="1606356135085" />
+    <state x="1490" y="-1369" key="refactoring.ChangeSignatureDialog" timestamp="1606138115087">
+      <screen x="942" y="-1415" width="2560" height="1415" />
+    </state>
+    <state x="1490" y="-1369" key="refactoring.ChangeSignatureDialog/942.-1415.2560.1415/-1618.-1415.2560.1415/0.25.1680.929@942.-1415.2560.1415" timestamp="1606138115087" />
+    <state x="413" y="72" width="838" height="1032" key="search.everywhere.popup" timestamp="1605926485846">
+      <screen x="0" y="25" width="1920" height="1079" />
+    </state>
+    <state x="413" y="72" width="838" height="1032" key="search.everywhere.popup/-3008.-43.3008.1667/0.25.1920.1079@0.25.1920.1079" timestamp="1605926485846" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/hm_03_全局变量.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/hm_04_函数不能直接修改全局变量.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/hm_03_全局变量.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/hm_04_函数不能直接修改全局变量.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/hm_05_修改全局变量.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pi.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/hm_10_不可变和可变的参数.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

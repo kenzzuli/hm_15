@@ -2,22 +2,22 @@
 <module type="PYTHON_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
-      <excludeFolder url="file://$MODULE_DIR$/04_网络_tcp/cloud_resources" />
-      <excludeFolder url="file://$MODULE_DIR$/04_网络_tcp/local_download" />
-      <excludeFolder url="file://$MODULE_DIR$/09_http协议/html" />
-      <excludeFolder url="file://$MODULE_DIR$/18_WSGI/01_多进程_web服务器/html" />
-      <excludeFolder url="file://$MODULE_DIR$/18_WSGI/02_web服务器中集成了解析动态请求的功能/html" />
-      <excludeFolder url="file://$MODULE_DIR$/18_WSGI/03_将web服务器和逻辑处理的代码分开/html" />
-      <excludeFolder url="file://$MODULE_DIR$/18_WSGI/05_让web服务器支持WSGI协议/html" />
-      <excludeFolder url="file://$MODULE_DIR$/18_WSGI/06_实现模板文件/static" />
-      <excludeFolder url="file://$MODULE_DIR$/18_WSGI/06_实现模板文件/templates" />
-      <excludeFolder url="file://$MODULE_DIR$/18_WSGI/07_替换模板中的数据/static" />
-      <excludeFolder url="file://$MODULE_DIR$/18_WSGI/07_替换模板中的数据/templates" />
-      <excludeFolder url="file://$MODULE_DIR$/18_WSGI/08_运行web服务器时指定端口和框架/static" />
-      <excludeFolder url="file://$MODULE_DIR$/18_WSGI/08_运行web服务器时指定端口和框架/templates" />
+      <excludeFolder url="file://$MODULE_DIR$/05_python高级/04_网络_tcp/cloud_resources" />
+      <excludeFolder url="file://$MODULE_DIR$/05_python高级/04_网络_tcp/local_download" />
+      <excludeFolder url="file://$MODULE_DIR$/05_python高级/09_http协议/html" />
+      <excludeFolder url="file://$MODULE_DIR$/05_python高级/18_WSGI/01_多进程_web服务器/html" />
+      <excludeFolder url="file://$MODULE_DIR$/05_python高级/18_WSGI/02_web服务器中集成了解析动态请求的功能/html" />
+      <excludeFolder url="file://$MODULE_DIR$/05_python高级/18_WSGI/03_将web服务器和逻辑处理的代码分开/html" />
+      <excludeFolder url="file://$MODULE_DIR$/05_python高级/18_WSGI/05_让web服务器支持WSGI协议/html" />
+      <excludeFolder url="file://$MODULE_DIR$/05_python高级/18_WSGI/06_实现模板文件/static" />
+      <excludeFolder url="file://$MODULE_DIR$/05_python高级/18_WSGI/06_实现模板文件/templates" />
+      <excludeFolder url="file://$MODULE_DIR$/05_python高级/18_WSGI/07_替换模板中的数据/static" />
+      <excludeFolder url="file://$MODULE_DIR$/05_python高级/18_WSGI/07_替换模板中的数据/templates" />
+      <excludeFolder url="file://$MODULE_DIR$/05_python高级/18_WSGI/08_运行web服务器时指定端口和框架/static" />
+      <excludeFolder url="file://$MODULE_DIR$/05_python高级/18_WSGI/08_运行web服务器时指定端口和框架/templates" />
       <excludeFolder url="file://$MODULE_DIR$/.idea/dataSources" />
-      <excludeFolder url="file://$MODULE_DIR$/18_WSGI/09_让web服务器支持配置文件/static" />
-      <excludeFolder url="file://$MODULE_DIR$/18_WSGI/09_让web服务器支持配置文件/templates" />
+      <excludeFolder url="file://$MODULE_DIR$/05_python高级/18_WSGI/09_让web服务器支持配置文件/static" />
+      <excludeFolder url="file://$MODULE_DIR$/05_python高级/18_WSGI/09_让web服务器支持配置文件/templates" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.6 (nlp)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
