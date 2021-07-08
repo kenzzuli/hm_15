@@ -6,7 +6,6 @@ class ModelMetaclass(type):
         for k, v in attrs.items():
             # 判断是否是元组的实例对象
             if isinstance(v, tuple):
-                print('Found mapping: %s ==> %s' % (k, v))
                 mappings[k] = v
 
         # 从attrs中删除这些已经在mapping字典中存储的属性
@@ -21,44 +20,18 @@ class ModelMetaclass(type):
         return type.__new__(cls, name, bases, attrs)
 
 
-class User(metaclass=ModelMetaclass):
-    uid = ('uid', "int unsigned")
-    name = ('username', "varchar(30)")
-    email = ('email', "varchar(30)")
-    password = ('password', "varchar(30)")
-
-    # 当指定元类之后，以上的类属性将不在类中，而是在__mappings__属性对应的字典中存储
-    # 以上User类中有
-    # __mappings__ = {
-    #     "uid": ('uid', "int unsigned")
-    #     "name": ('username', "varchar(30)")
-    #     "email": ('email', "varchar(30)")
-    #     "password": ('password', "varchar(30)")
-    # }
-    # __table__ = "User"
+class Model(metaclass=ModelMetaclass):
     def __init__(self, **kwargs):
         for name, value in kwargs.items():
-            #  setattr(x, 'y', v) is equivalent to ``x.y = v''
             setattr(self, name, value)
-        # 初始化后，self指向的实例对象拥有如下属性
-        # {'uid': 12345, 'name': 'Michael', 'email': 'test@orm.org', 'password': 'my-pwd'}
 
     def save(self):
         fields = []
         args = []
         for k, v in self.__mappings__.items():
             fields.append(v[0])
-            # getattr(object, name[, default])
-            # Get a named attribute from an object; getattr(x, 'y') is equivalent to x.y.
-            #     When a default argument is given, it is returned when the attribute doesn't
-            #     exist; without it, an exception is raised in that case.
-            # 获取self指向的实例对象中名为k指向的对象(字符串"uid", "name"等)的属性值
-            # 相当于获取self.uid, self.name等
             args.append(getattr(self, k, None))
-        # 此时
-        # fileds = ["uid", "name", "email", "password"]
-        # args = [12345, "Michael", "test@orm.org", "my-pwd")
-        # 给字符串加引号
+        # 数据类型检测
         args_tmp = list()
         for arg in args:
             # 如果是整型
@@ -72,9 +45,24 @@ class User(metaclass=ModelMetaclass):
         print('SQL: %s' % sql)
 
 
-print(User.__dict__)
+class User(Model):
+    uid = ('uid', "int unsigned")
+    name = ('username', "varchar(30)")
+    email = ('email', "varchar(30)")
+    password = ('password', "varchar(30)")
+
+
+class Order(Model):
+    id = ("id", "int unsigned")
+    product_id = ("product_id", "int unsigned")
+    quantity = ("quantity", "int unsigned")
+    user_name = ("user_name", "varchar(30)")
+
+
 u = User(uid=12345, name='Michael', email='test@orm.org', password='my-pwd')
-print(u.__dict__)
 u.save()
 # SQL: insert into User (uid, username, email, password) values (12345, 'Michael', 'test@orm.org', 'my-pwd')
-# ✅
+
+order = Order(id=1, product_id=10001, quantity=3, user_name="ken")
+order.save()
+# SQL: insert into Order (id, product_id, quantity, user_name) values (1, 10001, 3, 'ken')
