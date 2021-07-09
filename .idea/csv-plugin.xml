@@ -311,6 +311,27 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/爬虫/day02/07_百度翻译post请求.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/爬虫/day02/08_百度翻译破解sign.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/爬虫/day02/fanyi.json">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
