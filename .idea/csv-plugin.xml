@@ -332,6 +332,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/爬虫/day02/renren1.html">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
