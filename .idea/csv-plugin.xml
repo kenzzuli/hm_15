@@ -339,6 +339,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/爬虫/day03/10_douban.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
