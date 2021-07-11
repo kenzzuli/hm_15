@@ -1,4 +1,5 @@
 import requests
+from requests.utils import unquote
 from lxml import etree
 import json
 import re
@@ -38,6 +39,8 @@ class TiebaSpider:
             # 此外每个帖子的url需要拼接上http等信息
             item["url"] = self.url_template + url[0] if url else None
             item["images"] = self.get_image_list(item["url"])
+            # url解码，并将图片换成高清大图
+            item["images"] = [unquote(i).split("&src=")[1] for i in item["images"]]
             content_list.append(item)
 
         return content_list, next_page_url
@@ -76,5 +79,6 @@ class TiebaSpider:
 
 if __name__ == '__main__':
     # tieba_spider = TiebaSpider("李毅")
-    tieba_spider = TiebaSpider("上外")
+    # tieba_spider = TiebaSpider("上外")
+    tieba_spider = TiebaSpider("做头发")
     tieba_spider.run()
