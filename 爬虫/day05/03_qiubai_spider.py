@@ -1,6 +1,7 @@
 from lxml import etree
 import requests
 import json
+import time
 
 
 class QiubaiSpider:
@@ -81,5 +82,10 @@ class QiubaiSpider:
 
 
 if __name__ == '__main__':
+    start_time = time.time()
     qiubai_spider = QiubaiSpider()
     qiubai_spider.run()
+    end_time = time.time()
+    total_time = end_time - start_time
+    print(total_time)
+    # 3.332970142364502

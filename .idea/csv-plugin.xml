@@ -360,6 +360,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/爬虫/day05/04_qiubai_spider_多线程.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/爬虫/day05/tmp/qiubai.txt">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
