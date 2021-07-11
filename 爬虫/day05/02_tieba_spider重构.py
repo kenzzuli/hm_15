@@ -40,7 +40,9 @@ class TiebaSpider:
             item["url"] = self.url_template + url[0] if url else None
             item["images"] = self.get_image_list(item["url"])
             # url解码，并将图片换成高清大图
-            item["images"] = [unquote(i).split("&src=")[1] for i in item["images"]]
+            # 两个方法都行，不用正则更简单
+            # item["images"] = [unquote(i).split("&src=")[1] for i in item["images"]]
+            item["images"] = [re.search(r"&src=(.*)", unquote(i)).group(1) for i in item["images"]]
             content_list.append(item)
 
         return content_list, next_page_url
