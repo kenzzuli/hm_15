@@ -346,6 +346,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/爬虫/day05/02_tieba_spider重构.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
