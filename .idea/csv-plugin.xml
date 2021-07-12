@@ -374,6 +374,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/爬虫/lexico_dict/oxford.txt">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/爬虫/lexico_dict/spider.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
