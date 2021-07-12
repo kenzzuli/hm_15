@@ -4,9 +4,9 @@ import json
 
 
 class OxfordSpider:
-    def __init__(self, word):
+    def __init__(self, wordlist_path):
         self.url_template = "https://www.lexico.com/definition/{}"
-        self.word = word
+        self.wordlist_path = wordlist_path
         self.headers = {
             "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36"}
 
@@ -14,7 +14,7 @@ class OxfordSpider:
         print(url)
         return requests.get(url, headers=self.headers).content
 
-    def get_content_list(self, html_str):  # 提取数据
+    def get_content_list(self, html_str, query):  # 提取数据
         content_list = list()
         # {"word": "like"
         #  "meanings": [{meaning1}, {meaning2}, {meaning3}]
@@ -52,7 +52,7 @@ class OxfordSpider:
                 meaning['etymology_list'].append(self.extract_etymology_etym_section(item))
 
         main_meaning_list.append(meaning)
-        word["word"] = self.word
+        word["word"] = query
         word["main_meaning_list"] = main_meaning_list
         content_list.append(word)
         return content_list
@@ -66,6 +66,8 @@ class OxfordSpider:
             temp_dict['etym_content'] = self.extract_etym_phrases(item)
         elif etym_type == "origin":
             temp_dict['etym_content'] = self.extract_etym_origin(item)
+        elif etym_type == "phrasal verbs":
+            temp_dict['etym_content'] = self.extract_etym_phrases(item)
         else:
             raise NotImplementedError
 
@@ -73,7 +75,7 @@ class OxfordSpider:
 
     def extract_etym_phrases(self, item):
         ret_list = list()
-        semb_gramb_ul = item.xpath(".//div[@class='senseInnerWrapper']//ul[@class='semb gramb']")
+        semb_gramb_ul = item.xpath(".//div[@class='senseInnerWrapper']//ul[@class='semb gramb']/*")
         new_meaning = True
         for element in semb_gramb_ul:
             if element.tag == "br":
@@ -107,7 +109,7 @@ class OxfordSpider:
         # 短语编号
         iteration = item.xpath(".//span[@class='iteration']/text()")
         sense_registers = item.xpath(".//span[@class='sense-registers']/text()")
-        explanation = item.xpath(".//p//span[@class='ind one-click-content']")
+        explanation = item.xpath(".//p//span[@class='ind one-click-content']//text()")
         sub_senses_lis = item.xpath(".//ol[@class='subSenses']")
         sub_senses = self.extract_sub_senses_lis_phrase(sub_senses_lis)
 
@@ -121,9 +123,9 @@ class OxfordSpider:
         ret_list = list()
         temp_dict = dict()
         for sub_sense_li in item:
-            sub_sense_iteration = sub_sense_li.xpath(".//span[@class='subsenseIteration']")
+            sub_sense_iteration = sub_sense_li.xpath(".//span[@class='subsenseIteration']//text()")
             sub_sense = sub_sense_li.xpath(".//span[@class='form-groups']/strong/text()")
-            explanation = sub_sense_li.xpath(".//span[@class='ind one-click-content']")
+            explanation = sub_sense_li.xpath(".//span[@class='ind one-click-content']//text()")
             examples = sub_sense_li.xpath(".//div[@class='examples']//ul[@class='english-ex']/li/em/text()")
             temp_dict['sub_sense_iteration'] = sub_sense_iteration
             temp_dict['sub_sense'] = sub_sense
@@ -211,22 +213,30 @@ class OxfordSpider:
         return example_list
 
     def save_content_list(self, content_list):
-        with open("oxford.py", mode="a", encoding="utf8") as f:
+        with open("ret.txt", mode="a", encoding="utf8") as f:
             f.write(json.dumps(content_list, ensure_ascii=False, indent=2))
+            f.write("\n")
         # print(content_list)
         print("保存成功")
 
+    def get_wordlist(self):
+        with open(self.wordlist_path, mode="r", encoding="utf8") as f:
+            return [i.strip().lower() for i in f.readlines() if i.strip()]
+
     def run(self):
         # 1.获取url
-        url = self.url_template.format(self.word)
-        # 2.发送请求获取响应
-        html_str = self.parse_url(url)
-        # 3.提取数据
-        content_list = self.get_content_list(html_str)
-        # 4.保存数据
-        self.save_content_list(content_list)
+        wordlist = self.get_wordlist()
+        for word in wordlist:
+            url = self.url_template.format(word)
+            # 2.发送请求获取响应
+            html_str = self.parse_url(url)
+            # 3.提取数据
+            content_list = self.get_content_list(html_str, word)
+            # 4.保存数据
+            self.save_content_list(content_list)
 
 
 if __name__ == '__main__':
-    oxford_spider = OxfordSpider("like")
+    wordlist_path = "./wordlist.txt"
+    oxford_spider = OxfordSpider(wordlist_path)
     oxford_spider.run()
