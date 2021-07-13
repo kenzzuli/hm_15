@@ -311,6 +311,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/爬虫/aozora/spider.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/爬虫/aozora/uncompress.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/爬虫/day02/07_百度翻译post请求.py">
           <value>
             <Attribute>

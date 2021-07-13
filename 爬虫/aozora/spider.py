@@ -11,14 +11,17 @@ class AozoraSpider:
         self.home_page = "https://www.aozora.gr.jp/"
         self.headers = {
             "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36"}
+        self.base_dir = "./novels"
+        if not os.path.exists(self.base_dir):
+            os.mkdir(self.base_dir)
 
     def parse_url(self, url):
         return requests.get(url, headers=self.headers).content
 
     def download(self, url, file_name):  # 下载
         try:
-            base_dir = "./novels/"
-            all_files = os.listdir(base_dir)
+
+            all_files = os.listdir(self.base_dir)
             print("正在下载小说: [{}]".format(file_name))
             # 有些文件名中包含/，会报错，要将/替换掉
             file_name = file_name.replace(r"/", "")
@@ -27,8 +30,8 @@ class AozoraSpider:
                 return
             r = requests.get(url, headers=self.headers, stream=True)
 
-
-            with open(base_dir + file_name, mode="wb") as f:
+            # 大文件下载
+            with open(os.path.join(self.base_dir, file_name), mode="wb") as f:
                 for chunk in r.iter_content(chunk_size=1024):
                     if chunk:
                         f.write(chunk)
