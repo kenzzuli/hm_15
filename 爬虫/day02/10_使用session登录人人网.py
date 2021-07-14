@@ -4,7 +4,7 @@ session = requests.session()
 post_url = "http://www.renren.com/PLogin.do"
 post_data = {"email": "mr_mao_hacker@163.com", "password": "alarmchime"}
 headers = {
-    "user-agent": "Mozilla/5.0 (Linux; Android 8.0.0; Nexus 6P Build/OPP3.170518.006) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Mobile Safari/537.36"
+    "User-Agent": "Mozilla/5.0 (Linux; Android 8.0.0; Nexus 6P Build/OPP3.170518.006) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Mobile Safari/537.36"
 }
 # 使用session发送post请求，cookie保存在其中
 session.post(post_url, data=post_data, headers=headers)

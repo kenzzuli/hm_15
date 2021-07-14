@@ -31,7 +31,7 @@ def file_downloader_client():
         # 接收文件的大小信息
         file_size = tcp_client_socket.recv(buffer_size)
         if int(file_size.decode("utf-8")) > 0:
-            # print("[{}] 存在，大小为 [{}]".format(file_name, file_size.decode("utf-8")))
+            # print("[{}] 存在，大小为 [{}]".format(book_name, file_size.decode("utf-8")))
             # 向服务器发送任意一个数据
             tcp_client_socket.send("1111".encode("utf-8"))
             # 接收数据，并写入文件
