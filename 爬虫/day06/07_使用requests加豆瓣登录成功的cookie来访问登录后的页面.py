@@ -8,10 +8,10 @@ driver = webdriver.Chrome(executable_path="./chromedriver")
 url = "https://www.douban.com/"
 driver.get(url)
 
-# 定位iframe
+# 定位frame
 iframe = driver.find_element_by_xpath("//div[@class='login']/iframe")
 
-# 定位不到元素，是因为iframe
+# 切换到frame
 driver.switch_to.frame(iframe)
 
 # 输入手机号
@@ -31,6 +31,7 @@ time.sleep(10)
 # 获取cookies
 cookies = {i['name']: i['value'] for i in driver.get_cookies()}
 print(cookies)
+# {'push_noty_num': '0', 'ap_v': '0,6.0', '_pk_id.100001.8cb4': '990dc2d222ba7047.1626269043.1.1626269089.1626269043.', 'ck': 'qqZ5', 'dbcl2': '"241998854:e5EslO/oqKA"', 'push_doumail_num': '0', '__gads': 'ID=8f221d909a1208f2-22ce64e757ca00ef:T=1626269089:S=ALNI_MZvAHBrgl7y-H6zFglTPsza1OGOlg', '_pk_ses.100001.8cb4': '*', 'bid': 'QpodTPyUzsE', 'll': '"108296"'}
 
 # 退出
 driver.quit()

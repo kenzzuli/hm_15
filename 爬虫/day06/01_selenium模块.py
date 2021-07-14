@@ -5,6 +5,9 @@ import time
 driver1 = webdriver.Chrome(executable_path="./chromedriver")
 # driver2 = webdriver.Firefox(executable_path="./geckodriver_mac")
 
+# driver1 = webdriver.Chrome()  # 已经将chromedriver添加到PATH
+# driver2 = webdriver.Firefox() # 同上
+
 # 发送请求
 url = "http://www.baidu.com"
 driver1.get(url)

@@ -8,9 +8,10 @@ url = "https://www.douban.com/"
 driver.get(url)
 
 # 定位iframe
+# iframe里面的内容和外面的内容属于不同的网页，默认是定位不到的，需要切换到iframe里面才可以
 iframe = driver.find_element_by_xpath("//div[@class='login']/iframe")
 
-# 定位不到元素，是因为iframe
+# 切换到iframe中
 driver.switch_to.frame(iframe)
 
 # 输入手机号

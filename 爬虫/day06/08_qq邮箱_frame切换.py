@@ -8,9 +8,9 @@ driver = webdriver.Chrome(executable_path="./chromedriver")
 url = "https://mail.qq.com/"
 driver.get(url)
 
-# 定位iframe
+# 定位frame
 iframe = driver.find_element_by_id("login_frame")
-# 切换到iframe
+# 切换到frame
 driver.switch_to.frame(iframe)
 # 定位用户名，密码输入框和登录按钮
 driver.find_element_by_id("u").send_keys("username")
