@@ -423,6 +423,27 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/爬虫/term_online/term_sipder.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/爬虫/term_online/term_spider_with_selenium.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/爬虫/term_online/tmp/菌.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
       </map>
     </option>
   </component>

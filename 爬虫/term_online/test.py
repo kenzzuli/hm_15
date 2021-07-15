@@ -1,0 +1,23 @@
+self.headers = {
+    "Accept": "application/json, text/plain, */*",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Accept-Language": "en",
+    "Authorization": "",
+    "Connection": "keep-alive",
+    "Content-Length": "115",
+    "Content-Type": "application/json;",
+    "Cookie": "SESSION=OTMxNTA0ZGItYzBiYi00ZTFkLWIwNzMtNzJiODM2YTgxZDgz; UM_distinctid=17aa5fe23f4b63-0c81b79489c9f9-34647600-384000-17aa5fe23f597e; CNZZDATA1259716300=1015544038-1626279108-%7C1626279108",
+    "Host": "www.termonline.cn",
+    "htoken": "MAuIPnKbjrdrrEWcAMhw6w==",
+    "Origin": "https://www.termonline.cn",
+    "Referer": "https://www.termonline.cn/search?k=%E7%8C%AA",
+    "sec-ch-ua": """"Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91""""",
+    "sec-ch-ua-mobile": "?0",
+    "Sec-Fetch-Dest": "empty",
+    "Sec-Fetch-Mode": "cors",
+    "Sec-Fetch-Site": "same-origin",
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36",
+    "vtoken": "a04a638e08777fbb6047f356f815059936d5173612d0b1b1ab634ed47eefc054",
+    "htoken": "MAuIPnKbjrdrrEWcAMhw6w==",
+
+}
