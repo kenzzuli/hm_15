@@ -5,7 +5,7 @@ import time
 import pandas as pd
 
 SLEEP_TIME = 60  # 每请求一次页面休息多长时间
-PAGES = 20  # 请求一个术语的前多少页
+PAGES = 200  # 请求一个术语的前多少页
 
 
 class TermSpider:
@@ -50,29 +50,36 @@ class TermSpider:
             self.log_exception(e)
 
     def save_content_list(self, content_list, term, page_num):
-        file_name = "{}.txt".format(term)
-        with open(os.path.join(self.base_dir, file_name), mode="a", encoding="utf8") as f:
+
+        # 写入json
+        json_file_name = "{}.txt".format(term)
+        self.write_to_json(content_list, json_file_name, term, page_num)
+
+        # 写入表格
+        excel_name = "{}.xlsx".format(term)
+        self.write_to_excel(content_list, excel_name, term, page_num)
+
+    def write_to_json(self, content_list, json_file_name, term, page_num):  # 写入json
+        with open(os.path.join(self.base_dir, json_file_name), mode="a", encoding="utf8") as f:
             f.write(json.dumps(content_list, ensure_ascii=False, indent=2))
         print("[{}]第{}页json格式保存成功".format(term, page_num))
 
-        excel_name = "{}.xlsx".format(term)
-        # 写入表格
-        self.write_to_excel(content_list, os.path.join(self.base_dir, excel_name))
-        print("[{}]第{}页excel格式保存成功".format(term, page_num))
+    def write_to_excel(self, content_list, excel_name, term, page_num):  # 写入excel
+        full_file_path = os.path.join(self.base_dir, excel_name)
+        original_df = None
+        if os.path.exists(full_file_path):  # 如果本地存在excel，则读取，并删去
+            original_df = pd.DataFrame(pd.read_excel(full_file_path, index_col=[0]))
+            os.remove(full_file_path)
+        new_df = pd.DataFrame(content_list)
+        # 合并原来的和新的
+        merged = original_df.append(new_df) if original_df is not None else new_df
+        # 去重
+        unique = merged.drop_duplicates().reset_index(drop=True)
+        unique.to_excel(full_file_path)
+        print("[{}]第{}页excel格式保存成功, 去重后有{}条数据".format(term, page_num, unique.shape[0]))
         print("-" * 50)
 
-    def write_to_excel(self, content_list, path):
-        original_df = None
-        if os.path.exists(path):
-            original_df = pd.DataFrame(pd.read_excel(path, index_col=[0]))
-            os.remove(path)
-        new_df = pd.DataFrame(content_list)
-        ret = original_df.append(new_df) if original_df is not None else new_df
-        unique = ret.drop_duplicates().reset_index(drop=True)
-        unique.to_excel(path)
-        print("excel去重后有{}条数据".format(unique.shape[0]))
-
-    def extract_ps(self, ps):
+    def extract_ps(self, ps):  # 从ps元素中提取内容
         temp_dict = dict()
         for p in ps:
             key = p.find_element_by_xpath(".//span[@class='title']").text.replace("：", "")
@@ -83,7 +90,7 @@ class TermSpider:
             temp_dict[key] = value
         return temp_dict
 
-    def log_exception(self, e):
+    def log_exception(self, e):  # 记录异常
         with open("./error.log", mode="a", encoding="utf8") as f:
             f.write(str(e) + "\n")
 
@@ -98,7 +105,7 @@ class TermSpider:
                 try:
                     # 获取页面内容
                     lis = self.driver.find_elements_by_xpath("//div[@class='resulistm']/ul/li")
-                    print("[{}]第{}页包含{}数据".format(term, page_num, len(lis)))
+                    print("[{}]第{}页包含{}条数据".format(term, page_num, len(lis)))
                     # 提取数据
                     content_list = self.get_content_list(lis)
                     # 保存数据
@@ -120,7 +127,7 @@ class TermSpider:
                     break
             print("[{}]爬取结束".format(term))
             print("*" * 50)
-        print("全部爬取结束")
+        print("全部爬取结束!!!!")
         self.driver.quit()
 
 
