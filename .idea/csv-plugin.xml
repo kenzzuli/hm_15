@@ -304,6 +304,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="$APPLICATION_CONFIG_DIR$/consoles/db/941658a9-c0bf-4cb2-81f2-6ada55b87804/console.sql">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/数据结构与算法/01_timeit.py">
           <value>
             <Attribute>
@@ -396,6 +403,20 @@
           </value>
         </entry>
         <entry key="/爬虫/day06/06_豆瓣登录.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/爬虫/day07/01_pymongo模块.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/爬虫/exercise/lexico_dict/spider.py">
           <value>
             <Attribute>
               <option name="separator" value=":" />

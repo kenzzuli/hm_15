@@ -17,4 +17,4 @@ done
 # 激活conda环境
 source /opt/anaconda3/bin/activate nlp
 # `pwd`表示当前终端的路径，而不是当前shell脚本所在的路径
-python /Users/ken/PycharmProjects/hm_15/爬虫/aozora/uncompress.py `pwd` $i $o
+python /Users/ken/PycharmProjects/hm_15/爬虫/exercise/aozora/uncompress.py `pwd` $i $o

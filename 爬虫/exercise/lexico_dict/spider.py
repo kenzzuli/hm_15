@@ -1,6 +1,11 @@
 import requests
 from lxml import etree
 import json
+import time
+import os
+from parse_url import parse_url as parse
+
+SLEEP_TIME = 60
 
 
 class OxfordSpider:
@@ -9,53 +14,71 @@ class OxfordSpider:
         self.wordlist_path = wordlist_path
         self.headers = {
             "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36"}
+        self.txt_dir = "./txt"
+        self.html_dir = "./html"
+        if not os.path.exists(self.txt_dir):
+            os.mkdir(self.txt_dir)
+        if not os.path.exists(self.html_dir):
+            os.mkdir(self.html_dir)
 
-    def parse_url(self, url):  # 发送请求，获取响应
+    def parse_url(self, url, word):  # 发送请求，获取响应
         print(url)
-        return requests.get(url, headers=self.headers).content
+        content = parse(url)
+        # r = requests.get(url, headers=self.headers)
+        if content:
+            self.save_page_source(content, word)
+        return content
 
-    def get_content_list(self, html_str, query):  # 提取数据
-        content_list = list()
-        # {"word": "like"
+    def save_page_source(self, content, word):
+        file_name = "{}.html".format(word)
+        file_path = os.path.join(self.html_dir, file_name)
+        with open(file_path, mode="wb") as f:
+            f.write(content)
+        print("[{}]源网页保存成功".format(word))
+
+    def get_word_dict(self, html_str, word):  # 提取数据
+        # {"word_dict": "like"
         #  "meanings": [{meaning1}, {meaning2}, {meaning3}]
         # }
-        word = dict()
-        main_meaning_list = list()
-        html = etree.HTML(html_str)
-        entry = html.xpath("//div[@class='entryWrapper']/*")
-        # main_meaning_num = len(html.xpath("//div[@class='entryHead primary_homograph']"))
-        new_meaning = True
-        for item in entry:
-            print(item, item.tag, item.attrib['class'])
-            if item.attrib["class"] == "breadcrumbs layout" and item.tag == "div":
-                # path = item.xpath("./div[@class='breadcrumbs layout']//text()")
-                continue
-            if item.attrib["class"] == "entryHead primary_homograph" and item.tag == "div":
-                if new_meaning:
-                    meaning = dict()
-                    meaning['gramb_list'] = list()
-                    meaning['usage_list'] = list()
-                    meaning['etymology_list'] = list()
-                    new_meaning = False
-                else:
-                    main_meaning_list.append(meaning)
-                    meaning = dict()
-                    meaning['gramb_list'] = list()
-                    meaning['usage_list'] = list()
-                    meaning['etymology_list'] = list()
-                    new_meaning = True
-            if item.attrib["class"] == "gramb" and item.tag == "section":
-                meaning['gramb_list'].append(self.extract_gramb_section(item))
-            if item.attrib["class"] == "etymology etym usage" and item.tag == "section":
-                meaning['usage_list'].append(self.extract_etymology_etym_usage_section(item))
-            if item.attrib["class"] == "etymology etym" and item.tag == "section":
-                meaning['etymology_list'].append(self.extract_etymology_etym_section(item))
+        try:
+            word_dict = dict()
+            main_meaning_list = list()
+            html = etree.HTML(html_str)
+            entry = html.xpath("//div[@class='entryWrapper']/*")
+            # main_meaning_num = len(html.xpath("//div[@class='entryHead primary_homograph']"))
+            new_meaning = True
+            for item in entry:
+                # print(item, item.tag, item.attrib['class'])
+                if item.attrib["class"] == "breadcrumbs layout" and item.tag == "div":
+                    # path = item.xpath("./div[@class='breadcrumbs layout']//text()")
+                    continue
+                if item.attrib["class"] == "entryHead primary_homograph" and item.tag == "div":
+                    if new_meaning:
+                        meaning = dict()
+                        meaning['gramb_list'] = list()
+                        meaning['usage_list'] = list()
+                        meaning['etymology_list'] = list()
+                        new_meaning = False
+                    else:
+                        main_meaning_list.append(meaning)
+                        meaning = dict()
+                        meaning['gramb_list'] = list()
+                        meaning['usage_list'] = list()
+                        meaning['etymology_list'] = list()
+                        new_meaning = True
+                if item.attrib["class"] == "gramb" and item.tag == "section":
+                    meaning['gramb_list'].append(self.extract_gramb_section(item))
+                if item.attrib["class"] == "etymology etym usage" and item.tag == "section":
+                    meaning['usage_list'].append(self.extract_etymology_etym_usage_section(item))
+                if item.attrib["class"] == "etymology etym" and item.tag == "section":
+                    meaning['etymology_list'].append(self.extract_etymology_etym_section(item))
 
-        main_meaning_list.append(meaning)
-        word["word"] = query
-        word["main_meaning_list"] = main_meaning_list
-        content_list.append(word)
-        return content_list
+            main_meaning_list.append(meaning)
+            word_dict["word_dict"] = word
+            word_dict["main_meaning_list"] = main_meaning_list
+            return word_dict
+        except Exception as e:
+            self.log_exception(e, word)
 
     def extract_etymology_etym_section(self, item):
         temp_dict = dict()
@@ -212,31 +235,63 @@ class OxfordSpider:
             example_list += i.xpath(".//div[@class='exg']/ul/li/em/text()")
         return example_list
 
-    def save_content_list(self, content_list):
-        with open("ret.txt", mode="a", encoding="utf8") as f:
-            f.write(json.dumps(content_list, ensure_ascii=False, indent=2))
+    def save_word_dict(self, word_dict, word):
+        file_name = "{}.txt".format(word)
+        file_path = os.path.join(self.txt_dir, file_name)
+        with open(file_path, mode="w", encoding="utf8") as f:
+            f.write(json.dumps(word_dict, ensure_ascii=False, indent=2))
             f.write("\n")
-        # print(content_list)
-        print("保存成功")
+        # print(word_dict)
+        print("[{}]保存成功".format(word))
+        print("-" * 50)
 
     def get_wordlist(self):
         with open(self.wordlist_path, mode="r", encoding="utf8") as f:
             return [i.strip().lower() for i in f.readlines() if i.strip()]
 
+    def log_exception(self, e, word):
+        with open("./error.log", mode="a", encoding="utf8") as f:
+            f.write(word + "\t" + str(e) + "\n")
+
+    def already_download(self, word):
+        file_name = "{}.txt".format(word)
+        file_list = os.listdir(self.txt_dir)
+        if file_name in file_list:
+            return True
+        else:
+            return False
+
     def run(self):
         # 1.获取url
         wordlist = self.get_wordlist()
         for word in wordlist:
-            url = self.url_template.format(word)
-            # 2.发送请求获取响应
-            html_str = self.parse_url(url)
-            # 3.提取数据
-            content_list = self.get_content_list(html_str, word)
-            # 4.保存数据
-            self.save_content_list(content_list)
+            try:
+                print("当前单词为:{}".format(word))
+                if self.already_download(word):
+                    print("[{}]已经下载过了，无需重复下载".format(word))
+                    continue
+                url = self.url_template.format(word)
+                # 2.发送请求获取响应
+                html_str = self.parse_url(url, word)
+                # 3.提取数据
+                if not html_str:  # 如果响应为空，直接跳过
+                    time.sleep(SLEEP_TIME)
+                    continue
+                word_dict = self.get_word_dict(html_str, word)
+                # 4.保存数据
+                if not word_dict:  # 如果提取的数据为空，直接跳过
+                    time.sleep(SLEEP_TIME)
+                    continue
+                self.save_word_dict(word_dict, word)
+                # 休息后再请求
+                time.sleep(SLEEP_TIME)
+            except Exception as e:
+                self.log_exception(e, word)
+                time.sleep(SLEEP_TIME)
+                continue
 
 
 if __name__ == '__main__':
-    wordlist_path = "./wordlist.txt"
+    wordlist_path = "./10k.txt"
     oxford_spider = OxfordSpider(wordlist_path)
     oxford_spider.run()

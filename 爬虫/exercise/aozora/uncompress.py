@@ -54,9 +54,10 @@ def get_all_file_list(dir):
 
 
 def run():
-    print(sys.argv)
+    # print(sys.argv)
     if len(sys.argv) < 4:
-        print("使用方法: '\n'uncompress -i source_dir/source_file [-o dest_dir]")
+        print("使用方法:\nuncompress -i source_dir/source_file [-o dest_dir]")
+        exit()
     base_dir = sys.argv[1]
     compressed_files_path = sys.argv[2]
     dest_dir = sys.argv[3] if len(sys.argv) == 4 else "./"
