@@ -20,7 +20,7 @@ class TermSpider:
         if not os.path.exists(self.base_dir):
             os.mkdir(self.base_dir)
 
-    def get_content_list(self, lis):
+    def get_content_list(self, lis):  # 提取数据
         try:
             content_list = list()
 
@@ -49,7 +49,7 @@ class TermSpider:
         except Exception as e:
             self.log_exception(e)
 
-    def save_content_list(self, content_list, term, page_num):
+    def save_content_list(self, content_list, term, page_num):  # 保存数据
 
         # 写入json
         json_file_name = "{}.txt".format(term)
@@ -94,7 +94,7 @@ class TermSpider:
         with open("./error.log", mode="a", encoding="utf8") as f:
             f.write(str(e) + "\n")
 
-    def run(self):
+    def run(self):  # 实现主要逻辑
         # 遍历术语表中的每个术语
         for term in self.term_list:
             # 访问起始页
@@ -133,5 +133,6 @@ class TermSpider:
 
 if __name__ == '__main__':
     term_list = ["菌", "素", "毒", "霉素", "菌素", "病毒", "细胞", "剂", "液", "唑胺", "培养基", "药", "脂", "醇", "生物", "膜", "病"]
+    # term_list.reverse()
     term_spider = TermSpider(term_list)
     term_spider.run()
