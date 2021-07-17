@@ -1,4 +1,3 @@
-import requests
 from lxml import etree
 import json
 import time
@@ -293,7 +292,8 @@ class OxfordSpider:
 
 
 if __name__ == '__main__':
-    # wordlist_path = "./10k.txt"
-    # oxford_spider = OxfordSpider(wordlist_path)
-    # oxford_spider.run()
-    notify_me()
+    start_time = time.time()
+    wordlist_path = "./10k.txt"
+    oxford_spider = OxfordSpider(wordlist_path)
+    oxford_spider.run()
+    notify_me(start_time)
