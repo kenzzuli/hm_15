@@ -4,6 +4,7 @@ import json
 import time
 import os
 from parse_url import parse_url as parse
+from send_mail import notify_me
 
 SLEEP_TIME = 60
 
@@ -292,6 +293,7 @@ class OxfordSpider:
 
 
 if __name__ == '__main__':
-    wordlist_path = "./10k.txt"
-    oxford_spider = OxfordSpider(wordlist_path)
-    oxford_spider.run()
+    # wordlist_path = "./10k.txt"
+    # oxford_spider = OxfordSpider(wordlist_path)
+    # oxford_spider.run()
+    notify_me()

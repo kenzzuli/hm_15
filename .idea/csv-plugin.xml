@@ -423,6 +423,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/爬虫/exercise/mail/send_mail.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/爬虫/lexico_dict/oxford.txt">
           <value>
             <Attribute>
