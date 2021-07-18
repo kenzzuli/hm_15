@@ -15,7 +15,6 @@ class PoliticsSpider(scrapy.Spider):
         print(self.settings["MONGO_HOST"])
         print(self.settings.get("MONGO_HOST", None))
         print("-" * 50)
-        exit()
         # 分组
         li_list = response.xpath("//ul[@class='title-state-ul']/li")
         for li in li_list:
