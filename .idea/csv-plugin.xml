@@ -423,6 +423,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/爬虫/exercise/aozora_scrapy/aozora_scrapy/pipelines.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/爬虫/exercise/lexico_dict/spider.py">
           <value>
             <Attribute>
