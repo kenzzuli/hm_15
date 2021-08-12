@@ -1,4 +1,4 @@
-# Scrapy settings for cbirc project
+# Scrapy settings for tieba project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -7,15 +7,20 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'cbirc'
+BOT_NAME = 'tieba'
 
-SPIDER_MODULES = ['cbirc.spiders']
-NEWSPIDER_MODULE = 'cbirc.spiders'
+SPIDER_MODULES = ['tieba.spiders']
+NEWSPIDER_MODULE = 'tieba.spiders'
+
+# Mongodb相关设置
+MONGO_HOST = None  # 主机地址
+MONGO_PORT = None  # 端口号
+MONGO_DB = "tieba"  # 数据库名
+MONGO_COLLECTION = "liyi"  # 集合名
 
 LOG_LEVEL = 'WARNING'
-
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36'
+USER_AGENT = 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = False
@@ -46,13 +51,13 @@ ROBOTSTXT_OBEY = False
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 # SPIDER_MIDDLEWARES = {
-#    'cbirc.middlewares.CbircSpiderMiddleware': 543,
+#    'tieba.middlewares.TiebaSpiderMiddleware': 543,
 # }
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 # DOWNLOADER_MIDDLEWARES = {
-#    'cbirc.middlewares.CbircDownloaderMiddleware': 543,
+#    'tieba.middlewares.TiebaDownloaderMiddleware': 543,
 # }
 
 # Enable or disable extensions
@@ -63,9 +68,9 @@ ROBOTSTXT_OBEY = False
 
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
-# ITEM_PIPELINES = {
-#    'cbirc.pipelines.CbircPipeline': 300,
-# }
+ITEM_PIPELINES = {
+    'tieba.pipelines.TiebaPipeline': 300,
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
