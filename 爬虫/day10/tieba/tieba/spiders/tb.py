@@ -24,9 +24,9 @@ class TbSpider(CrawlSpider):
             item = TiebaItem()
             item['img_url_list'] = list()  # 帖子中所有图片的url
             item['url'] = response.url  # 当前帖子的url
-            item['title'] = response.xpath("//div[@class='bc p']/strong/text()").extract()[0]  # 帖子标题
+            item['title'] = response.xpath("//div[@class='bc p']/strong/text()").extract_first()  # 帖子标题
             item['poster'] = response.xpath(
-                "//div[@class='d']/div[1]//span[@class='g']//a/text()").extract()[0]  # 发帖人
+                "//div[@class='d']/div[1]//span[@class='g']//a/text()").extract_first()  # 发帖人
 
         # 将帖子当前页中的图片url加入列表中
         item['img_url_list'] += response.xpath("//img[@class='BDE_Image']/@src").extract()

@@ -16,10 +16,14 @@ class TiebaPipeline:
         # 进一步提取图片url
         if item['img_url_list']:
             item['img_url_list'] = [re.search(r"&src=(.*)", unquote(i)).group(1) for i in item['img_url_list']]
-        # 存入数据库
-        self.collection.insert_one(dict(item))  # 插入前将item转成dict
+
         print(item)
-        print("*" * 50)
+        # 确保数据的有效性，如果一个数据没有poster，直接放弃
+        if item['poster']:
+            # 存入数据库
+            self.collection.insert_one(dict(item))  # 插入前将item转成dict
+        else:
+            print("*" * 50)
         return item
 
     def open_spider(self, spider):  # 爬虫启动时会调用该函数
