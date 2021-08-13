@@ -8,6 +8,7 @@ cookies = "BIDUPSID=A9ED107CDA04315473528F700F5BB884; PSTM=1602854207; BAIDUID=A
 # 将字符串转成字典
 cookies = {i.split("=")[0]: i.split("=")[1] for i in cookies.split("; ")}
 print(cookies)
+# {'BIDUPSID': 'A9ED107CDA04315473528F700F5BB884', 'PSTM': '1602854207', 'BAIDUID': 'A9ED107CDA04315459EF911AEED8EAB0:FG'}
 # 在发送请求时，加上cookies参数
 r = requests.get("http://www.renren.com/327550029/profile", headers=headers, cookies=cookies)
 

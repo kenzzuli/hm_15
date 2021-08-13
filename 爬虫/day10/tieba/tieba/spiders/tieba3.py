@@ -1,11 +1,11 @@
 # scrapy版本的贴吧爬虫
-# 从详情页提取发帖人，标题
+# 从列表页提取发帖人，标题
 import scrapy
 from tieba.items import TiebaItem
 
 
-class Tieba2Spider(scrapy.Spider):
-    name = 'tieba2'
+class Tieba3Spider(scrapy.Spider):
+    name = 'tieba3'
     allowed_domains = ['tieba.baidu.com']
     start_urls = ['https://tieba.baidu.com/mo/q----,sz@320_240-1-3---2/m?kw=%E6%9D%8E%E6%AF%85&pn=0']
 
@@ -15,9 +15,16 @@ class Tieba2Spider(scrapy.Spider):
         for div in div_list:
             item = TiebaItem()
             # 获取每个帖子的url
-            post_url = div.xpath("./a/@href").extract_first()
-            if post_url:
-                item['url'] = response.urljoin(post_url)
+            item['url'] = div.xpath("./a/@href").extract_first()
+            # 获取标题
+            item['title'] = div.xpath("./a/text()").extract_first()
+            # 获取发帖人
+            item['poster'] = div.xpath("./p/text()").extract_first()
+            # 构造img字段 ✅
+            item['img_url_list'] = list()
+            # 判断帖子的url是否为空
+            if item['url']:
+                item['url'] = response.urljoin(item['url'])
                 yield scrapy.Request(url=item['url'], callback=self.parse_post, meta=dict(item=item))  # url不完整，需补全
 
             # 获取列表页下一页的地址
@@ -26,15 +33,10 @@ class Tieba2Spider(scrapy.Spider):
                 yield scrapy.Request(url=response.urljoin(next_url), callback=self.parse)
 
     def parse_post(self, response):
+        # 这里的item要么是从上一个parse_post函数传来，要么从parse函数传来，都携带有item
         item = response.meta['item']
-        # 通过是否存在title字段来判断是否是帖子的第一页
-        if 'title' not in item:
-            item['img_url_list'] = list()
-            item['title'] = response.xpath("//div[@class='bc p']/strong/text()").extract_first()
-            item['poster'] = response.xpath(
-                "//div[@class='d']/div[1]//span[@class='g']//a/text()").extract_first()
 
-        # 将帖子当前页中的图片url加入列表中
+        # 将帖子当前页中的图片url追加到列表中 ✅
         item['img_url_list'] += response.xpath("//img[@class='BDE_Image']/@src").extract()
 
         # 获取帖子下一页的url

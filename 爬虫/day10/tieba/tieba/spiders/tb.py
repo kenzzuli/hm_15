@@ -10,10 +10,11 @@ class TbSpider(CrawlSpider):
     allowed_domains = ['tieba.baidu.com']
     start_urls = ['https://tieba.baidu.com/mo/q----,sz@320_240-1-3---2/m?kw=%E6%9D%8E%E6%AF%85&pn=0']
     rules = (
-        # 翻页
-        Rule(LinkExtractor(allow=r'm?kw=%E6%9D%8E%E6%AF%85&lp=\d+&lm=&pn=\d+'), follow=True),
+        # 注意要将正则表达式中的特殊字符如?.进行转义。✅
         # 获取每个帖子的链接
-        Rule(LinkExtractor(allow=r'm?kz=\d+&is_bakan=\d+&lp=\d+&pinf=\d+_\d+_\d+'), callback='parse_item'),
+        Rule(LinkExtractor(allow=r'm\?kz=\d+&is_bakan=\d+&lp=\d+&pinf=\d+_\d+_\d+'), callback='parse_item'),
+        # 翻页
+        Rule(LinkExtractor(allow=r'm\?kw=%E6%9D%8E%E6%AF%85&lp=\d+&lm=&pn=\d+'), follow=True),
     )
 
     def parse_item(self, response):
