@@ -1,4 +1,4 @@
-# 手动构造表单数据
+# 手动寻找表单
 import scrapy
 import re
 
@@ -51,13 +51,11 @@ class GithubSpider(scrapy.Spider):
         print(response.url, "*" * 100, response.status)
         #  <200 https://github.com/>
 
-        # print(response.headers)
         print(re.findall(r"kenzzuli", response.text))
         # ['kenzzuli', ... , 'kenzzuli', 'kenzzuli']
         yield scrapy.Request(url="https://github.com/dashboard/top_repositories?location=center",
                              callback=self.check_dashboard)
 
     def check_dashboard(self, response):
-        # print(response.url, "*" * 100, response.status)
         print(response.xpath("//li[@class='public source ']//a/@href").extract())
         # ['/kenzzuli/hm_15', '/kenzzuli/chat_service', '/kenzzuli/seq2seq_demo', '/kenzzuli/train_bert_model_from_scratch']

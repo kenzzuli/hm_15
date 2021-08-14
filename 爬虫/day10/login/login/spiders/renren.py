@@ -13,8 +13,16 @@ class RenrenSpider(scrapy.Spider):
         cookies = "BIDUPSID=A9ED107CDA04315473528F700F5BB884; PSTM=1602854207; BAIDUID=A9ED107CDA04315459EF911AEED8EAB0:FG=1"
         # 将字符串转成字典
         cookies = {i.split("=")[0]: i.split("=")[1] for i in cookies.split("; ")}
+
+        # 不能将cookie放到headers中，没有作用❌
+        # headers = {"Cookie": cookies}
         # 在发送请求时，加上cookies参数
-        yield scrapy.Request(self.start_urls[0], callback=self.parse, cookies=cookies)
+        yield scrapy.Request(
+            self.start_urls[0],
+            callback=self.parse,
+            cookies=cookies,
+            # headers=headers
+        )
 
     def parse(self, response):
         print(re.findall("毛兆军", response.body.decode()))
