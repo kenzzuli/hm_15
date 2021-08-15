@@ -15,6 +15,7 @@ NEWSPIDER_MODULE = 'book.spiders'
 DUPEFILTER_CLASS = "scrapy_redis.dupefilter.RFPDupeFilter"
 SCHEDULER = "scrapy_redis.scheduler.Scheduler"
 SCHEDULER_PERSIST = True
+# REDIS_URL = "redis://10.1.76.27:6379"
 REDIS_URL = "redis://127.0.0.1:6379"
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
@@ -66,9 +67,10 @@ ROBOTSTXT_OBEY = False
 
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
-# ITEM_PIPELINES = {
-#    'book.pipelines.BookPipeline': 300,
-# }
+ITEM_PIPELINES = {
+    'book.pipelines.BookPipeline': 300,
+    'scrapy_redis.pipelines.RedisPipeline': 400,  # 将item保存到redis中
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
