@@ -12,6 +12,6 @@ from scrapy.pipelines.files import FilesPipeline
 class DownfilesPipeline(FilesPipeline):
     def file_path(self, request, response=None, info=None, *, item=None):
         file_name: str = request.url.split("/")[-1]
-        print(file_name)
-        print("-" * 50)
+        # print(file_name)
+        # print("-" * 50)
         return file_name

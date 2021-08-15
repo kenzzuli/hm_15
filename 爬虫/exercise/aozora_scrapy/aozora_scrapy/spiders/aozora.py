@@ -1,13 +1,12 @@
 import scrapy
 from scrapy.linkextractors import LinkExtractor
 from scrapy.spiders import CrawlSpider, Rule
-import os
 from aozora_scrapy.items import AozoraScrapyItem
 
 
 class AozoraSpider(CrawlSpider):
     name = 'aozora'
-    allowed_domains = ['aozora.gr.jp']
+    allowed_domains = ['aozora.gr.jp', 'asahi-net.or.jp', 'yozora.main.jp', ]
     start_urls = ['https://www.aozora.gr.jp/']
 
     rules = (
@@ -18,6 +17,8 @@ class AozoraSpider(CrawlSpider):
 
     def parse_item(self, response):
         file_url = response.xpath("//a[contains(@href, '.zip')]/@href").extract_first()
+        if not file_url:
+            file_url = response.xpath("//table//tr[2]/td[3]/a/@href").extract_first()
         if file_url:
             file_url = response.urljoin(file_url)
             item = AozoraScrapyItem()

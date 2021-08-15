@@ -12,7 +12,23 @@ BOT_NAME = 'aozora_scrapy'
 SPIDER_MODULES = ['aozora_scrapy.spiders']
 NEWSPIDER_MODULE = 'aozora_scrapy.spiders'
 
-LOG_LEVEL = "WARNING"
+# scrapy redis相关配置
+# 去重类
+DUPEFILTER_CLASS = "scrapy_redis.dupefilter.RFPDupeFilter"
+# 调度器
+SCHEDULER = "scrapy_redis.scheduler.Scheduler"
+# 调度器持久化
+SCHEDULER_PERSIST = True
+# redis服务器
+REDIS_URL = "redis://127.0.0.1:6379"
+
+LOG_LEVEL = "DEBUG"
+
+# telnet相关设置 其实这个终端没啥用
+TELNETCONSOLE_HOST = '127.0.0.1'
+TELNETCONSOLE_PORT = [6023, 6073]
+TELNETCONSOLE_USERNAME = 'scrapy'
+TELNETCONSOLE_PASSWORD = 'liulei123'
 
 FILES_STORE = "./novels"
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
