@@ -1,13 +1,17 @@
 import scrapy
 from scrapy.linkextractors import LinkExtractor
-from scrapy.spiders import CrawlSpider, Rule
+from scrapy.spiders import Rule
+from scrapy_redis.spiders import RedisCrawlSpider
 from aozora_scrapy.items import AozoraScrapyItem
 
 
-class AozoraSpider(CrawlSpider):
+class AozoraSpider(RedisCrawlSpider):
     name = 'aozora'
     allowed_domains = ['aozora.gr.jp', 'asahi-net.or.jp', 'yozora.main.jp', ]
-    start_urls = ['https://www.aozora.gr.jp/']
+    redis_key = 'aozora'
+    # 程序会从redis_key对应的值中读取start_url
+    # 在redis客户端输入 lpush aozora https://www.aozora.gr.jp/
+    # start_urls = ['https://www.aozora.gr.jp/']
 
     rules = (
         # 规则的顺序不能反过来，不然就一直爬，提取不到详情页了

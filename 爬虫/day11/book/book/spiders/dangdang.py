@@ -6,7 +6,6 @@ from copy import deepcopy
 class DangdangSpider(RedisSpider):
     name = 'dangdang'
     allowed_domains = ['dangdang.com']
-    # start_urls = ['http://book.dangdang.com/']
     # 程序会从redis_key对应的值中读取start_url
     # 在redis客户端输入 lpush dangdang http://book.dangdang.com/
     redis_key = "dangdang"
