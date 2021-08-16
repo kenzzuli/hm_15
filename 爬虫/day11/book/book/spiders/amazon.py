@@ -56,9 +56,11 @@ class AmazonSpider(RedisCrawlSpider):
             yield scrapy.Request(book_url, callback=self.parse_book_detail, meta=dict(item=item))
 
     def parse_book_detail(self, response):
-        file_name = response.url.replace("/", "") + ".html"
-        with open(file_name, mode='w', encoding='utf8') as f:
-            f.write(response.text)
+        # 出现问题，保存请求的网页，一点点调试
+        # file_name = response.url.replace("/", "") + ".html"
+        # with open(file_name, mode='w', encoding='utf8') as f:
+        #     f.write(response.text)
+
         item = response.meta['item']
         book_publisher = response.xpath(
             "//div[@id='detailBullets_feature_div']/ul/li[2]/span/span[2]/text()").extract_first()
