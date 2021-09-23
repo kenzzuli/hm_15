@@ -1,0 +1,11 @@
+2021-07-07 23:45:11,649 - mini_frame.py[line:221] - DEBUG: 当前请求的文件为: /index.html
+2021-07-07 23:45:14,563 - mini_frame.py[line:221] - DEBUG: 当前请求的文件为: /center.html
+2021-07-07 23:45:17,674 - mini_frame.py[line:221] - DEBUG: 当前请求的文件为: /update/000007.html
+2021-07-07 23:45:23,900 - mini_frame.py[line:221] - DEBUG: 当前请求的文件为: /update/000007/%E4%B8%AD%E5%9B%BD%E5%A4%A9%E4%B8%8B%E7%AC%AC%E4%B8%80.html
+2021-07-07 23:45:26,653 - mini_frame.py[line:221] - DEBUG: 当前请求的文件为: /center.html
+2021-07-07 23:45:30,165 - mini_frame.py[line:221] - DEBUG: 当前请求的文件为: /index.html
+2021-07-07 23:45:33,672 - mini_frame.py[line:221] - DEBUG: 当前请求的文件为: /add/000039.html
+2021-07-07 23:48:17,725 - mini_frame.py[line:221] - DEBUG: 当前请求的文件为: /center.html
+2021-07-07 23:48:18,415 - mini_frame.py[line:221] - DEBUG: 当前请求的文件为: /index.html
+2021-07-07 23:48:23,196 - mini_frame.py[line:221] - DEBUG: 当前请求的文件为: /insdex.html
+2021-07-07 23:48:23,198 - mini_frame.py[line:237] - WARNING: 没有对应的函数

@@ -1,0 +1,364 @@
+{
+  "word_dict": "the",
+  "main_meaning_list": [
+    {
+      "gramb_list": [
+        {
+          "pos": [
+            "determiner"
+          ],
+          "meaning_list": [
+            {
+              "meaning_num": [
+                "1"
+              ],
+              "meaning": [
+                "Denoting one or more people or things already mentioned or assumed to be common knowledge."
+              ],
+              "example": [
+                "what's the matter?",
+                "the Queen",
+                "dish of the day",
+                "the Johnsons were not wealthy"
+              ],
+              "examples": [
+                "call the doctor",
+                "the phone rang",
+                "If he's saying we're running fifth behind the leader, I know we don't have to make drastic changes.",
+                "During September and October the days become shorter.",
+                "Fifteen long, dull minutes passed before the door opened.",
+                "We then had to organise tickets for the passengers to travel on the buses.",
+                "After a nice walk, we decided to sit, watch the birds, and rest for a moment."
+              ],
+              "synonyms": [
+                "the beginning",
+                ", the very beginning, the start, the outset, the commencement"
+              ],
+              "sub_senses": [
+                {
+                  "sub_sense_iteration": [
+                    "1.1"
+                  ],
+                  "sub_sense": [
+                    "Used to refer to a person, place, or thing that is unique."
+                  ],
+                  "sub_sense_example": [
+                    "the Queen"
+                  ],
+                  "sub_sense_examples": [
+                    "the Mona Lisa",
+                    "the Nile",
+                    "One could find similar stories from northern Queensland or the Amazon.",
+                    "Canonized with great ceremony by the Pope in 2002, Padre Pio was a Capuchin monk.",
+                    "Who hasn't heard of the Leaning Tower of Pisa?",
+                    "However, when it comes to the President of India, the situation becomes entirely different."
+                  ],
+                  "sub_sense_synonyms": []
+                },
+                {
+                  "sub_sense_iteration": [
+                    "1.2"
+                  ],
+                  "sub_sense": [
+                    "Denoting a disease or affliction."
+                  ],
+                  "sub_sense_example": [],
+                  "sub_sense_examples": [
+                    "I've got the flu",
+                    "A person with the mumps often looks like he has chubby cheeks.",
+                    "The whole idea gives me the creeps.",
+                    "Everyone has gone though a mild case of the blues once in their lives."
+                  ],
+                  "sub_sense_synonyms": []
+                },
+                {
+                  "sub_sense_iteration": [
+                    "1.3"
+                  ],
+                  "sub_sense": [
+                    "(with a unit of time) the present; the current."
+                  ],
+                  "sub_sense_example": [
+                    "dish of the day"
+                  ],
+                  "sub_sense_examples": [
+                    "man of the moment",
+                    "Has a caretaker manager in the Premiership ever won manager of the month?",
+                    "Bodega were presented with the award by Radio 2's Folk Musician of the Year, Kathryn Tickell."
+                  ],
+                  "sub_sense_synonyms": []
+                },
+                {
+                  "sub_sense_iteration": [
+                    "1.4"
+                  ],
+                  "sub_sense": [
+                    "Used instead of a possessive to refer to someone with whom the speaker or person addressed is associated."
+                  ],
+                  "sub_sense_example": [],
+                  "sub_sense_examples": [
+                    "I'm meeting the boss",
+                    "how's the family?",
+                    "One night, the hubby and I stopped at the next door bakery and bought some bread.",
+                    "Are you all right? How are the kids?"
+                  ],
+                  "sub_sense_synonyms": []
+                },
+                {
+                  "sub_sense_iteration": [
+                    "1.5"
+                  ],
+                  "sub_sense": [
+                    "Used with a surname to refer to a family or married couple."
+                  ],
+                  "sub_sense_example": [
+                    "the Johnsons were not wealthy"
+                  ],
+                  "sub_sense_examples": [
+                    "Doubtless as a result of all the tension in the Williams household, Tennessee became a compulsive traveler.",
+                    "One of two episodes to be presented in widescreen, the pilot introduces the Browns and the rest of the Everwood folk."
+                  ],
+                  "sub_sense_synonyms": []
+                },
+                {
+                  "sub_sense_iteration": [
+                    "1.6"
+                  ],
+                  "sub_sense": [
+                    "Used before the surname of the chief of a Scottish or Irish clan."
+                  ],
+                  "sub_sense_example": [],
+                  "sub_sense_examples": [
+                    "the O'Donoghue"
+                  ],
+                  "sub_sense_synonyms": []
+                }
+              ]
+            },
+            {
+              "meaning_num": [
+                "2"
+              ],
+              "meaning": [
+                "Used to point forward to a following qualifying or defining clause or phrase."
+              ],
+              "example": [
+                "the fuss that he made of her",
+                "George the Sixth"
+              ],
+              "examples": [
+                "the top of a bus",
+                "I have done the best I could",
+                "From the first of July, mothers will be eligible for a $3,000 dollar payment, going up to $5,000 by 2008.",
+                "I headed towards the park at the corner of Palace Avenue.",
+                "There was a tiny spot of toothpaste on the front of my shirt.",
+                "It was the worst day of my career.",
+                "I also think it reasonable to infer that he was righting the vehicle in the hope that he could drive it."
+              ],
+              "synonyms": [],
+              "sub_senses": [
+                {
+                  "sub_sense_iteration": [
+                    "2.1"
+                  ],
+                  "sub_sense": [
+                    "(chiefly with rulers and family members with the same name) used after a name to qualify it."
+                  ],
+                  "sub_sense_example": [
+                    "George the Sixth"
+                  ],
+                  "sub_sense_examples": [
+                    "Edward the Confessor",
+                    "Jack the Ripper",
+                    "In the time of Henry the Eighth, a person who did not read Greek and Latin could read nothing, or next to nothing.",
+                    "The beginning of the Hellenistic age is defined as the rise to power of Alexander the Great.",
+                    "He carried Russia a long way from Ivan the Terrible's ‘time of troubles’."
+                  ],
+                  "sub_sense_synonyms": []
+                }
+              ]
+            },
+            {
+              "meaning_num": [
+                "3"
+              ],
+              "meaning": [
+                "Used to make a generalized reference to something rather than identifying a particular instance."
+              ],
+              "example": [
+                "he taught himself to play the violin",
+                "they placed the African elephant on their endangered list",
+                "the unemployed",
+                "they are trying to accomplish the impossible",
+                "they can do 120 miles to the gallon"
+              ],
+              "examples": [
+                "I worry about the future",
+                "Parents have to be a lot more careful about what their children are allowed to watch on the TV.",
+                "Lots of the singles on the CD were never on the radio here.",
+                "Becky sings with our church choir and plays the piano.",
+                "According to parents, 60 percent of children complain of feeling tired during the day.",
+                "To learn the drums, he tried playing along to records, a method he admitted hating.",
+                "In the mornings we have lectures and in the afternoons we teach students."
+              ],
+              "synonyms": [],
+              "sub_senses": [
+                {
+                  "sub_sense_iteration": [
+                    "3.1"
+                  ],
+                  "sub_sense": [
+                    "Used with a singular noun to indicate that it represents a whole species or class."
+                  ],
+                  "sub_sense_example": [
+                    "they placed the African elephant on their endangered list"
+                  ],
+                  "sub_sense_examples": [
+                    "A streamlined fish, the mackerel is designed for fast swimming in large shoals.",
+                    "At the turn of the 20th century, the tiger roamed free through vast parts of Asia."
+                  ],
+                  "sub_sense_synonyms": []
+                },
+                {
+                  "sub_sense_iteration": [
+                    "3.2"
+                  ],
+                  "sub_sense": [
+                    "Used with an adjective to refer to those people who are of the type described."
+                  ],
+                  "sub_sense_example": [
+                    "the unemployed"
+                  ],
+                  "sub_sense_examples": [
+                    "This trend especially threatens children, the elderly, and those with compromised immune systems.",
+                    "Having occupied the country from the early 1900s, the French contributed much in the way of education.",
+                    "The government doles out about $117 billion to cover the health care costs of the unfit and obese.",
+                    "He was the good, the bad and the ugly in one person."
+                  ],
+                  "sub_sense_synonyms": []
+                },
+                {
+                  "sub_sense_iteration": [
+                    "3.3"
+                  ],
+                  "sub_sense": [
+                    "Used with an adjective to refer to something of the class or quality described."
+                  ],
+                  "sub_sense_example": [
+                    "they are trying to accomplish the impossible"
+                  ],
+                  "sub_sense_examples": [
+                    "I was not surprised to see him standing there alone, but I was hoping for the unexpected.",
+                    "Sometimes I can say the unsayable.",
+                    "Ginger and her sister Brigitte are suburban teenagers with a taste for the macabre."
+                  ],
+                  "sub_sense_synonyms": []
+                },
+                {
+                  "sub_sense_iteration": [
+                    "3.4"
+                  ],
+                  "sub_sense": [
+                    "Used with the name of a unit to state a rate."
+                  ],
+                  "sub_sense_example": [
+                    "they can do 120 miles to the gallon"
+                  ],
+                  "sub_sense_examples": [
+                    "35p in the pound",
+                    "These annual levies are only a few cents in the dollar.",
+                    "If you fly into wind you will get much less mileage to the litre.",
+                    "The Ballet School has some pianists on salary; others are paid by the hour."
+                  ],
+                  "sub_sense_synonyms": []
+                }
+              ]
+            },
+            {
+              "meaning_num": [
+                "4"
+              ],
+              "meaning": [
+                "Enough of (a particular thing)"
+              ],
+              "example": [
+                "he hoped to publish monthly, if only he could find the money"
+              ],
+              "examples": [
+                "A significant 42% never get the time to take their full entitlement to annual leave.",
+                "We had to put bins where we had the space, and that's caused our system to be scattered.",
+                "Her only hope is to travel to Europe and receive experimental treatments - a trip she doesn't have the money for."
+              ],
+              "synonyms": [],
+              "sub_senses": null
+            },
+            {
+              "meaning_num": [
+                "5"
+              ],
+              "meaning": [
+                "(pronounced stressing ‘the’) used to indicate that someone or something is the best known or most important of that name or type."
+              ],
+              "example": [
+                "he was the hot young piano prospect in jazz"
+              ],
+              "examples": [
+                "The Marina is the place to be Easter Sunday if you enjoy quality jazz music.",
+                "Zutty Singleton was the drummer in Chicago.",
+                "If you'd like to understand the teenager in your family a little better then Crossroads is the film to watch."
+              ],
+              "synonyms": [],
+              "sub_senses": null
+            },
+            {
+              "meaning_num": [
+                "6"
+              ],
+              "meaning": [
+                "Used adverbially with comparatives to indicate how one amount or degree of something varies in relation to another."
+              ],
+              "example": [
+                "\n              the more she thought about it, the more devastating it became",
+                "commodities made all the more desirable by their rarity"
+              ],
+              "examples": [
+                "The more I learned, the more I found his theories to be flawed.",
+                "The older Tom gets, the less he understands them.",
+                "The sooner they declare it illegal, the better for all concerned."
+              ],
+              "synonyms": [],
+              "sub_senses": [
+                {
+                  "sub_sense_iteration": [
+                    "6.1"
+                  ],
+                  "sub_sense": [
+                    "Used to emphasize the amount or degree to which something is affected."
+                  ],
+                  "sub_sense_example": [
+                    "commodities made all the more desirable by their rarity"
+                  ],
+                  "sub_sense_examples": [
+                    "Several of those people left the church, and we are the better for it.",
+                    "Excellent engineering makes this CD all the more attractive.",
+                    "If it were possible for them to come up with an agreed contents of the application book then the preparation of it will be so much the quicker."
+                  ],
+                  "sub_sense_synonyms": []
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "usage_list": [],
+      "etymology_list": [
+        {
+          "etym_type": "origin",
+          "etym_content": [
+            "Old English se, sēo, thæt, ultimately superseded by forms from Northumbrian and North Mercian thē, of Germanic origin; related to Dutch de, dat, and German der, die, das."
+          ]
+        }
+      ]
+    }
+  ]
+}

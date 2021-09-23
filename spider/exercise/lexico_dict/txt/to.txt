@@ -1,0 +1,553 @@
+{
+  "word_dict": "to",
+  "main_meaning_list": [
+    {
+      "gramb_list": [
+        {
+          "pos": [
+            "preposition"
+          ],
+          "meaning_list": [
+            {
+              "meaning_num": [
+                "1"
+              ],
+              "meaning": [
+                "Expressing motion in the direction of (a particular location)"
+              ],
+              "example": [
+                "walking down to the shops",
+                "forty miles to the south of the site",
+                "a drop in profits from £105 m to around £75 m",
+                "it's five to ten"
+              ],
+              "examples": [
+                "my first visit to Africa",
+                "we're going to a party",
+                "He actually dropped to the ground just as a giant pickup rolled over him.",
+                "They commissioned GAD Architecture, a firm founded in Turkey that has since moved to New York.",
+                "Emlyn loudly exited the hotel and went to the station for the Bristol train.",
+                "Yosef, a successful lawyer, commuted hours each day to and from work.",
+                "Last Tuesday I went to a council meeting.",
+                "Her mum had to take her to hospital every week."
+              ],
+              "synonyms": [],
+              "sub_senses": [
+                {
+                  "sub_sense_iteration": [
+                    "1.1"
+                  ],
+                  "sub_sense": [
+                    "Expressing location, typically in relation to a specified point of reference."
+                  ],
+                  "sub_sense_example": [
+                    "forty miles to the south of the site"
+                  ],
+                  "sub_sense_examples": [
+                    "place the cursor to the left of the first word",
+                    "The family room to the right of the entrance hall has an unusual colour scheme.",
+                    "The landlocked country is dominated by the rugged Hindu Kush mountains that sweep from the west to the east.",
+                    "It was 850 miles to Singapore Harbor."
+                  ],
+                  "sub_sense_synonyms": []
+                },
+                {
+                  "sub_sense_iteration": [
+                    "1.2"
+                  ],
+                  "sub_sense": [
+                    "Expressing a point reached at the end of a range or after a period of time."
+                  ],
+                  "sub_sense_example": [
+                    "a drop in profits from £105 m to around £75 m"
+                  ],
+                  "sub_sense_examples": [
+                    "from 1938 to 1945",
+                    "The two books covers the dance band era from the 1930s to the 1960s.",
+                    "Prospectors arrived by land or sea and usually operated in groups of six to forty, working claims jointly.",
+                    "Another eight to ten million square feet of exhibition space is scheduled to come on line within five years.",
+                    "The working week is Monday to Friday."
+                  ],
+                  "sub_sense_synonyms": []
+                },
+                {
+                  "sub_sense_iteration": [
+                    "1.3"
+                  ],
+                  "sub_sense": [
+                    "(in telling the time) before (the hour specified)"
+                  ],
+                  "sub_sense_example": [
+                    "it's five to ten"
+                  ],
+                  "sub_sense_examples": [
+                    "I was awake at ten to six, at the gym by 6:30.",
+                    "It's twenty to one in the morning, and I'm beat.",
+                    "Apologies followed, and at five to three the belated ceremony commenced to the relief of all concerned."
+                  ],
+                  "sub_sense_synonyms": []
+                }
+              ]
+            },
+            {
+              "meaning_num": [
+                "2"
+              ],
+              "meaning": [
+                "Approaching or reaching (a particular condition)"
+              ],
+              "example": [
+                "Christopher's expression changed from amazement to joy",
+                "smashed to smithereens",
+                "to her astonishment, he smiled"
+              ],
+              "examples": [
+                "she was close to tears",
+                "The children cry themselves to sleep from hunger.",
+                "Shackleton's southern party passed the previous ‘furthest south’ record set by Scott, but by January 2 Shackleton was near to breaking point.",
+                "Can we ever know if an image moved large numbers of people to action, or changed the ways they think about things?",
+                "Back at the king's court, many warily watched the cardinal's rapid rise to power.",
+                "I can honestly say that officers and staff had a mixture of feelings ranging from anger to disgust."
+              ],
+              "synonyms": [
+                "in the direction of",
+                ", to, toward, so as to approach, so as to near"
+              ],
+              "sub_senses": [
+                {
+                  "sub_sense_iteration": [
+                    "2.1"
+                  ],
+                  "sub_sense": [
+                    "Expressing the result of a process or action."
+                  ],
+                  "sub_sense_example": [
+                    "smashed to smithereens"
+                  ],
+                  "sub_sense_examples": [
+                    "If you buy a pair of trainers and they fall to bits, you won't buy them again.",
+                    "One had taken a camcorder from someone and proceeded to smash it to pieces."
+                  ],
+                  "sub_sense_synonyms": []
+                },
+                {
+                  "sub_sense_iteration": [
+                    "2.2"
+                  ],
+                  "sub_sense": [
+                    "Governing a phrase expressing someone's reaction to something."
+                  ],
+                  "sub_sense_example": [
+                    "to her astonishment, he smiled"
+                  ],
+                  "sub_sense_examples": [
+                    "Much to his surprise, this small film has turned out to have wide appeal.",
+                    "To our dismay, unknown to us there was a motel only three kilometres down the road.",
+                    "I got 98% in the test but to my annoyance, Janet got 100%.",
+                    "She actually did dance with Astaire - but to her great regret, only once, in Easter Parade."
+                  ],
+                  "sub_sense_synonyms": []
+                }
+              ]
+            },
+            {
+              "meaning_num": [
+                "3"
+              ],
+              "meaning": [
+                "Identifying the person or thing affected by or receiving something."
+              ],
+              "example": [
+                "you were terribly unkind to her"
+              ],
+              "examples": [
+                "they donated £400 to the hospice",
+                "I am deeply grateful to my parents",
+                "I am thankful to Anna and her program for my rehabilitation.",
+                "When I got out of prison a couple of years ago he actually was very kind to me.",
+                "I wish you hadn't drawn attention to it.",
+                "In our marriage the most important factor is commitment and being considerate to each other."
+              ],
+              "synonyms": [],
+              "sub_senses": null
+            },
+            {
+              "meaning_num": [
+                "4"
+              ],
+              "meaning": [
+                "Identifying a particular relationship between one person and another."
+              ],
+              "example": [
+                "he is married to his cousin Emma",
+                "made to order",
+                "my car only does ten miles to the gallon",
+                "ten to the minus thirty-three"
+              ],
+              "examples": [
+                "she is senior advisor to the chief executive officer",
+                "She's now very happily engaged to a famous actor.",
+                "Alberto is single, while Ernesto is committed to his pretty, aristocratic girlfriend.",
+                "She was also special assistant to the cultural affairs commissioner in 1987.",
+                "He's married to a sociologist who teaches family studies at the University of Connecticut.",
+                "Karen, on the other hand, is a good friend to Daniel, whose young wife has just passed away."
+              ],
+              "synonyms": [],
+              "sub_senses": [
+                {
+                  "sub_sense_iteration": [
+                    "4.1"
+                  ],
+                  "sub_sense": [
+                    "Used in various phrases to indicate how something is related to something else (often followed by a noun without a determiner)"
+                  ],
+                  "sub_sense_example": [
+                    "made to order"
+                  ],
+                  "sub_sense_examples": [
+                    "a prelude to disaster",
+                    "You can even have your ideal leather coat made to measure by a leather specialist.",
+                    "Letting anyone into a country without proper identification and background checks is an invitation to chaos.",
+                    "There's a buffet at lunchtime, with plenty of good salads and dips, or the chef will cook a stir-fry to order."
+                  ],
+                  "sub_sense_synonyms": [
+                    "to",
+                    ", per, every, each"
+                  ]
+                },
+                {
+                  "sub_sense_iteration": [
+                    "4.2"
+                  ],
+                  "sub_sense": [
+                    "Indicating a rate of return on something, for example the distance travelled in exchange for fuel used."
+                  ],
+                  "sub_sense_example": [
+                    "my car only does ten miles to the gallon"
+                  ],
+                  "sub_sense_examples": [
+                    "The peso breached 50 to the dollar, plunging the country further into crisis.",
+                    "The petrol version will do 16.2 miles to the gallon around town.",
+                    "If you fly into wind you will get much less mileage to the litre.",
+                    "With the dollar at $1.24 to the pound, property in Florida was quite an attractive investment."
+                  ],
+                  "sub_sense_synonyms": []
+                },
+                {
+                  "sub_sense_iteration": [
+                    "4.3"
+                  ],
+                  "sub_sense": [
+                    "Indicating the power (exponent) to which a number is raised."
+                  ],
+                  "sub_sense_example": [
+                    "ten to the minus thirty-three"
+                  ],
+                  "sub_sense_examples": [
+                    "The smallest scale postulated is the Planck scale of 10 to the minus 33rd power for length and 10 to the minus 43rd of a second for time.",
+                    "This is a septillion (10 to the power of 24) times longer than the current age of the universe (about 10 billion years)."
+                  ],
+                  "sub_sense_synonyms": []
+                }
+              ]
+            },
+            {
+              "meaning_num": [
+                "5"
+              ],
+              "meaning": [
+                "Indicating that two things are attached or linked."
+              ],
+              "example": [
+                "he had left his dog tied to a drainpipe"
+              ],
+              "examples": [
+                "they are inextricably linked to this island",
+                "This dead-end dirt road follows a peaceful stretch of the Housatonic River and connects to the Appalachian Trail.",
+                "It is in the phone company's interest to get more homes linked to the Internet at very high rates of speed.",
+                "On the other corner, a dozen or so balloons are tied to a pole.",
+                "I have also attached the bulletin to this email so you could get a flavor of what we are doing."
+              ],
+              "synonyms": [],
+              "sub_senses": null
+            },
+            {
+              "meaning_num": [
+                "6"
+              ],
+              "meaning": [
+                "Concerning or likely to concern (something)"
+              ],
+              "example": [
+                "a threat to world peace"
+              ],
+              "examples": [
+                "a reference to Psalm 22:18",
+                "They raise the specter of technology as a danger to humanity.",
+                "Louis was required to renounce all claim to the English throne and to restore the charters of liberties granted by King John.",
+                "Although the film contains no direct references to the war, it surely is an allegory on World War II.",
+                "Pesticides pose risks to both human and nonhuman health if they are found in either surface or ground water."
+              ],
+              "synonyms": [],
+              "sub_senses": null
+            },
+            {
+              "meaning_num": [
+                "7"
+              ],
+              "meaning": [
+                "Used to introduce the second element in a comparison."
+              ],
+              "example": [
+                "the club's nothing to what it once was"
+              ],
+              "examples": [
+                "Tom told him a story about a parolee who stole a car to get back into jail because he preferred it to home.",
+                "It is simply that I think women are superior to men.",
+                "This kid is an angel compared to me though and has never been any trouble.",
+                "I prefer men to women."
+              ],
+              "synonyms": [],
+              "sub_senses": null
+            },
+            {
+              "meaning_num": [
+                "8"
+              ],
+              "meaning": [
+                "Placed before a debit entry in accounting."
+              ],
+              "example": [],
+              "examples": [],
+              "synonyms": [],
+              "sub_senses": null
+            }
+          ]
+        },
+        {
+          "pos": [
+            "infinitive particle"
+          ],
+          "meaning_list": [
+            {
+              "meaning_num": [
+                "1"
+              ],
+              "meaning": [
+                "Used with the base form of a verb to indicate that the verb is in the infinitive."
+              ],
+              "example": [
+                "I set out to buy food",
+                "she was left to die",
+                "I'm sorry to hear that",
+                "I'd love to go to France this summer",
+                "a house that people believed to be haunted",
+                "he was about to sing",
+                "a chair to sit on",
+                "the first person to arrive"
+              ],
+              "examples": [],
+              "synonyms": [],
+              "sub_senses": [
+                {
+                  "sub_sense_iteration": [
+                    "1.1"
+                  ],
+                  "sub_sense": [
+                    "Expressing purpose or intention."
+                  ],
+                  "sub_sense_example": [
+                    "I set out to buy food"
+                  ],
+                  "sub_sense_examples": [
+                    "I am going to tell you a story",
+                    "I went to get help and by the time I got back he had stopped breathing.",
+                    "Next time I am going to box differently with regard to speed and power.",
+                    "Thieves attempted to gain entry into the cafe on Saturday morning.",
+                    "His aim was to be a great artist, and in reality he was.",
+                    "My friend and I were determined to do better."
+                  ],
+                  "sub_sense_synonyms": []
+                },
+                {
+                  "sub_sense_iteration": [
+                    "1.2"
+                  ],
+                  "sub_sense": [
+                    "Expressing an outcome or result."
+                  ],
+                  "sub_sense_example": [
+                    "she was left to die"
+                  ],
+                  "sub_sense_examples": [
+                    "I managed to escape",
+                    "I decided to stay away from the crowd but close enough to hear the speakers.",
+                    "It's too cold to get out of bed.",
+                    "I have always dreamt about earning a living playing polo, and I think I am managing to achieve it.",
+                    "Parks was ignored and left to fend for herself in poverty for many years."
+                  ],
+                  "sub_sense_synonyms": []
+                },
+                {
+                  "sub_sense_iteration": [
+                    "1.3"
+                  ],
+                  "sub_sense": [
+                    "Expressing a cause."
+                  ],
+                  "sub_sense_example": [
+                    "I'm sorry to hear that"
+                  ],
+                  "sub_sense_examples": [
+                    "I'm really pleased to be here.",
+                    "He was shocked to discover the alleged activities at the university.",
+                    "I was so sorry to read her column slandering the film industry."
+                  ],
+                  "sub_sense_synonyms": []
+                },
+                {
+                  "sub_sense_iteration": [
+                    "1.4"
+                  ],
+                  "sub_sense": [
+                    "Indicating a desired or advisable action."
+                  ],
+                  "sub_sense_example": [
+                    "I'd love to go to France this summer"
+                  ],
+                  "sub_sense_examples": [
+                    "the leaflet explains how to start a course",
+                    "There is also information on where to find help with insulation and central heating.",
+                    "She's asked him to seek counseling.",
+                    "I want to show everybody I am stronger than he is.",
+                    "You talk about your sister a lot, I'd like to meet her."
+                  ],
+                  "sub_sense_synonyms": []
+                },
+                {
+                  "sub_sense_iteration": [
+                    "1.5"
+                  ],
+                  "sub_sense": [
+                    "Indicating a proposition that is known, believed, or reported about a specified person or thing."
+                  ],
+                  "sub_sense_example": [
+                    "a house that people believed to be haunted"
+                  ],
+                  "sub_sense_examples": [
+                    "Up to seven million people are thought to have been affected.",
+                    "To many, she was considered to be a modern Audrey Hepburn with her impeccable style, grace and elegance.",
+                    "It's a plant whose leaves are said to have many medicinal qualities."
+                  ],
+                  "sub_sense_synonyms": []
+                },
+                {
+                  "sub_sense_iteration": [
+                    "1.6"
+                  ],
+                  "sub_sense": [
+                    "Forming a future tense with reference to the immediate future."
+                  ],
+                  "sub_sense_example": [
+                    "he was about to sing"
+                  ],
+                  "sub_sense_examples": [
+                    "This news arrived just as a ceasefire was about to come into effect.",
+                    "Allan's about to get married - he's in Venice organising his pre-nuptial agreement!"
+                  ],
+                  "sub_sense_synonyms": []
+                },
+                {
+                  "sub_sense_iteration": [
+                    "1.7"
+                  ],
+                  "sub_sense": [
+                    "After a noun, indicating its function or purpose."
+                  ],
+                  "sub_sense_example": [
+                    "a chair to sit on"
+                  ],
+                  "sub_sense_examples": [
+                    "something to eat",
+                    "We don't have any water to drink.",
+                    "He's going to a cabaret, and he has absolutely nothing to wear.",
+                    "They see no sun in their limited lives, with no hay to lie on, no mud to roll in."
+                  ],
+                  "sub_sense_synonyms": []
+                },
+                {
+                  "sub_sense_iteration": [
+                    "1.8"
+                  ],
+                  "sub_sense": [
+                    "After a phrase containing an ordinal number."
+                  ],
+                  "sub_sense_example": [
+                    "the first person to arrive"
+                  ],
+                  "sub_sense_examples": [
+                    "Paula Wolfert was the last to speak and her slides were of various clay pots and dishes.",
+                    "Young male adults were the first to leave, out of fear of being forced to serve in the military.",
+                    "She is the second African-American to hold the post."
+                  ],
+                  "sub_sense_synonyms": []
+                }
+              ]
+            },
+            {
+              "meaning_num": [
+                "2"
+              ],
+              "meaning": [
+                "Used without a verb following when the missing verb is clearly understood."
+              ],
+              "example": [
+                "he asked her to come but she said she didn't want to"
+              ],
+              "examples": [
+                "As much as I didn't want to go, I had to.",
+                "It is your choice if you smoke or not but I think everyone would benefit if we made an effort not to.",
+                "I don't want this moment to end, but it's got to."
+              ],
+              "synonyms": [],
+              "sub_senses": null
+            }
+          ]
+        },
+        {
+          "pos": [
+            "adverb"
+          ],
+          "meaning_list": [
+            {
+              "meaning_num": [],
+              "meaning": [
+                "So as to be closed or nearly closed."
+              ],
+              "example": [
+                "he pulled the door to behind him"
+              ],
+              "examples": [
+                "I went in and pulled the door to."
+              ],
+              "synonyms": [
+                "secure",
+                ", secured, fastened, tight, firmly fixed"
+              ],
+              "sub_senses": null
+            }
+          ]
+        }
+      ],
+      "usage_list": [],
+      "etymology_list": [
+        {
+          "etym_type": "origin",
+          "etym_content": [
+            "Old English tō (adverb and preposition), of West Germanic origin; related to Dutch toe and German zu."
+          ]
+        }
+      ]
+    }
+  ]
+}

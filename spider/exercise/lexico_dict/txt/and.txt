@@ -1,0 +1,344 @@
+{
+  "word_dict": "and",
+  "main_meaning_list": [
+    {
+      "gramb_list": [
+        {
+          "pos": [
+            "conjunction"
+          ],
+          "meaning_list": [
+            {
+              "meaning_num": [
+                "1"
+              ],
+              "meaning": [
+                "Used to connect words of the same part of speech, clauses, or sentences, that are to be taken jointly."
+              ],
+              "example": [
+                "bread and butter",
+                "he turned round and walked out",
+                "there was a flash flood and by the next morning the town was under water",
+                "getting better and better",
+                "I cried and cried",
+                "all human conduct is determined or caused—but there are causes and causes",
+                "six and four makes ten",
+                "a line of men marching two and two"
+              ],
+              "examples": [
+                "they can read and write",
+                "a hundred and fifty",
+                "The shop, which sells donated books and CDs, helps owners on benefits to pay for treatment for sick pets.",
+                "He and I had been friends for a long time.",
+                "He was wearing a navy blue and green anorak.",
+                "I know you can see and hear everything that goes on.",
+                "The menu contains a lot of sausage and mash and steamed puddings.",
+                "She started out quietly and apologetically but her voice quickly gained firmness.",
+                "That will be three thousand and eighty dollars with four cents as my tip."
+              ],
+              "synonyms": [
+                "together with",
+                ", along with, with, as well as, in addition to, including, also, too"
+              ],
+              "sub_senses": [
+                {
+                  "sub_sense_iteration": [
+                    "1.1"
+                  ],
+                  "sub_sense": [
+                    "Used to connect two clauses when the second refers to something that happens after the first."
+                  ],
+                  "sub_sense_example": [
+                    "he turned round and walked out"
+                  ],
+                  "sub_sense_examples": [
+                    "I opened the door and looked around.",
+                    "The man then ran towards a waiting car and was driven away by someone else.",
+                    "I lifted my arm and wiped my eyes with my sleeve.",
+                    "He regularly dropped in and did a few hours' work.",
+                    "When they reached the surface, they took deep breaths and swam for their boat."
+                  ],
+                  "sub_sense_synonyms": []
+                },
+                {
+                  "sub_sense_iteration": [
+                    "1.2"
+                  ],
+                  "sub_sense": [
+                    "Used to connect two clauses, the second of which refers to something that results from the first."
+                  ],
+                  "sub_sense_example": [
+                    "there was a flash flood and by the next morning the town was under water"
+                  ],
+                  "sub_sense_examples": [
+                    "But the fun had gone out of it and the next day we did not travel.",
+                    "Early successes in some areas were dramatic, and by the early 1960s malaria was reduced to very low levels in certain countries.",
+                    "Don't take the movie too seriously, and you might enjoy it too.",
+                    "Catch all the rust spots before they spread - do that and a car will last forever."
+                  ],
+                  "sub_sense_synonyms": []
+                },
+                {
+                  "sub_sense_iteration": [
+                    "1.3"
+                  ],
+                  "sub_sense": [
+                    "Connecting two identical comparatives, to emphasize a progressive change."
+                  ],
+                  "sub_sense_example": [
+                    "getting better and better"
+                  ],
+                  "sub_sense_examples": [
+                    "Spamming is getting worse and worse - and more profitable for spammers.",
+                    "This case just continues to get more and more complex.",
+                    "Meeting the needs of a growing population will require the country to sink further and further into debt.",
+                    "There's no doubt about it, kitchens are getting bigger and bigger.",
+                    "The standard of entry is getting higher and higher every year."
+                  ],
+                  "sub_sense_synonyms": []
+                },
+                {
+                  "sub_sense_iteration": [
+                    "1.4"
+                  ],
+                  "sub_sense": [
+                    "Connecting two identical words, implying great duration or great extent."
+                  ],
+                  "sub_sense_example": [
+                    "I cried and cried"
+                  ],
+                  "sub_sense_examples": [
+                    "I've been a humongous fan of his music for years and years.",
+                    "I ran and ran until I reached the outskirts of the forest.",
+                    "This was a very flat land - he could see for miles and miles, it seemed.",
+                    "I try and try to become strong, but in the end, I am still the same coward I have always been.",
+                    "Higher gas prices are creating a financial hardship for millions and millions of Americans."
+                  ],
+                  "sub_sense_synonyms": []
+                },
+                {
+                  "sub_sense_iteration": [
+                    "1.5"
+                  ],
+                  "sub_sense": [
+                    "Used to connect two identical words to indicate that things of the same name or class have different qualities."
+                  ],
+                  "sub_sense_example": [
+                    "all human conduct is determined or caused—but there are causes and causes"
+                  ],
+                  "sub_sense_examples": [
+                    "But there are arguments and arguments, and it may be said that I have fastened on the wrong one.",
+                    "You lie, we lie, everybody lies - but there are lies and lies.",
+                    "There is heat and there is too much heat.",
+                    "I guess my view is that there is anger and then there's anger.",
+                    "There are accents and there are accents, and then there is the nearly impenetrable East End accent he brings to his portrayal ofthe brothers.",
+                    "There's bad and then there's bad—as in when the director of a movie takes to social media to warn people about how awful it's going to be."
+                  ],
+                  "sub_sense_synonyms": []
+                },
+                {
+                  "sub_sense_iteration": [
+                    "1.6"
+                  ],
+                  "sub_sense": [
+                    "Used to connect two numbers to indicate that they are being added together."
+                  ],
+                  "sub_sense_example": [
+                    "six and four makes ten"
+                  ],
+                  "sub_sense_examples": [
+                    "She's sick of spending her lunches with people that are so stupid they can't add two and two.",
+                    "I believe that four and four are eight.",
+                    "I know that two and two make four - and should be glad to prove it too if I could."
+                  ],
+                  "sub_sense_synonyms": [
+                    "and",
+                    ", added to, increased by, with the addition of"
+                  ]
+                },
+                {
+                  "sub_sense_iteration": [
+                    "1.7"
+                  ],
+                  "sub_sense": [
+                    "Used to connect two numbers, implying succession."
+                  ],
+                  "sub_sense_example": [
+                    "a line of men marching two and two"
+                  ],
+                  "sub_sense_examples": [
+                    "The knights come riding two and two."
+                  ],
+                  "sub_sense_synonyms": []
+                }
+              ]
+            },
+            {
+              "meaning_num": [
+                "2"
+              ],
+              "meaning": [
+                "Used to introduce an additional comment or interjection."
+              ],
+              "example": [
+                "if it came to a choice—and this was the worst thing—she would turn her back on her parents",
+                "‘I found the letter in her bag.’ ‘And did you steam it open?’",
+                "and now to the dessert"
+              ],
+              "examples": [
+                "He's a crook, a bit nutty, and rightly did time for his crimes.",
+                "He plays the piano ‘badly and vulgarly,’ and what is worse, he plays Grieg.",
+                "As an incentive, a customer that brings friends - and hopefully sales - to a party may receive additional discounts.",
+                "I'm worried (and she is as well) that she doesn't have a direction she wants to move in, job-wise.",
+                "For Leonardo, the human body, and especially the face, revealed an infinite capacity for expression."
+              ],
+              "synonyms": [
+                "as well as",
+                ", together with, along with, in addition to, added to, and, not to mention, besides, coupled with, with"
+              ],
+              "sub_senses": [
+                {
+                  "sub_sense_iteration": [
+                    "2.1"
+                  ],
+                  "sub_sense": [
+                    "Used to introduce a question in connection with what someone else has just said."
+                  ],
+                  "sub_sense_example": [
+                    "‘I found the letter in her bag.’ ‘And did you steam it open?’"
+                  ],
+                  "sub_sense_examples": [
+                    "‘I've just needed some time to myself to think about us.’ ‘And have you reached a conclusion?’",
+                    "‘He wanted to know if I wanted to be his partner for a social project.’ ‘And what did you say?’",
+                    "‘They are going to put my client out of business.’ ‘And where is the evidence of that, Mr. Adams?’",
+                    "‘Does not a mother love her child?’ ‘And what if you never went back home to her?’",
+                    "‘When I heard the rumor from a friend I passed it along.’ ‘And who would this friend be?’"
+                  ],
+                  "sub_sense_synonyms": []
+                },
+                {
+                  "sub_sense_iteration": [
+                    "2.2"
+                  ],
+                  "sub_sense": [
+                    "Used to introduce a statement about a new topic."
+                  ],
+                  "sub_sense_example": [
+                    "and now to the dessert"
+                  ],
+                  "sub_sense_examples": [
+                    "And now, the Page Six report.",
+                    "And next, we're going to go live to California for the very latest on the wildfires that are threatening celebrity mansions.",
+                    "Anyway, thank you for your lovely review! And here is the next chapter.",
+                    "And so to the evening's highlight: Shostakovich's extraordinary Trio No 2 in E minor."
+                  ],
+                  "sub_sense_synonyms": []
+                }
+              ]
+            },
+            {
+              "meaning_num": [
+                "3"
+              ],
+              "meaning": [
+                "Used after some verbs and before another verb to indicate intention, instead of ‘to’"
+              ],
+              "example": [],
+              "examples": [
+                "I would try and do what he said",
+                "We're going to see a day where 100,000 people come and worship with us on a weekend, between our five services.",
+                "Our primary objective right now is to try and market the region as a whole.",
+                "The experts also advise that you try and keep your cool.",
+                "Let's go and find out who this guy really is.",
+                "Maybe I can get Ike or one of our friends to come and help us."
+              ],
+              "synonyms": [],
+              "sub_senses": null
+            }
+          ]
+        },
+        {
+          "pos": [
+            "noun"
+          ],
+          "meaning_list": [
+            {
+              "meaning_num": [
+                "1"
+              ],
+              "meaning": [
+                "A Boolean operator which gives the value one if and only if all the operands are one, and otherwise has a value of zero."
+              ],
+              "example": [
+                "Using AND gates the researchers can synchronize the time-gated and non-gated signals to within 3 ns."
+              ],
+              "examples": [],
+              "synonyms": [],
+              "sub_senses": [
+                {
+                  "sub_sense_iteration": [
+                    "1.1"
+                  ],
+                  "sub_sense": [
+                    "A circuit which produces an output signal only when signals are received simultaneously through all input connections."
+                  ],
+                  "sub_sense_example": [
+                    "Using AND gates the researchers can synchronize the time-gated and non-gated signals to within 3 ns."
+                  ],
+                  "sub_sense_examples": [
+                    "The AND gate performs a logical ‘and ‘operation on two inputs, A and B.’",
+                    "A vehicular crash discrimination system incorporates first and second crash sensors operatively coupled to a logic AND gate, which activates a safety restraint system.",
+                    "It is similarly easy to implement an AND gate with two relays.",
+                    "An AND gate, for instance, receives two input bits and produces one output."
+                  ],
+                  "sub_sense_synonyms": []
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "usage_list": [
+        [
+          "It is still widely taught and believed that conjunctions such as and (and also but and because) should not be used to start a sentence, the argument being that a sentence starting with and expresses an incomplete thought and is therefore incorrect. Writers down the centuries have readily ignored this advice, however, using and to start a sentence, typically for rhetorical effect, as in the following example: What are the government's chances of winning in court? And what are the consequences? A small number of verbs, notably try, come, and go can be followed by and with another verb, as in sentences like we're going to try and explain it to them or why don't you come and see the film? The structures in these verbs correspond to the use of the infinitive to, as in we're going to try to explain it to them or why don't you come to see the film? Since these structures are grammatically odd—for example, the use is normally only idiomatic with the infinitive of the verb and not with other forms (i.e. it is not possible to say I tried and explained it to them)—they are regarded as wrong by some traditionalists. However, these uses are extremely common and can certainly be regarded as part of standard English. For information about whether it is more correct to say both the boys and the girls or both the boys and girls, see ",
+          "both"
+        ]
+      ],
+      "etymology_list": [
+        {
+          "etym_type": "phrases",
+          "etym_content": []
+        },
+        {
+          "etym_type": "origin",
+          "etym_content": [
+            "Old English and, ond, of Germanic origin; related to Dutch en and German und."
+          ]
+        }
+      ]
+    },
+    {
+      "gramb_list": [
+        {
+          "pos": [
+            "abbreviation"
+          ],
+          "meaning_list": [
+            {
+              "meaning_num": [],
+              "meaning": [
+                "Andorra (international vehicle registration)."
+              ],
+              "example": [],
+              "examples": [],
+              "synonyms": [],
+              "sub_senses": null
+            }
+          ]
+        }
+      ],
+      "usage_list": [],
+      "etymology_list": []
+    }
+  ]
+}

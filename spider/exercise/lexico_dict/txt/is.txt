@@ -1,0 +1,56 @@
+{
+  "word_dict": "is",
+  "main_meaning_list": [
+    {
+      "gramb_list": [
+        {
+          "pos": [
+            "abbreviation"
+          ],
+          "meaning_list": [
+            {
+              "meaning_num": [],
+              "meaning": [],
+              "example": [],
+              "examples": [],
+              "synonyms": [],
+              "sub_senses": null
+            }
+          ]
+        }
+      ],
+      "usage_list": [],
+      "etymology_list": []
+    },
+    {
+      "gramb_list": [
+        {
+          "pos": [
+            "abbreviation"
+          ],
+          "meaning_list": [
+            {
+              "meaning_num": [],
+              "meaning": [
+                "Iceland (international vehicle registration)."
+              ],
+              "example": [],
+              "examples": [],
+              "synonyms": [],
+              "sub_senses": null
+            }
+          ]
+        }
+      ],
+      "usage_list": [],
+      "etymology_list": [
+        {
+          "etym_type": "origin",
+          "etym_content": [
+            "From Icelandic Ísland."
+          ]
+        }
+      ]
+    }
+  ]
+}

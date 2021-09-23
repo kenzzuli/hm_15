@@ -19,5 +19,5 @@ from booktest import urls as booktest_urls
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^', include(booktest_urls))
+    url(r'^', include(booktest_urls, namespace='booktest'))
 ]

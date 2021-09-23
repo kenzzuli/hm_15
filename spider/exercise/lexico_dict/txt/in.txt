@@ -1,0 +1,650 @@
+{
+  "word_dict": "in",
+  "main_meaning_list": [
+    {
+      "gramb_list": [
+        {
+          "pos": [
+            "preposition"
+          ],
+          "meaning_list": [
+            {
+              "meaning_num": [
+                "1"
+              ],
+              "meaning": [
+                "Expressing the situation of something that is or appears to be enclosed or surrounded by something else."
+              ],
+              "example": [
+                "I'm living in London",
+                "don't put coal in the bath"
+              ],
+              "examples": [
+                "dressed in their Sunday best",
+                "she saw the bus in the rear-view mirror",
+                "What is in that box?",
+                "He was well known in the area but was a quiet type of man who went about his way in a gentle manner.",
+                "Nothing I did could make me an acceptable guest in that hotel without a credit card.",
+                "He's standing in the street.",
+                "A century ago, there was hardly an educated woman in this part of the world.",
+                "The bride was in a striking off-white dress.",
+                "There was black smoke and I could hardly see anything but there was no-one in the room.",
+                "He's dressed in faded jeans and a navy T-shirt.",
+                "As the days get longer and the sun warms the air we begin to see activity in our ponds.",
+                "I'm from a very small town in Texas.",
+                "Jose arrived last night about 9 p.m., but we were all in bed.",
+                "Never soak brushes in water, commercial cleaners or even paint.",
+                "I have lived in Bolton for four years now and I enjoy walking around the town.",
+                "And while all of this is going on I'm having to move out of my flat - a place I've been in for 4 years.",
+                "In the early part of the year staff in the department took nearly six days off sick each.",
+                "They want to hear from anyone living inthe area who may have seen or heard anything."
+              ],
+              "synonyms": [
+                "inside",
+                ", within, in the middle of, within the bounds of, within the confines of"
+              ],
+              "sub_senses": [
+                {
+                  "sub_sense_iteration": [
+                    "1.1"
+                  ],
+                  "sub_sense": [
+                    "Expressing motion with the result that something ends up within or surrounded by something else."
+                  ],
+                  "sub_sense_example": [
+                    "don't put coal in the bath"
+                  ],
+                  "sub_sense_examples": [
+                    "he got in his car and drove off",
+                    "She arrived to be sentenced with her belongings packed in bags ready to take to jail.",
+                    "She also cannot manage the stairs or getting in and out of the bath so has a stairlift and a bathlift too.",
+                    "One of the great attractions of the traditional paddling pool is being able to jump in it.",
+                    "The surf was good, the waves big enough to make me keep a close eye on the dog as he ran in and out of the water.",
+                    "Upon inspection we discovered ants crawling in and out of every hole in the computer.",
+                    "The hordes of away fans were marshalled safely in and out of the ground by police.",
+                    "There's a flurry to get them unloaded so people can get in the building.",
+                    "He was given a security code by a member of staff who was fed up with letting them in and out of the building.",
+                    "She climbed in the car, and the man drove to the next street.",
+                    "Store the potatoes for short periods in a dark cupboard.",
+                    "From the cab's front view, we witness Iris get in the back.",
+                    "Cuttings, leaves, plants, and uncooked fruit and vegetables can all be put in the green bin.",
+                    "He dropped anchor in the bay that fronts San Sebastian, the island's capital.",
+                    "He cut her hair and then took her to a studio where he got some shots done to display in his salon.",
+                    "I drove to Reno with my son and all the things I could fit in my car.",
+                    "It doesn't take a highly trained director to tell a few actresses to run in the woods and pretend to be scared.",
+                    "There are people who walk in my office and see nothing but the dullest thing in the world.",
+                    "Mum should never have allowed me to be put in that situation, or at least given me some info on what to expect."
+                  ],
+                  "sub_sense_synonyms": [
+                    "into",
+                    ", inside, into the interior of"
+                  ]
+                }
+              ]
+            },
+            {
+              "meaning_num": [
+                "2"
+              ],
+              "meaning": [
+                "Expressing a period of time during which an event happens or a situation remains the case."
+              ],
+              "example": [
+                "they met in 1885"
+              ],
+              "examples": [
+                "at one o'clock in the morning",
+                "I hadn't seen him in years",
+                "Most people come to my farm in the afternoon and have traveled a good distance to get there.",
+                "He hadn't had a girlfriend in ages.",
+                "I began the book in the summer of 1995.",
+                "Nothing else was happening in January.",
+                "This scheme has done very well in the past.",
+                "American courts in the nineteenth century demonstrated much broader standards of accountability than is the current practice.",
+                "I helped teach the role to Jane and Beth: they learnt it in a month.",
+                "It was around 4 o' clock in the afternoon and we wanted to have a snack before the show.",
+                "We have seen, in recent years, ambulance crews stoned by yobs as they try to go about their work.",
+                "Twice in the last few days I have been for walks on Dartmoor.",
+                "Nobody who is associated with the bank in that period can come out with any credit.",
+                "Five years have passed since Daly held up the trophy and in that time much has changed."
+              ],
+              "synonyms": [
+                "during",
+                ", in the course of, in the time of, over"
+              ],
+              "sub_senses": null
+            },
+            {
+              "meaning_num": [
+                "3"
+              ],
+              "meaning": [
+                "Expressing the length of time before a future event is expected to happen."
+              ],
+              "example": [
+                "I'll see you in fifteen minutes"
+              ],
+              "examples": [
+                "He's getting married in a few days.",
+                "I'll make my mind up in a week or two's time.",
+                "Tessa will start school in three and a half years.",
+                "That marriage contract said that in ten years, both of us could divorce and not have anything to do with each other.",
+                "She returned in ten minutes after she made sure the girls were fast asleep.",
+                "They promised to come back in 60 days if nothing had been done to redress their grievances.",
+                "Experts agree that, with an election expected in less than a year's time, the Tories should be doing even better."
+              ],
+              "synonyms": [
+                "after",
+                ", at the end of, following, subsequent to"
+              ],
+              "sub_senses": null
+            },
+            {
+              "meaning_num": [
+                "4"
+              ],
+              "meaning": [
+                "(often followed by a noun without a determiner) expressing a state or condition."
+              ],
+              "example": [
+                "to be in love",
+                "no discernible difference in quality"
+              ],
+              "examples": [
+                "I've got to put my affairs in order",
+                "a woman in her thirties",
+                "Until the rose bushes are in bloom again, the earlier-flowering bulbs will provide a lively picture.",
+                "I was madly in love with her and I was pretty sure she was in love with me.",
+                "Many people lined up for hours to see the movie only to come running out in horror before it was over.",
+                "I first read the book when I was in my twenties.",
+                "He shook his head, in sadness and grief.",
+                "Her affair with Duchamp continued in secrecy until 1950, when she returned to Brazil.",
+                "He had been in good health apart from the angina and had not smoked for 17 years.",
+                "Still, I live in hope that one day I might get my money.",
+                "Alfalfa fields range in height from 8 to 18 inches and look very good.",
+                "In reality, given human limitations, it can only be said we are doing the best we can."
+              ],
+              "synonyms": [],
+              "sub_senses": [
+                {
+                  "sub_sense_iteration": [
+                    "4.1"
+                  ],
+                  "sub_sense": [
+                    "Indicating the quality or aspect with respect to which a judgement is made."
+                  ],
+                  "sub_sense_example": [
+                    "no discernible difference in quality"
+                  ],
+                  "sub_sense_examples": [
+                    "The content of the drawings, while generally clear and well-detailed, is variable in quality.",
+                    "While lacking in merit as a decision-maker, he was extremely adroit in working the congressional funding process."
+                  ],
+                  "sub_sense_synonyms": []
+                }
+              ]
+            },
+            {
+              "meaning_num": [
+                "5"
+              ],
+              "meaning": [
+                "Expressing inclusion or involvement."
+              ],
+              "example": [
+                "I read it in a book"
+              ],
+              "examples": [
+                "acting in a film",
+                "Because marriage figures so prominently in her novels, much has been made of Austen's decision not to marry.",
+                "He was a huge hit in the comedy ‘Oh, God!’.",
+                "Tom Hanks is set to star in the film.",
+                "In the play, Herzen neither wins nor loses.",
+                "However, there is no reason to think that the claims in that material are unjustified.",
+                "Some expressions of opinion in that newspaper and elsewhere fall between the two.",
+                "The picture used in that billboard was actually the photo of Ibrahim on the cover of his solo album.",
+                "Williams has examined this literature in her book Ten Lectures on Theories of the Dance.",
+                "Those who don't know him better could be forgiven for missing the irony in that expression."
+              ],
+              "synonyms": [],
+              "sub_senses": null
+            },
+            {
+              "meaning_num": [
+                "6"
+              ],
+              "meaning": [
+                "Indicating someone's occupation or profession."
+              ],
+              "example": [
+                "she works in publishing"
+              ],
+              "examples": [
+                "It is four years since I was in politics.",
+                "He studied fine art at Nebraska University, completing his degree after service in the army in the First World War.",
+                "Jeff is working in sales for Southwest Landmark, Ohio.",
+                "I've been in computers for more than 15 years.",
+                "The recent scandal at the paper has affected all of us in the journalism profession.",
+                "After college I went to work in libraries, while I waited for the position I wanted in fashion."
+              ],
+              "synonyms": [],
+              "sub_senses": null
+            },
+            {
+              "meaning_num": [
+                "7"
+              ],
+              "meaning": [
+                "Indicating the language or medium used."
+              ],
+              "example": [
+                "say it in French",
+                "Mozart's Piano Concerto in E flat"
+              ],
+              "examples": [
+                "put it in writing",
+                "At that time I painted mostly in watercolor.",
+                "The questionnaire, in Spanish, took approximately 45 min to administer.",
+                "She thought that he was the greatest master of the art of telling a story in pictures without words.",
+                "The website will offer information not only online but also in PDF format, which allows the user to access then print information.",
+                "Create a job description, put it in writing and then discuss it with potential employees.",
+                "The student could barely put a sentence together in English.",
+                "A defamatory statement is libel if it is in permanent form such as writing or pictures."
+              ],
+              "synonyms": [],
+              "sub_senses": [
+                {
+                  "sub_sense_iteration": [
+                    "7.1"
+                  ],
+                  "sub_sense": [
+                    "Indicating the key in which a piece of music is written."
+                  ],
+                  "sub_sense_example": [
+                    "Mozart's Piano Concerto in E flat"
+                  ],
+                  "sub_sense_examples": [
+                    "It begins in G minor but progresses to a different key, C major.",
+                    "This leads to an extended coda, also in C minor, which gradually works its way back to the G minor key.",
+                    "‘Eroica’ is the name of Beethoven's Symphony No. 3 in B Flat."
+                  ],
+                  "sub_sense_synonyms": []
+                }
+              ]
+            },
+            {
+              "meaning_num": [
+                "8"
+              ],
+              "meaning": [
+                "As an integral part of (an activity)"
+              ],
+              "example": [
+                "in planning public expenditure it is better to be prudent"
+              ],
+              "examples": [
+                "In announcing the program, Computershare pointed out the environmental benefits of reducing the use of valuable resources such as trees.",
+                "I was not prepared for the variety of approvals and difficulties that came about in building a golf course.",
+                "In comparing the results of this study with the database, it was determined that two species previously undocumented had been collected.",
+                "I sacrifice the old to make way for the new and in doing so, I gain spiritual wisdom.",
+                "The organisation, in seeking to attract more male students to take up teaching, could have put their proposal forward as a special measure.",
+                "It would seem that the professor, in attempting to explain politics and religion to us, has lost his hold on common sense."
+              ],
+              "synonyms": [],
+              "sub_senses": null
+            },
+            {
+              "meaning_num": [
+                "9"
+              ],
+              "meaning": [
+                "Expressing a value as a proportion of (a whole)"
+              ],
+              "example": [
+                "a local income tax running at six pence in the pound"
+              ],
+              "examples": [
+                "Anyone who is in that income bracket will pay tax at 19.5c in the dollar.",
+                "The proposed scheme will involve writing off most of the company's £ 11.4 million debt and, if approved, unsecured creditors will lose 90p in the pound.",
+                "Perhaps only one in twenty of the city's adult residents had been born there.",
+                "He projects a success rate of one in five - twice the norm."
+              ],
+              "synonyms": [
+                "to",
+                ", per, every, each"
+              ],
+              "sub_senses": null
+            }
+          ]
+        },
+        {
+          "pos": [
+            "adverb"
+          ],
+          "meaning_list": [
+            {
+              "meaning_num": [
+                "1"
+              ],
+              "meaning": [
+                "Expressing movement with the result that someone or something becomes enclosed or surrounded by something else."
+              ],
+              "example": [
+                "come in"
+              ],
+              "examples": [
+                "presently the admiral breezed in",
+                "Mr Gilburn, who failed to appear in court, is thought to have moved in with a friend who lives locally.",
+                "He was in New York for the premiere of Tommy in 1975 and had decided to pop in on his admirer while he was in town.",
+                "The phone line for the office was put in on time and later today I am hoping to set up my internet connection.",
+                "Within the walls of the medina, the buildings close in on you, and you are taken into cool shadow.",
+                "‘Anna! Are you alright?’ Evan asked, jumping in after me.",
+                "The we went in and sat down and lots of other people were there.",
+                "There he burst in on an astonished young American couple and ran past them into a bedroom.",
+                "Apparently, we are going to be able to put plastic in with our cans and bottles.",
+                "They were finally caught out when one brother got their shifts mixed up and walked in on a romantic meal for two.",
+                "Two weeks later, I had another appointment in the city and I was supposed to go in  with my son again.",
+                "I think the child had been feeding the ducks when he fell in.",
+                "The story goes that he was working in a café one night when a pop star popped in for some grub.",
+                "I had no idea he was going to be there until he walked in with his girlfriend.",
+                "I was the one who didn't want to get too serious, so I was surprised when he asked me to move in with him.",
+                "If you'd been here an hour ago, you'd have seen the girl come in with her friend.",
+                "Teams are reminded that bonus points are not awarded when the result card is not sent in on time."
+              ],
+              "synonyms": [
+                "inside",
+                ", indoors, into the interior, into the building, into the house, into the room, within"
+              ],
+              "sub_senses": null
+            },
+            {
+              "meaning_num": [
+                "2"
+              ],
+              "meaning": [
+                "Expressing the situation of being enclosed or surrounded by something."
+              ],
+              "example": [
+                "we were locked in"
+              ],
+              "examples": [
+                "She had previously enjoyed food with nuts in, including breakfast cereals, and she had eaten chicken curries at other restaurants.",
+                "Staying in on a day like this is criminal.",
+                "She turned to the government for help and they found her an apartment for her to live in.",
+                "Cases of domestic violence rose as families stayed in on New Year's Eve to avoid the bad weather.",
+                "Shut in with his cronies, he sees the world as his enemy and opposition to his will as personal affront.",
+                "Kathy gave me a cup of tea with sugar in to help calm me.",
+                "We've had them for a good few years now - they were in with another box of books we bought.",
+                "Sixth grade was handled by general instructors, and each class was locked in with one instructor all day long."
+              ],
+              "synonyms": [],
+              "sub_senses": null
+            },
+            {
+              "meaning_num": [
+                "3"
+              ],
+              "meaning": [
+                "Expressing arrival."
+              ],
+              "example": [
+                "the train got in very late"
+              ],
+              "examples": [
+                "Their first pieces of work would be due in on Wednesday or Thursday of first week.",
+                "I'm a bit disappointed that my flight out is Friday afternoon, which allowing for time differences gets in at 8pm.",
+                "Bearing in mind the flight is due in at 11.20 pm, you'll watch its progress on the internet up to 20 minutes before it's due to land.",
+                "Entries must be in by 5pm.",
+                "Becky's train actually managed to get in on time."
+              ],
+              "synonyms": [],
+              "sub_senses": null
+            },
+            {
+              "meaning_num": [
+                "4"
+              ],
+              "meaning": [
+                "(of the tide) rising or at its highest level."
+              ],
+              "example": [
+                "The tide was in, and the breakers were a good twenty feet high when they hit the harbour wall."
+              ],
+              "examples": [
+                "Night had fallen, and the tide was in.",
+                "The tide came in and floated our canoes.",
+                "The tide was coming in and people moved their blankets up the beach."
+              ],
+              "synonyms": [
+                "high",
+                ", at its highest level, rising"
+              ],
+              "sub_senses": null
+            }
+          ]
+        },
+        {
+          "pos": [
+            "adjective"
+          ],
+          "meaning_list": [
+            {
+              "meaning_num": [
+                "1"
+              ],
+              "meaning": [
+                "Present at one's home or office."
+              ],
+              "example": [
+                "we knocked at the door but there was no one in"
+              ],
+              "examples": [
+                "It is now 10:00 am, and I've only been in for about 20 minutes.",
+                "I've only been in for five minutes and I stumble across a wedding party.",
+                "He does little else; his idea of a good time is a night in with some scouting reports.",
+                "Suffice it to say that his press conferences have all the allure of a night in with the prime minister.",
+                "The lads upstairs were having a sports night in with, I suspect, more than a few beers.",
+                "I'm not in on Monday."
+              ],
+              "synonyms": [
+                "present",
+                ", home, at home"
+              ],
+              "sub_senses": null
+            },
+            {
+              "meaning_num": [
+                "2"
+              ],
+              "meaning": [
+                "Fashionable."
+              ],
+              "example": [],
+              "examples": [
+                "pastels and light colours are in this year",
+                "the in thing to do",
+                "Luigi's was a large and crowded restaurant that was clearly the in place for the in-crowd.",
+                "The very in words are slammin' and rockin'.",
+                "This year, monochromatic colors are the in thing.",
+                "In addition to statement T-shirts, graphic T-shirts are in this year.",
+                "Way back when beards were in, mawkish mystics brought forth the concept album.",
+                "He even let his membership lapse at Au Bar, the in club."
+              ],
+              "synonyms": [
+                "fashionable",
+                ", in fashion, in vogue, voguish, stylish, in style, popular, up to date, bang up to date, up to the minute, modern, modish, trendsetting, chic"
+              ],
+              "sub_senses": null
+            },
+            {
+              "meaning_num": [
+                "3"
+              ],
+              "meaning": [
+                "(of the ball in tennis and similar games) landing within the designated playing area."
+              ],
+              "example": [
+                "Before I even came off the pick, I felt the shot was in."
+              ],
+              "examples": [
+                "As you can see, I held my finish and barely looked up even as the ball went in.",
+                "I don't think I got any first serves in today."
+              ],
+              "synonyms": [],
+              "sub_senses": null
+            },
+            {
+              "meaning_num": [
+                "4"
+              ],
+              "meaning": [
+                "Batting."
+              ],
+              "example": [
+                "which side is in?"
+              ],
+              "examples": [
+                "An analysis of his 53 centuries shows that in these innings he made 72% of the runs put on while he was in."
+              ],
+              "synonyms": [],
+              "sub_senses": null
+            }
+          ]
+        },
+        {
+          "pos": [
+            "noun"
+          ],
+          "meaning_list": [
+            {
+              "meaning_num": [],
+              "meaning": [
+                "A position of influence with someone powerful or famous."
+              ],
+              "example": [],
+              "examples": [
+                "she got an in with the promising new artist",
+                "For years, people have begged distant relatives concerning even the possibility of anyone knowing someone who has an in with owner Frank Sr.",
+                "For him, an in with the Bush family is worth more than anything lottery players have in their hand",
+                "The company has an in with the private club in Switzerland.",
+                "Once you've got an in with the right guys, they don't need to see a full script before, in theory, they start giving you development cash.",
+                "They knew, from endless meetings and conferences, which people they needed on their team, which people had an in with which interest groups, and who could help them in certain places.",
+                "The notably venerated violinist who gave him an in at the National Theater, where he soon found a niche.",
+                "I have never, never had an in at a bar before, where you can cut to the front of the line and get free tabs and stuff.",
+                "He has an in to the presidential process.",
+                "Tim might have an in with this agent or something because of his dad.",
+                "It never hurts to have an in with your head coach."
+              ],
+              "synonyms": [],
+              "sub_senses": null
+            }
+          ]
+        }
+      ],
+      "usage_list": [],
+      "etymology_list": [
+        {
+          "etym_type": "phrases",
+          "etym_content": [
+            {
+              "phrase": [
+                "the ins and outs"
+              ],
+              "sense_register": [
+                "informal "
+              ],
+              "phrase_info": {
+                "iteration": [],
+                "sense_register": [],
+                "explanation": [
+                  "All the details."
+                ],
+                "sub_senses": []
+              }
+            },
+            {
+              "phrase": [
+                "in that"
+              ],
+              "phrase_info": {
+                "iteration": [],
+                "sense_register": [],
+                "explanation": [
+                  "For the reason that."
+                ],
+                "sub_senses": []
+              }
+            },
+            {
+              "phrase": [
+                "be in for"
+              ],
+              "phrase_info": {
+                "iteration": [
+                  "1"
+                ],
+                "sense_register": [],
+                "explanation": [
+                  "Have good reason to expect (something, typically something unpleasant)"
+                ],
+                "sub_senses": [
+                  {
+                    "sub_sense_iteration": [
+                      "1.1"
+                    ],
+                    "sub_sense": [
+                      "be in for it"
+                    ],
+                    "explanation": [
+                      "Have good reason to expect trouble or retribution."
+                    ],
+                    "examples": [
+                      "‘By the time Artie got off the call, Gloria knew she was in for it.’",
+                      "‘But for us, we generally have one self-defense weapon, and if that doesn't work, we could be in for it.’",
+                      "‘Denise was in for it now, Carol would spread those rumours again.’",
+                      "‘I knew I was in for it the moment I saw the look on his face.’",
+                      "‘Our strength and conditioning coach came on this trip, so we knew we were in for it.’",
+                      "‘But whatever's wrong you two had better work it out before Adrien finds out or you'll both be in for it.’",
+                      "‘He looked a little hot around the collar, then his eyes narrowed and the corners of his mouth tilted up in an expression that told her she was in for it.’",
+                      "‘He would surely be in for it now; running away, then causing no end of trouble.’",
+                      "‘We knew we were in for it and we had to be ready.’"
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "etym_type": "origin",
+          "etym_content": [
+            "Old English in (preposition), inn, inne (adverb), of Germanic origin; related to Dutch and German in (preposition), German ein (adverb), from an Indo-European root shared by Latin in and Greek en."
+          ]
+        }
+      ]
+    },
+    {
+      "gramb_list": [
+        {
+          "pos": [
+            "abbreviation"
+          ],
+          "meaning_list": [
+            {
+              "meaning_num": [],
+              "meaning": [
+                "Indiana (in official postal use)."
+              ],
+              "example": [],
+              "examples": [],
+              "synonyms": [],
+              "sub_senses": null
+            }
+          ]
+        }
+      ],
+      "usage_list": [],
+      "etymology_list": []
+    }
+  ]
+}

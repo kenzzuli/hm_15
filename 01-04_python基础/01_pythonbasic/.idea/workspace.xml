@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a113c967-025f-4293-8af7-b877cfc46d86" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1jMOuv76hqYDjWZwijDTNz7dUgj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.exercise">
+    <configuration name="buyapple" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="01_pythonbasic" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/buyapple.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="exercise" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="01_pythonbasic" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exercise.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="formattedOutput" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="01_pythonbasic" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/formattedOutput.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="input" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="01_pythonbasic" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/input.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="typeofvariables" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="01_pythonbasic" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/typeofvariables.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.exercise" />
+        <item itemvalue="Python.formattedOutput" />
+        <item itemvalue="Python.input" />
+        <item itemvalue="Python.typeofvariables" />
+        <item itemvalue="Python.buyapple" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a113c967-025f-4293-8af7-b877cfc46d86" name="Default Changelist" comment="" />
+      <created>1603610719633</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603610719633</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="340" y="75" width="798" height="831" key="#Notifications" timestamp="1603693505137">
+      <screen x="0" y="23" width="1680" height="936" />
+    </state>
+    <state x="340" y="75" width="798" height="831" key="#Notifications/-1366.148.1366.1001/0.23.1680.936@0.23.1680.936" timestamp="1603693505137" />
+    <state x="534" y="280" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603693480501">
+      <screen x="0" y="23" width="1680" height="936" />
+    </state>
+    <state x="534" y="280" key="#com.intellij.fileTypes.FileTypeChooser/-1366.148.1366.1001/0.23.1680.936@0.23.1680.936" timestamp="1603693480501" />
+    <state width="812" height="219" key="GridCell.Tab.0.bottom" timestamp="1603693980372">
+      <screen x="0" y="23" width="1680" height="936" />
+    </state>
+    <state width="1636" height="326" key="GridCell.Tab.0.bottom/-1366.148.1366.1001/0.23.1680.1027@0.23.1680.1027" timestamp="1603612362799" />
+    <state width="812" height="219" key="GridCell.Tab.0.bottom/-1366.148.1366.1001/0.23.1680.936@0.23.1680.936" timestamp="1603693980372" />
+    <state width="1625" height="219" key="GridCell.Tab.0.bottom/0.23.1680.936@0.23.1680.936" timestamp="1603692002765" />
+    <state width="812" height="219" key="GridCell.Tab.0.center" timestamp="1603693980372">
+      <screen x="0" y="23" width="1680" height="936" />
+    </state>
+    <state width="1636" height="326" key="GridCell.Tab.0.center/-1366.148.1366.1001/0.23.1680.1027@0.23.1680.1027" timestamp="1603612362798" />
+    <state width="812" height="219" key="GridCell.Tab.0.center/-1366.148.1366.1001/0.23.1680.936@0.23.1680.936" timestamp="1603693980372" />
+    <state width="1625" height="219" key="GridCell.Tab.0.center/0.23.1680.936@0.23.1680.936" timestamp="1603692002764" />
+    <state width="812" height="219" key="GridCell.Tab.0.left" timestamp="1603693980372">
+      <screen x="0" y="23" width="1680" height="936" />
+    </state>
+    <state width="1636" height="326" key="GridCell.Tab.0.left/-1366.148.1366.1001/0.23.1680.1027@0.23.1680.1027" timestamp="1603612362798" />
+    <state width="812" height="219" key="GridCell.Tab.0.left/-1366.148.1366.1001/0.23.1680.936@0.23.1680.936" timestamp="1603693980372" />
+    <state width="1625" height="219" key="GridCell.Tab.0.left/0.23.1680.936@0.23.1680.936" timestamp="1603692002763" />
+    <state width="812" height="219" key="GridCell.Tab.0.right" timestamp="1603693980372">
+      <screen x="0" y="23" width="1680" height="936" />
+    </state>
+    <state width="1636" height="326" key="GridCell.Tab.0.right/-1366.148.1366.1001/0.23.1680.1027@0.23.1680.1027" timestamp="1603612362799" />
+    <state width="812" height="219" key="GridCell.Tab.0.right/-1366.148.1366.1001/0.23.1680.936@0.23.1680.936" timestamp="1603693980372" />
+    <state width="1625" height="219" key="GridCell.Tab.0.right/0.23.1680.936@0.23.1680.936" timestamp="1603692002764" />
+    <state width="1625" height="309" key="GridCell.Tab.1.bottom" timestamp="1603630754928">
+      <screen x="0" y="23" width="1680" height="936" />
+    </state>
+    <state width="1636" height="326" key="GridCell.Tab.1.bottom/-1366.148.1366.1001/0.23.1680.1027@0.23.1680.1027" timestamp="1603612362800" />
+    <state width="1625" height="309" key="GridCell.Tab.1.bottom/-1366.148.1366.1001/0.23.1680.936@0.23.1680.936" timestamp="1603630754928" />
+    <state width="1625" height="309" key="GridCell.Tab.1.center" timestamp="1603630754928">
+      <screen x="0" y="23" width="1680" height="936" />
+    </state>
+    <state width="1636" height="326" key="GridCell.Tab.1.center/-1366.148.1366.1001/0.23.1680.1027@0.23.1680.1027" timestamp="1603612362800" />
+    <state width="1625" height="309" key="GridCell.Tab.1.center/-1366.148.1366.1001/0.23.1680.936@0.23.1680.936" timestamp="1603630754928" />
+    <state width="1625" height="309" key="GridCell.Tab.1.left" timestamp="1603630754928">
+      <screen x="0" y="23" width="1680" height="936" />
+    </state>
+    <state width="1636" height="326" key="GridCell.Tab.1.left/-1366.148.1366.1001/0.23.1680.1027@0.23.1680.1027" timestamp="1603612362799" />
+    <state width="1625" height="309" key="GridCell.Tab.1.left/-1366.148.1366.1001/0.23.1680.936@0.23.1680.936" timestamp="1603630754928" />
+    <state width="1625" height="309" key="GridCell.Tab.1.right" timestamp="1603630754928">
+      <screen x="0" y="23" width="1680" height="936" />
+    </state>
+    <state width="1636" height="326" key="GridCell.Tab.1.right/-1366.148.1366.1001/0.23.1680.1027@0.23.1680.1027" timestamp="1603612362800" />
+    <state width="1625" height="309" key="GridCell.Tab.1.right/-1366.148.1366.1001/0.23.1680.936@0.23.1680.936" timestamp="1603630754928" />
+    <state x="362" y="62" key="SettingsEditor" timestamp="1603630266981">
+      <screen x="0" y="23" width="1680" height="936" />
+    </state>
+    <state x="362" y="155" key="SettingsEditor/-1366.148.1366.1001/0.23.1680.1027@0.23.1680.1027" timestamp="1603615113968" />
+    <state x="362" y="62" key="SettingsEditor/-1366.148.1366.1001/0.23.1680.936@0.23.1680.936" timestamp="1603630266981" />
+    <state x="362" y="143" key="SettingsEditor/0.23.1680.936@0.23.1680.936" timestamp="1603610837070" />
+    <state x="521" y="337" key="com.intellij.ide.util.TipDialog" timestamp="1603628134986">
+      <screen x="0" y="23" width="1680" height="936" />
+    </state>
+    <state x="521" y="337" key="com.intellij.ide.util.TipDialog/-1366.148.1366.1001/0.23.1680.936@0.23.1680.936" timestamp="1603628134986" />
+    <state x="421" y="23" width="838" height="1032" key="search.everywhere.popup" timestamp="1603691805495">
+      <screen x="0" y="23" width="1680" height="936" />
+    </state>
+    <state x="421" y="23" width="838" height="1032" key="search.everywhere.popup/0.23.1680.936@0.23.1680.936" timestamp="1603691805495" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/typeofvariables.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="name" />
+        <watch expression="name" />
+        <watch expression="name" />
+        <watch expression="name" />
+        <watch expression="name" />
+        <watch expression="name" />
+        <watch expression="name" />
+        <watch expression="name" />
+        <watch expression="fuck" language="Python" />
+        <watch expression="fuck" />
+        <watch expression="fuck" />
+        <watch expression="fuck" />
+        <watch expression="fuck" />
+        <watch expression="fuck" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

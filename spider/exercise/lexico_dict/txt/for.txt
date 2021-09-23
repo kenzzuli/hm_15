@@ -1,0 +1,537 @@
+{
+  "word_dict": "for",
+  "main_meaning_list": [
+    {
+      "gramb_list": [
+        {
+          "pos": [
+            "preposition"
+          ],
+          "meaning_list": [
+            {
+              "meaning_num": [
+                "1"
+              ],
+              "meaning": [
+                "In support of or in favour of (a person or policy)"
+              ],
+              "example": [
+                "troops who had fought for Napoleon"
+              ],
+              "examples": [
+                "they voted for independence in a referendum",
+                "So folks, if you agree with my policies, please vote for me at the next general election.",
+                "It may be hackneyed to point out that people fought and died for the right to vote, but it's true all the same.",
+                "This is a good idea and it enjoys the support of most of us who have fought for this country.",
+                "The British public might vote for you but don't expect them to support you afterwards.",
+                "The suffragettes claimed their place in social history by fighting for women to get the vote.",
+                "Anyone who votes for them is betraying the memory of all those who fought and died fighting the Nazis.",
+                "On the website there is the chance to vote for the favourite place in Wiltshire.",
+                "Readers were able to vote for their favourite and the tough decision came down to the judges.",
+                "Peter has now set up an online poll on his site, asking you to vote for your favourite.",
+                "It had no army capable of intervening in Europe and no politician arguing for such a policy.",
+                "It is in their interests to argue for a policy of dialogue with so called rogue states.",
+                "But whether you were for or against the decision when it was made, I think it is largely irrelevant now.",
+                "The report makes a strong case for more government funding.",
+                "There is a very good case for knocking these flats down because it will cost more to repair them than to start building from scratch.",
+                "However, within Scotland the Commission on Local Government and the Scottish Parliament has argued for an overall review of the system of local government finance.",
+                "At that time Swindon south Tories were against the development while the north Swindon Tories were for it.",
+                "The war is over and, no matter whether we were for it or against it, it is now time to move on.",
+                "Four were against the proposal, three were unwilling to say and 19 were for it.",
+                "Bravery is climbing over a trench and fighting for your country in a war.",
+                "At the time, young men were signing up in their droves to fight for their country."
+              ],
+              "synonyms": [
+                "on the side of",
+                ", pro, for, all for, giving support to, giving backing to, right behind, encouraging of, approving of, sympathetic to"
+              ],
+              "sub_senses": null
+            },
+            {
+              "meaning_num": [
+                "2"
+              ],
+              "meaning": [
+                "Affecting, with regard to, or in respect of."
+              ],
+              "example": [
+                "she is responsible for the efficient running of their department"
+              ],
+              "examples": [
+                "the demand for money",
+                "It was a success but due to a new demand for money, the WWF had to withdraw after one season.",
+                "He also learnt a new respect for further education, and those who work in it.",
+                "Anyone who has ever been down a pit returns to the surface with deep respect for those who make a career of mining.",
+                "I pick my battles and have enough respect for myself to know when it is time to walk away.",
+                "The family said they now hoped the media would respect their wish for privacy to be left alone to grieve.",
+                "We have been trying to give them an idea of how devastating it is for the communities affected.",
+                "The rise in pension costs will also affect earnings for a number of public companies.",
+                "I think we all made this movie out of deep respect and admiration for the original work.",
+                "She had been missing from her home in since July 22 and her family was growing increasingly worried for her safety.",
+                "So we gave him a call, and luckily for us, he was available.",
+                "The Careers Advisory Service will be responsible for the administration of the project.",
+                "You can make a claim via an employment tribunal for compensation if you think this has happened.",
+                "No date has yet been set for the employment tribunal hearing which is likely to be held in Leeds.",
+                "It is not yet known whether employees will be paid for their work this month.",
+                "He said he had no firm plans for his retirement and he was keeping his options open.",
+                "Even if every household in town had only one car, there would still not be enough space for everyone.",
+                "We knew there were problems at the car company but we did expect to be paid for the work we have done.",
+                "The weather forecast for today was scattered showers with clear spells and strong winds.",
+                "This is a very common problem and one that is most distressing for women of any age.",
+                "The government suggested that the retirement age for women might have to rise to 65.",
+                "He had been treated for depression after a failed suicide attempt earlier in the year."
+              ],
+              "synonyms": [
+                "in honour of",
+                ", as a tribute to, as a mark of respect to, the same as"
+              ],
+              "sub_senses": null
+            },
+            {
+              "meaning_num": [
+                "3"
+              ],
+              "meaning": [
+                "On behalf of or to the benefit of."
+              ],
+              "example": [
+                "I got a present for you",
+                "she is a tutor for the Open University"
+              ],
+              "examples": [
+                "these parents aren't speaking for everyone",
+                "It is nice to see people giving some of their leisure time for the benefit of others.",
+                "We can bring in the expertise and we can manage that for the customers' benefit.",
+                "We have a flexible benefits package for women and this is a woman-friendly company.",
+                "Obviously there's a business benefit for us in recycling as it cuts down the number of bags we use.",
+                "One of the huge benefits for companies is the ability to make claims retrospectively.",
+                "There were plenty of refreshments for everyone at the Coronation party.",
+                "Bedford believes what works about London is that there is something for everyone.",
+                "So there you are - a blog that is genuinely for anyone and everyone, but mainly for me.",
+                "Are you holding an event to raise money for those affected by the tsunami disaster?",
+                "Swindon went into Comic Relief overdrive as hundreds of people raised money for charity.",
+                "I was on my way out to buy a present for my mother.",
+                "I talked to the superintendent about the incident, but he didn't indicate to me exactly what his opinion was, so I can't speak for him.",
+                "There is no pension scheme in operation for employees working less than twenty hours per week.",
+                "It is more than probable that the busy agent will employ a reader to do the job for her.",
+                "If you love a particular design but don't like the colour, the firm will change it for you.",
+                "They told the receptionist they had a letter for the ambassador and asked to see him.",
+                "She is also a noted children's author, who has written two dozen books for children.",
+                "It's always an honour to play for your country and to test yourself against some of the top teams in the world.",
+                "I forgot to tell you but there's a package for you downstairs in the front hall on the mail table.",
+                "The mayor will hold a special celebration dinner for the club tomorrow night."
+              ],
+              "synonyms": [],
+              "sub_senses": [
+                {
+                  "sub_sense_iteration": [
+                    "3.1"
+                  ],
+                  "sub_sense": [
+                    "Employed by."
+                  ],
+                  "sub_sense_example": [
+                    "she is a tutor for the Open University"
+                  ],
+                  "sub_sense_examples": [
+                    "He has been working for the tyre-fitting firm since he left school.",
+                    "You will be able to draw on your company scheme while working for the same firm.",
+                    "The nationality of the hostages and the name of the firm they work for was last night unclear.",
+                    "Liubov worked as laundress and cook while Degaev worked for a while for a chemical firm.",
+                    "Ms Tshabangu then went to work for a white farmer who had employed her mother.",
+                    "They are workers who do work for the alleged discriminator, but they are not employed by him.",
+                    "They had friends from the Asian community and had worked for an Asian employer in the past.",
+                    "She is not very happy about it but she can't say too much because she works for the council.",
+                    "I used to work for a company that developed and sold computer systems for smaller businesses.",
+                    "I was asked to do the programme the year before, but I was still working for the BBC then and couldn't do it.",
+                    "He worked as a sales representative for an air conditioning company in Shrewsbury."
+                  ],
+                  "sub_sense_synonyms": []
+                }
+              ]
+            },
+            {
+              "meaning_num": [
+                "4"
+              ],
+              "meaning": [
+                "Having (the thing mentioned) as a purpose or function."
+              ],
+              "example": [
+                "networks for the exchange of information"
+              ],
+              "examples": [
+                "the necessary tools for making a picture frame",
+                "This is fun, and can be a powerful tool for learning and exchanging information.",
+                "The old doorman's room, which was not being used, was just right for the purpose, she said.",
+                "Have you ever used these fake papers to prove your identity for some purpose?",
+                "It doesn't matter that you've gone out and bought this service for business purposes.",
+                "Some of these are young American adults who come to work in London for work placement purposes.",
+                "Many Israelis who visit Poland for this purpose do not get to make the acquaintance of Poles.",
+                "If there looks to be too much fat, pour some into a small bowl to use for another purpose.",
+                "The police just give you a crime number for insurance purposes and this only puts up the premiums.",
+                "It's the first time we have ever had a room inside the church that can be used for any community purpose.",
+                "Later she asked if he could do a cartoon animated version of her, for publicity purposes.",
+                "Hence the gardens get used for corporate functions from time to time, but that's it.",
+                "We also want the Government to make it illegal to traffic a child for any purpose.",
+                "Yet what if a member of one of these sites intended to use it for criminal purposes?",
+                "Ouch, what did you do that for?",
+                "This is the age of technology where a phone is no longer just a device for making and receiving calls.",
+                "Although Suzanne and Inacio travel a lot for work, they make the most of their family time together.",
+                "Without question, the Internet and e-mail are essential tools for conducting business in a modern world.",
+                "After lunch, Michelle and her uncle went for a walk in the park.",
+                "I arrived much too early, despite having stopped for a coffee on the way.",
+                "We have therefore stumbled on a method for calculating distances in any number of dimensions."
+              ],
+              "synonyms": [
+                "because",
+                ", since, seeing that, seeing as, considering that, on account of the fact that, in view of the fact that, owing to the fact that"
+              ],
+              "sub_senses": null
+            },
+            {
+              "meaning_num": [
+                "5"
+              ],
+              "meaning": [
+                "Having (the thing mentioned) as a reason or cause."
+              ],
+              "example": [
+                "Aileen is proud of her family for their support"
+              ],
+              "examples": [
+                "I could dance and sing for joy",
+                "The teenager, who cannot be named for legal reasons, gave evidence to the court via video link.",
+                "In America, it is much harder for dissent to make such a breakthrough, for various reasons.",
+                "We have to do this for moral reasons, and because our security depends on it.",
+                "Our mum didn't attend the inquest for such reasons, and is now deeply distressed.",
+                "It did not work for a variety of reasons, but the appointment was imaginative and innovative.",
+                "The girl, who cannot be named for legal reasons, has given a statement to Austrian police.",
+                "He believes one reason for not putting on weight is the calories he burns off through nervous energy.",
+                "Now, the central African country is back in the spotlight for the right reasons.",
+                "Travel is easy because so many people have stayed at home, and the office is quiet for just the same reason.",
+                "Women want to be respected for being women, and they want to be able to respect a man for being a man.",
+                "They deserve our utmost respect and recognition for simply making the Olympic team.",
+                "Three other men were also jailed for their subordinate roles in the operation.",
+                "Arthur told me he was going to sue me for the way I represented him in the book.",
+                "I can't bear to walk past a broken bottle or can for fear that some child may one day step on it.",
+                "I'm particularly proud of her for maintaining her sense of humor despite some ongoing health problems.",
+                "She jumped up and down, shouting for joy.",
+                "The city is world famous for being home to some of the greatest rock bands.",
+                "When the war ended, they were awarded the George Cross for bravery.",
+                "I'd like to take her somewhere in the US or Europe as a surprise for her birthday.",
+                "I am grateful for all his help and advice over the years."
+              ],
+              "synonyms": [
+                "cause",
+                ", purpose, reason, aim, end, objective, object, goal, motive"
+              ],
+              "sub_senses": null
+            },
+            {
+              "meaning_num": [
+                "6"
+              ],
+              "meaning": [
+                "Having (the place mentioned) as a destination."
+              ],
+              "example": [
+                "they are leaving for London tomorrow"
+              ],
+              "examples": [
+                "He missed the following two Cup games but will leave with the team for Perth tomorrow.",
+                "As we left the stadium for the airport, bottles and bricks smacked against our coach.",
+                "The survivors, who are Spanish and Portuguese, are expected to leave for home today.",
+                "When we initially left for Africa we headed for Namibia and we really didn't have a detailed plan of how or where we were going to set up the education centre.",
+                "She has written a screenplay, set in the Twenties, in which a woman and her boyfriend leave Britain for Africa to start a new life.",
+                "The last train for Newbridge leaves Heuston at 10.45 pm, arriving at 11.20 pm.",
+                "He made the comments before leaving for Tokyo to attend Saturday's meeting of finance ministers and central bankers."
+              ],
+              "synonyms": [],
+              "sub_senses": null
+            },
+            {
+              "meaning_num": [
+                "7"
+              ],
+              "meaning": [
+                "Representing (the thing mentioned)"
+              ],
+              "example": [
+                "the ‘F’ is for Fascinating"
+              ],
+              "examples": [
+                "The ‘T’ is for telecommunications.",
+                "The initials C.P.R. stand for Cardio Pulmonary Resuscitation."
+              ],
+              "synonyms": [],
+              "sub_senses": null
+            },
+            {
+              "meaning_num": [
+                "8"
+              ],
+              "meaning": [
+                "In place of or in exchange for."
+              ],
+              "example": [
+                "will you swap these two bottles for that one?",
+                "copies are available for £1.20"
+              ],
+              "examples": [
+                "There was no denying that this was an exchange, their cash for your compliance.",
+                "He then walked off to try to get help to exchange the coins for larger ones.",
+                "The food will help make up five-day meal packages handed out in exchange for a meal ticket.",
+                "Take a number and walk down a few stairs into the cafe and exchange the number for a red tray.",
+                "All he had time to do was to exchange his regimental kilt for a pair of shorts, the better to look younger.",
+                "He then offers to write a story about the Air Force in exchange for being allowed a ride in a jet.",
+                "He also learns that he agreed to the memory wipe in exchange for a huge sum of money.",
+                "Bonded workers agree to sell their labour in exchange for a lump sum, perhaps to pay a big medical bill.",
+                "Girls tie threads around their brothers wrists in exchange for protection and a small gift.",
+                "In exchange for this, you also lose the chance of being able to benefit from a temporary fall in price.",
+                "If as dealer you do not like your hand you can exchange it for the spare hand.",
+                "Others offered promises to build a cathedral in his honour in exchange for a donation.",
+                "In exchange for his liberation he worked hard on the great vessel as a deck hand.",
+                "An early commission was from a student of mine, who gave me six bottles of wine for writing her a song.",
+                "Has he struck a Faustian pact with the devil so he gets all the money in the world in exchange for his soul.",
+                "I now eat one biscuit instead of a packetful, but the main thing is I have swapped high-fat foods for low-fat.",
+                "I wouldn't swap this job for anything.",
+                "Can you change a twenty pound note for two tens?",
+                "He agreed to give evidence in return for a lighter sentence."
+              ],
+              "synonyms": [],
+              "sub_senses": [
+                {
+                  "sub_sense_iteration": [
+                    "8.1"
+                  ],
+                  "sub_sense": [
+                    "Charged as (a price)"
+                  ],
+                  "sub_sense_example": [
+                    "copies are available for £1.20"
+                  ],
+                  "sub_sense_examples": [
+                    "The helping was not on the generous side but what do you expect for a fiver?",
+                    "Limited tickets are available for $35 each.",
+                    "Firms that do not complete and submit the online survey can purchase the report for $150.",
+                    "According to records, he bought the house in 1998 for $1.1 million."
+                  ],
+                  "sub_sense_synonyms": []
+                }
+              ]
+            },
+            {
+              "meaning_num": [
+                "9"
+              ],
+              "meaning": [
+                "In relation to the expected norm of."
+              ],
+              "example": [
+                "she was tall for her age"
+              ],
+              "examples": [
+                "it's quite warm for this time of year",
+                "Alban was sturdy and tall for his age with tawny locks reaching down to his shoulders.",
+                "In fact I have eyes like a hawk for someone my age.",
+                "The number of cattle bones is said to be uniquely large for an Iron Age burial in Britain.",
+                "Then the friend told me that he was told by many people that he looked unusually young for his age.",
+                "The risk of chromosomal abnormalities is very low for my age which is also a relief.",
+                "The water was surprisingly cold for the time of year.",
+                "This weather is certainly unseasonal for July, with the combination of strong winds, heavy rain and depressed temperatures making it feel more like November."
+              ],
+              "synonyms": [],
+              "sub_senses": null
+            },
+            {
+              "meaning_num": [
+                "10"
+              ],
+              "meaning": [
+                "Indicating the length of (a period of time)"
+              ],
+              "example": [
+                "he was jailed for 12 years"
+              ],
+              "examples": [
+                "I haven't seen him for some time",
+                "Do not stay out in the sun for lengthy periods without covering up and make sure you put on plenty of sun cream.",
+                "The onus is put on the student's parents to get him or her to school for the period of time the student is suspended.",
+                "What finally pushed me to this decision was getting stuck in a tunnel on a congested train for a long period.",
+                "You can also cook it on the stove of course, at a low heat, for about the same length of time.",
+                "It involves attendance at weekly two hour workshops for a period of seven weeks.",
+                "A fleeing thief who jumped into the River Ouse in York while it was in flood has been jailed for six months.",
+                "The trial was swift and Billy found himself sentenced to prison for a term of ten years.",
+                "A driver who caused a crash that seriously injured two people has been jailed for eight months.",
+                "You may show some public sympathy and support him for a while, but in the end he has to go.",
+                "Students have been able to have water bottles on their desks for three years.",
+                "Having worked at the shop for 23 years, everyone at the store felt she had earned a break.",
+                "She paid tribute to her tutors at Footsteps where she has trained for eight years.",
+                "They are often employed on a casual basis with employment lasting for only a few days.",
+                "Another teacher was employed to take the class for the remainder of the week.",
+                "He told me that I would have to remain in the hospital for a few days to make sure there was no infection before I could go home.",
+                "We do celebrate after matches but we can't get out of the ground because of the crowds, so we have to wait in the dressing rooms for ages.",
+                "I've known him for some time and he's very committed to reform.",
+                "It advised that the area be closed to new admissions straight away and it is expected to remain so for a couple of days.",
+                "The maternity unit itself is expected to be closed for just over three months.",
+                "Her parents and relations fretted over her for days as she lay in bed, burning with fever."
+              ],
+              "synonyms": [],
+              "sub_senses": null
+            },
+            {
+              "meaning_num": [
+                "11"
+              ],
+              "meaning": [
+                "Indicating the extent of (a distance)"
+              ],
+              "example": [
+                "he crawled for 300 yards"
+              ],
+              "examples": [
+                "I only used it for a few hundred yards, perilously close to a stretch of canal.",
+                "Head back now to the main track and follow it by your outward route for a few 100 yards to an open gate.",
+                "This went on for about a 100 yards when he finally asked me to wait whilst he pulled over.",
+                "Follow the river upstream from the weir for about two hundred yards and you will come to a clearing.",
+                "On the way back to the hotel I got completely lost and walked for miles.",
+                "The Colorado Trail extends for almost 500 miles between Denver and Durango and thousands of people hike at least a portion of it each year.",
+                "The dog has just run at full speed for 400 metres along the river bank scattering hundreds of rabbits.",
+                "She headed east on Highway 36 for a mile or so, then turned south on a gravel road."
+              ],
+              "synonyms": [],
+              "sub_senses": null
+            },
+            {
+              "meaning_num": [
+                "12"
+              ],
+              "meaning": [
+                "Indicating an occasion in a series."
+              ],
+              "example": [
+                "the camcorder failed for the third time"
+              ],
+              "examples": [
+                "So for the third year running here's the low-down on Melas happening in your area.",
+                "Brian, a Royal Marine home on leave in Blackburn, won the event for the third time.",
+                "Stay at Marlfield House just one night and you'll spend the next working out how to stay on for a third.",
+                "Plans for a crematorium in Radcliffe have been given the go-ahead for a third time.",
+                "She came back in October and set out to rearrange her wedding for a third time.",
+                "Accrington Stanley got back to the drawing board for the third time in as many games.",
+                "Painter and printmaker Kirsten Baron took part in the event for the third year running.",
+                "In the end it was Chris Tarrant's show which took the award for the third year running.",
+                "Ken Doherty was left to rue what might have been after losing for the third time in the final of this tournament.",
+                "You can do only so much bowling in the nets, and I just have to see if they are willing to take the risk for the third Test.",
+                "Officials said that for the second time in a row, ticket sales had exceeded £1m.",
+                "He won the Taiwan Open last week for the fourth time in a row.",
+                "He crossed the Atlantic for the first time in 1932.",
+                "She laughed and nodded, taking Paris' hand as she walked out of the office for the last time.",
+                "I pulled out my favorite book, How to Kill a Mockingbird, and started to read it for the billionth time."
+              ],
+              "synonyms": [],
+              "sub_senses": null
+            }
+          ]
+        },
+        {
+          "pos": [
+            "conjunction"
+          ],
+          "meaning_list": [
+            {
+              "meaning_num": [],
+              "meaning": [
+                "Because; since."
+              ],
+              "example": [
+                "he felt guilty, for he knew that he bore a share of responsibility for Fanny's death"
+              ],
+              "examples": [
+                "He smiled at this thought for he knew all too well that appearances were not always what they appeared to be.",
+                "He closed his eyes tightly and longed for death, for surely he would be dead sooner or later.",
+                "I didn't know what my future held, but God did, for he brought us together only a few months later."
+              ],
+              "synonyms": [],
+              "sub_senses": null
+            }
+          ]
+        }
+      ],
+      "usage_list": [],
+      "etymology_list": [
+        {
+          "etym_type": "phrases",
+          "etym_content": [
+            {
+              "phrase": [
+                "be for it"
+              ],
+              "sense_region": [
+                "British "
+              ],
+              "sense_register": [
+                "informal "
+              ],
+              "phrase_info": {
+                "iteration": [],
+                "sense_register": [],
+                "explanation": [
+                  "Be in imminent danger of punishment or other trouble."
+                ],
+                "sub_senses": []
+              }
+            },
+            {
+              "phrase": [
+                "do something for England"
+              ],
+              "sense_region": [
+                "British "
+              ],
+              "sense_register": [
+                "informal "
+              ],
+              "phrase_info": {
+                "iteration": [],
+                "sense_register": [],
+                "explanation": [
+                  "Used to indicate that someone does or can do the specified activity with great enthusiasm or tirelessness."
+                ],
+                "sub_senses": []
+              }
+            },
+            {
+              "phrase": [
+                "for Africa"
+              ],
+              "sense_region": [
+                "South African "
+              ],
+              "sense_register": [
+                "informal "
+              ],
+              "phrase_info": {
+                "iteration": [],
+                "sense_register": [],
+                "explanation": [
+                  "In huge numbers or quantities; galore."
+                ],
+                "sub_senses": []
+              }
+            }
+          ]
+        },
+        {
+          "etym_type": "origin",
+          "etym_content": [
+            "Old English, probably a reduction of a Germanic preposition meaning ‘before’ (in place or time); related to German für, also to ",
+            "fore",
+            "."
+          ]
+        }
+      ]
+    }
+  ]
+}

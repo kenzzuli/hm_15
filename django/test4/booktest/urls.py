@@ -2,7 +2,7 @@ from django.conf.urls import url
 from booktest import views
 
 urlpatterns = [
-    url(r'^index$', views.index),
+    url(r'^index$', views.index, name='index'),
     url(r'^index2$', views.index2),  # 模板文件加载顺序
     url(r'^tem_var$', views.tem_var),  # 模板变量
     url(r'^tem_tag$', views.tem_tag),  # 模板标签
@@ -16,5 +16,9 @@ urlpatterns = [
     url(r'^verify_code$', views.verify_code),  # 生成验证码图片
     url(r'^verify_show$', views.verify_show),  # 显示验证页面
     url(r'^verify_yz$', views.verify_yz),  # 验证用户提交的验证码
+    url(r'^url_reverse$', views.url_reverse),  # url反向解析
+    url(r'^show_args/(\d+)/(\d+)$', views.show_args, name='show_args'),  # 捕获位置参数
+    url(r'^show_kwargs/(?P<id1>\d+)/(?P<id2>\d+)$', views.show_kwargs, name='show_kwargs'),  # 捕获关键字参数
+    url(r'^test_redirect', views.test_redirect),  # 在视图中使用反向解析
 
 ]

@@ -5,6 +5,7 @@ from booktest.models import BookInfo
 from PIL import Image, ImageDraw, ImageFont
 from django.utils.six import BytesIO
 from string import ascii_letters, digits
+from django.core.urlresolvers import reverse
 
 
 # Create your views here.
@@ -231,3 +232,36 @@ def change_pwd_action(request):
     # 3.返回一个应答
     username = request.session.get('username')
     return HttpResponse("%s 修改密码为 %s" % (username, new_pass))
+
+
+# /url_reverse
+def url_reverse(request):
+    """url反向解析"""
+    return render(request, 'booktest/url_reverse.html')
+
+
+# /show_args
+def show_args(request, a, b):
+    return HttpResponse(a + ":" + b)
+
+
+# /show_kwargs
+def show_kwargs(request, id1, id2):
+    return HttpResponse(id1 + ":" + id2)
+
+
+# /test_redirect
+def test_redirect(request):
+    """使用反向解析重定向"""
+
+    # 重定向到/index, 获取动态生成的url
+    # url = reverse('booktest:index')
+
+    # 重定向到show_args/1/2
+    # url = reverse('booktest:show_args', args=(1, 2))
+
+    # 重定向到show_kwargs/3/4
+    url = reverse('booktest:show_kwargs', kwargs={"id1": 3, "id2": 4})
+
+    # 跳转
+    return redirect(url)

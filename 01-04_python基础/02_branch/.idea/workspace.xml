@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f4979eaf-4a2c-4693-bc07-643affa8a6fe" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1jP7g4yI5R3dkkQmq3zIxpuPuAF" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunManager" selected="Python.hm_08_stone_scissor_cloth">
+    <configuration name="hm_01_test_for_age" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="02_branch" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hm_01_test_for_age.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="hm_02_exercise_for_and_or_not" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="02_branch" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hm_02_exercise_for_and_or_not.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="hm_06_holiday_of_girlfrieds" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="02_branch" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hm_06_holiday_of_girlfrieds.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="hm_07_railway_station" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="02_branch" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hm_07_railway_station.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="hm_08_stone_scissor_cloth" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="02_branch" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hm_08_stone_scissor_cloth.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.hm_08_stone_scissor_cloth" />
+        <item itemvalue="Python.hm_07_railway_station" />
+        <item itemvalue="Python.hm_06_holiday_of_girlfrieds" />
+        <item itemvalue="Python.hm_02_exercise_for_and_or_not" />
+        <item itemvalue="Python.hm_01_test_for_age" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f4979eaf-4a2c-4693-bc07-643affa8a6fe" name="Default Changelist" comment="" />
+      <created>1603693980572</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603693980572</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1578" height="216" key="GridCell.Tab.0.bottom" timestamp="1605000956152">
+      <screen x="0" y="23" width="1920" height="1086" />
+    </state>
+    <state width="1625" height="216" key="GridCell.Tab.0.bottom/-1366.148.1366.1001/0.23.1680.1027@0.23.1680.1027" timestamp="1603697373005" />
+    <state width="1625" height="216" key="GridCell.Tab.0.bottom/-1366.148.1366.1001/0.23.1680.936@0.23.1680.936" timestamp="1603694922718" />
+    <state width="1398" height="216" key="GridCell.Tab.0.bottom/-3008.-45.3008.1578/0.23.1920.1177@0.23.1920.1177" timestamp="1604921854494" />
+    <state width="1578" height="216" key="GridCell.Tab.0.bottom/-3008.-45.3008.1669/0.23.1920.1086@0.23.1920.1086" timestamp="1605000956152" />
+    <state width="1578" height="216" key="GridCell.Tab.0.center" timestamp="1605000956152">
+      <screen x="0" y="23" width="1920" height="1086" />
+    </state>
+    <state width="1625" height="216" key="GridCell.Tab.0.center/-1366.148.1366.1001/0.23.1680.1027@0.23.1680.1027" timestamp="1603697373004" />
+    <state width="1625" height="216" key="GridCell.Tab.0.center/-1366.148.1366.1001/0.23.1680.936@0.23.1680.936" timestamp="1603694922718" />
+    <state width="1398" height="216" key="GridCell.Tab.0.center/-3008.-45.3008.1578/0.23.1920.1177@0.23.1920.1177" timestamp="1604921854494" />
+    <state width="1578" height="216" key="GridCell.Tab.0.center/-3008.-45.3008.1669/0.23.1920.1086@0.23.1920.1086" timestamp="1605000956152" />
+    <state width="1578" height="216" key="GridCell.Tab.0.left" timestamp="1605000956151">
+      <screen x="0" y="23" width="1920" height="1086" />
+    </state>
+    <state width="1625" height="216" key="GridCell.Tab.0.left/-1366.148.1366.1001/0.23.1680.1027@0.23.1680.1027" timestamp="1603697373004" />
+    <state width="1625" height="216" key="GridCell.Tab.0.left/-1366.148.1366.1001/0.23.1680.936@0.23.1680.936" timestamp="1603694922717" />
+    <state width="1398" height="216" key="GridCell.Tab.0.left/-3008.-45.3008.1578/0.23.1920.1177@0.23.1920.1177" timestamp="1604921854493" />
+    <state width="1578" height="216" key="GridCell.Tab.0.left/-3008.-45.3008.1669/0.23.1920.1086@0.23.1920.1086" timestamp="1605000956151" />
+    <state width="1578" height="216" key="GridCell.Tab.0.right" timestamp="1605000956152">
+      <screen x="0" y="23" width="1920" height="1086" />
+    </state>
+    <state width="1625" height="216" key="GridCell.Tab.0.right/-1366.148.1366.1001/0.23.1680.1027@0.23.1680.1027" timestamp="1603697373005" />
+    <state width="1625" height="216" key="GridCell.Tab.0.right/-1366.148.1366.1001/0.23.1680.936@0.23.1680.936" timestamp="1603694922718" />
+    <state width="1398" height="216" key="GridCell.Tab.0.right/-3008.-45.3008.1578/0.23.1920.1177@0.23.1920.1177" timestamp="1604921854494" />
+    <state width="1578" height="216" key="GridCell.Tab.0.right/-3008.-45.3008.1669/0.23.1920.1086@0.23.1920.1086" timestamp="1605000956152" />
+  </component>
+</project>

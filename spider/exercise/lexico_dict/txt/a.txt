@@ -1,0 +1,512 @@
+{
+  "word_dict": "a",
+  "main_meaning_list": [
+    {
+      "gramb_list": [
+        {
+          "pos": [
+            "determiner"
+          ],
+          "meaning_list": [
+            {
+              "meaning_num": [
+                "1"
+              ],
+              "meaning": [
+                "Used when referring to someone or something for the first time in a text or conversation."
+              ],
+              "example": [
+                "a man came out of the room",
+                "a hundred",
+                "I simply haven't a thing to wear",
+                "a Mr Smith telephoned",
+                "you're no better than a Hitler"
+              ],
+              "examples": [
+                "it has been an honour to meet you",
+                "we need people with a knowledge of languages",
+                "Bob's conducting a three-year internet romance with a girl he's never met.",
+                "He has also written an opera and translated Dante's Inferno in order to produce an illustrated book of it.",
+                "Children need a place for their computer equipment, and parents need closet space for their clothing.",
+                "Before making a decision, do an assessment of how you want to use your phone.",
+                "\"That campaign definitely had an effect,\" she says.",
+                "My wife got me an unexpected Christmas gift this year.",
+                "An internal report written by a manager at the nuclear waste reprocessing plant was leaked this week.",
+                "We had to write a story about a natural disaster for creative writing.",
+                "I received an email from Jo today.",
+                "Jack crouched down and hid behind a tree trunk."
+              ],
+              "synonyms": [],
+              "sub_senses": [
+                {
+                  "sub_sense_iteration": [
+                    "1.1"
+                  ],
+                  "sub_sense": [
+                    "Used with units of measurement to mean one such unit."
+                  ],
+                  "sub_sense_example": [
+                    "a hundred"
+                  ],
+                  "sub_sense_examples": [
+                    "a quarter of an hour",
+                    "I sent off an e-mail, just an hour ago, and he's already got me back online.",
+                    "About a mile further down the road, another dog ran out in front of the taxi.",
+                    "I stopped to pick up a gallon of milk on my way home from work.",
+                    "The attack came amid a major upsurge in violence across the country that has left a thousand dead.",
+                    "There is barely an ounce of fat on his body, and he continues to make his team-mates look chubby.",
+                    "I look at these miserable people, and wouldn't trade my life with theirs for a million dollars."
+                  ],
+                  "sub_sense_synonyms": []
+                },
+                {
+                  "sub_sense_iteration": [
+                    "1.2"
+                  ],
+                  "sub_sense": [
+                    "One single; any."
+                  ],
+                  "sub_sense_example": [
+                    "I simply haven't a thing to wear"
+                  ],
+                  "sub_sense_examples": [
+                    "Incensed at the fiasco, I went back to the website to try and find a telephone number to call - not a thing!",
+                    "I think there's not a person born that doesn't have a gift to offer in some way.",
+                    "I had to own up to the fact that I'd never read a word by Crofts.",
+                    "The film looks fantastic: there is not a spot, or a scratch, or a visual defect to be seen.",
+                    "Most refugees say they never saw a drop of food aid - despite almost one million tonnes flooding into the country every year."
+                  ],
+                  "sub_sense_synonyms": []
+                },
+                {
+                  "sub_sense_iteration": [
+                    "1.3"
+                  ],
+                  "sub_sense": [
+                    "Used when mentioning the name of someone not known to the speaker."
+                  ],
+                  "sub_sense_example": [
+                    "a Mr Smith telephoned"
+                  ],
+                  "sub_sense_examples": [
+                    "She was born in about 1670, the daughter of a Mr Freeman of Holbeach in Lincolnshire.",
+                    "He was sent two poems from a Miss Ethel Malley, who wrote saying they were found among her brother's possessions after his death.",
+                    "Does anyone know a Mr Daeller?",
+                    "On September 29 a letter arrived at our address for a Ms L Doherty.",
+                    "The latest letter was from a Mrs Singh, who complained about two radio stations."
+                  ],
+                  "sub_sense_synonyms": []
+                },
+                {
+                  "sub_sense_iteration": [
+                    "1.4"
+                  ],
+                  "sub_sense": [
+                    "Someone like (the name specified)"
+                  ],
+                  "sub_sense_example": [
+                    "you're no better than a Hitler"
+                  ],
+                  "sub_sense_examples": [
+                    "Called a Judas by his countrymen, he received an elbow from another player, and left the pitch injured.",
+                    "What he lacks is the charisma of an Olivier, whose epochal Coriolanus is dazzlingly evoked in two pages of Kenneth Tynan's Curtains.",
+                    "You need the methods of a Roosevelt.",
+                    "Regarding academic medicine, it has become increasingly difficult for a Freud or a Mendel to gain recognition without university affiliation or corporate sponsorship.",
+                    "Moore says that the organization has passed its Chamberlain period, and is now in need of a Churchill."
+                  ],
+                  "sub_sense_synonyms": []
+                }
+              ]
+            },
+            {
+              "meaning_num": [
+                "2"
+              ],
+              "meaning": [
+                "Used to indicate membership of a class of people or things."
+              ],
+              "example": [
+                "he is a lawyer"
+              ],
+              "examples": [
+                "this car is a BMW",
+                "She's a banker, married to a stockbroker, and they have a daughter about the same age as Amy.",
+                "My mom's a pharmacist and my dad's a realtor.",
+                "Lilly is a Siamese cat who survived a two-week cross-country move while stuck in a drawer.",
+                "Notice that every car seen in the show is a Chevrolet, out of consideration for their sponsor.",
+                "In 1984 he was granted his fervent wish to acquire a Picasso."
+              ],
+              "synonyms": [],
+              "sub_senses": null
+            },
+            {
+              "meaning_num": [
+                "3"
+              ],
+              "meaning": [
+                "In, to, or for each; per (used when expressing rates or ratios)"
+              ],
+              "example": [
+                "typing 60 words a minute"
+              ],
+              "examples": [
+                "a move to raise petrol prices by 3p a litre",
+                "The truckers are angry at the rise in diesel prices, which currently average 81.3p a litre.",
+                "The price of gold rose last week to $309 an ounce - and at one point was $312, its highest for two years.",
+                "You can't drive over five miles an hour down any street in New York.",
+                "The site takes in 2,000 tons of trash on a typical day, charging an average $30 a ton.",
+                "I type 15 words a minute with a lot of mistakes."
+              ],
+              "synonyms": [],
+              "sub_senses": null
+            }
+          ]
+        }
+      ],
+      "usage_list": [
+        [
+          "On the question of using a or an before words beginning with h, see ",
+          "an"
+        ]
+      ],
+      "etymology_list": [
+        {
+          "etym_type": "origin",
+          "etym_content": [
+            "Middle English weak form of Old English ān ‘one’."
+          ]
+        }
+      ]
+    },
+    {
+      "gramb_list": [
+        {
+          "pos": [
+            "noun"
+          ],
+          "meaning_list": [
+            {
+              "meaning_num": [
+                "1"
+              ],
+              "meaning": [
+                "The first letter of the alphabet."
+              ],
+              "example": [
+                "the A34"
+              ],
+              "examples": [],
+              "synonyms": [],
+              "sub_senses": [
+                {
+                  "sub_sense_iteration": [
+                    "1.1"
+                  ],
+                  "sub_sense": [
+                    "Denoting the first in a set of items, categories, sizes, etc."
+                  ],
+                  "sub_sense_example": [],
+                  "sub_sense_examples": [],
+                  "sub_sense_synonyms": []
+                },
+                {
+                  "sub_sense_iteration": [
+                    "1.2"
+                  ],
+                  "sub_sense": [
+                    "Denoting the first of two or more hypothetical people or things."
+                  ],
+                  "sub_sense_example": [],
+                  "sub_sense_examples": [
+                    "suppose A had killed B"
+                  ],
+                  "sub_sense_synonyms": []
+                },
+                {
+                  "sub_sense_iteration": [
+                    "1.3"
+                  ],
+                  "sub_sense": [
+                    "The highest class of academic mark."
+                  ],
+                  "sub_sense_example": [],
+                  "sub_sense_examples": [
+                    "a dazzling array of straight A's"
+                  ],
+                  "sub_sense_synonyms": []
+                },
+                {
+                  "sub_sense_iteration": [
+                    "1.4"
+                  ],
+                  "sub_sense": [
+                    "(in the UK) denoting the most important category of road, other than a motorway."
+                  ],
+                  "sub_sense_example": [
+                    "the A34"
+                  ],
+                  "sub_sense_examples": [
+                    "busy A-roads"
+                  ],
+                  "sub_sense_synonyms": []
+                },
+                {
+                  "sub_sense_iteration": [
+                    "1.5"
+                  ],
+                  "sub_sense": [
+                    "Denoting the highest-earning socio-economic category for marketing purposes, including top management and senior professional personnel."
+                  ],
+                  "sub_sense_example": [],
+                  "sub_sense_examples": [],
+                  "sub_sense_synonyms": []
+                },
+                {
+                  "sub_sense_iteration": [
+                    "1.6"
+                  ],
+                  "sub_sense": [
+                    "Denoting the first file from the left, as viewed from White's side of the board."
+                  ],
+                  "sub_sense_example": [],
+                  "sub_sense_examples": [],
+                  "sub_sense_synonyms": []
+                },
+                {
+                  "sub_sense_iteration": [
+                    "1.7"
+                  ],
+                  "sub_sense": [
+                    "The first constant to appear in an algebraic expression."
+                  ],
+                  "sub_sense_example": [],
+                  "sub_sense_examples": [],
+                  "sub_sense_synonyms": []
+                },
+                {
+                  "sub_sense_iteration": [
+                    "1.8"
+                  ],
+                  "sub_sense": [
+                    "Denoting the uppermost soil horizon, especially the topsoil."
+                  ],
+                  "sub_sense_example": [],
+                  "sub_sense_examples": [],
+                  "sub_sense_synonyms": []
+                },
+                {
+                  "sub_sense_iteration": [
+                    "1.9"
+                  ],
+                  "sub_sense": [
+                    "The human blood type (in the ABO system) containing the A antigen and lacking the B."
+                  ],
+                  "sub_sense_example": [],
+                  "sub_sense_examples": [],
+                  "sub_sense_synonyms": []
+                },
+                {
+                  "sub_sense_iteration": [
+                    "1.10"
+                  ],
+                  "sub_sense": [
+                    "(with numeral) denoting a series of international standard paper sizes each twice the area of the next, as A0, A1, A2, A3, A4, etc., A4 being 210 × 297 mm."
+                  ],
+                  "sub_sense_example": [],
+                  "sub_sense_examples": [],
+                  "sub_sense_synonyms": []
+                }
+              ]
+            },
+            {
+              "meaning_num": [
+                "2"
+              ],
+              "meaning": [
+                "A shape like that of a capital A."
+              ],
+              "example": [],
+              "examples": [
+                "an A-shape"
+              ],
+              "synonyms": [],
+              "sub_senses": null
+            },
+            {
+              "meaning_num": [
+                "3"
+              ],
+              "meaning": [
+                "The sixth note of the diatonic scale of C major. The A above middle C is usually used as the basis for tuning and in modern music has a standard frequency of 440 Hz."
+              ],
+              "example": [],
+              "examples": [],
+              "synonyms": [],
+              "sub_senses": [
+                {
+                  "sub_sense_iteration": [
+                    "3.1"
+                  ],
+                  "sub_sense": [
+                    "A key based on a scale with A as its keynote."
+                  ],
+                  "sub_sense_example": [],
+                  "sub_sense_examples": [],
+                  "sub_sense_synonyms": []
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "usage_list": [],
+      "etymology_list": [
+        {
+          "etym_type": "phrases",
+          "etym_content": [
+            {
+              "phrase": [
+                "from A to Z"
+              ],
+              "phrase_info": {
+                "iteration": [],
+                "sense_register": [],
+                "explanation": [
+                  "Over the entire range; completely."
+                ],
+                "sub_senses": []
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "gramb_list": [
+        {
+          "pos": [
+            "abbreviation"
+          ],
+          "meaning_list": [
+            {
+              "meaning_num": [
+                "1"
+              ],
+              "meaning": [
+                "(in card games) ace."
+              ],
+              "example": [],
+              "examples": [
+                "you cash ♥AK"
+              ],
+              "synonyms": [],
+              "sub_senses": null
+            },
+            {
+              "meaning_num": [
+                "2"
+              ],
+              "meaning": [
+                "Against (heading the column in a table of sports results which shows the goals or points scored against each club)."
+              ],
+              "example": [],
+              "examples": [],
+              "synonyms": [],
+              "sub_senses": null
+            },
+            {
+              "meaning_num": [
+                "3"
+              ],
+              "meaning": [
+                "A level."
+              ],
+              "example": [],
+              "examples": [],
+              "synonyms": [],
+              "sub_senses": null
+            },
+            {
+              "meaning_num": [
+                "4"
+              ],
+              "meaning": [
+                "Ampere(s)."
+              ],
+              "example": [],
+              "examples": [],
+              "synonyms": [],
+              "sub_senses": null
+            },
+            {
+              "meaning_num": [
+                "5"
+              ],
+              "meaning": [],
+              "example": [],
+              "examples": [],
+              "synonyms": [],
+              "sub_senses": null
+            },
+            {
+              "meaning_num": [
+                "6"
+              ],
+              "meaning": [
+                "Attack (in designations of US aircraft types)"
+              ],
+              "example": [],
+              "examples": [
+                "an A-10"
+              ],
+              "synonyms": [],
+              "sub_senses": null
+            },
+            {
+              "meaning_num": [
+                "7"
+              ],
+              "meaning": [
+                "Answer."
+              ],
+              "example": [],
+              "examples": [
+                "Q: What is a hung parliament? A: One in which no single party has an overall majority"
+              ],
+              "synonyms": [],
+              "sub_senses": null
+            },
+            {
+              "meaning_num": [
+                "8"
+              ],
+              "meaning": [
+                "(in names of sports clubs) Athletic."
+              ],
+              "example": [],
+              "examples": [
+                "Dunfermline A"
+              ],
+              "synonyms": [],
+              "sub_senses": null
+            },
+            {
+              "meaning_num": [
+                "9"
+              ],
+              "meaning": [
+                "Austria (international vehicle registration)."
+              ],
+              "example": [],
+              "examples": [],
+              "synonyms": [],
+              "sub_senses": null
+            }
+          ]
+        }
+      ],
+      "usage_list": [],
+      "etymology_list": []
+    }
+  ]
+}

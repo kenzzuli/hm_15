@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="caf0af4a-561e-4b1f-805f-28a26449c591" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1kxS10ZLIqWqC3C62zq2YKK8Aup" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RunManager" selected="Python.hm_10_导入包">
+    <configuration name="hm_07_from_import导入全部" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="11_模块" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hm_07_from_import导入全部.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="hm_08_模块的搜索顺序" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="11_模块" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hm_08_模块的搜索顺序.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="hm_09_name_测试" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="11_模块" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hm_09_name_测试.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="hm_09_name_模块" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="11_模块" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hm_09_name_模块.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="hm_10_导入包" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="11_模块" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hm_10_导入包.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.hm_10_导入包" />
+        <item itemvalue="Python.hm_09_name_测试" />
+        <item itemvalue="Python.hm_09_name_模块" />
+        <item itemvalue="Python.hm_08_模块的搜索顺序" />
+        <item itemvalue="Python.hm_07_from_import导入全部" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="caf0af4a-561e-4b1f-805f-28a26449c591" name="Default Changelist" comment="" />
+      <created>1606640530151</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606640530151</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1747" height="307" key="GridCell.Tab.0.bottom" timestamp="1606650345049">
+      <screen x="942" y="-1415" width="2560" height="1415" />
+    </state>
+    <state width="1747" height="244" key="GridCell.Tab.0.bottom/942.-1415.2560.1415/-1618.-1415.2560.1319/0.25.1680.1025@942.-1415.2560.1415" timestamp="1606641741173" />
+    <state width="1747" height="307" key="GridCell.Tab.0.bottom/942.-1415.2560.1415/-1618.-1415.2560.1415/0.25.1680.929@942.-1415.2560.1415" timestamp="1606650345049" />
+    <state width="1747" height="307" key="GridCell.Tab.0.center" timestamp="1606650345049">
+      <screen x="942" y="-1415" width="2560" height="1415" />
+    </state>
+    <state width="1747" height="244" key="GridCell.Tab.0.center/942.-1415.2560.1415/-1618.-1415.2560.1319/0.25.1680.1025@942.-1415.2560.1415" timestamp="1606641741172" />
+    <state width="1747" height="307" key="GridCell.Tab.0.center/942.-1415.2560.1415/-1618.-1415.2560.1415/0.25.1680.929@942.-1415.2560.1415" timestamp="1606650345049" />
+    <state width="1747" height="307" key="GridCell.Tab.0.left" timestamp="1606650345048">
+      <screen x="942" y="-1415" width="2560" height="1415" />
+    </state>
+    <state width="1747" height="244" key="GridCell.Tab.0.left/942.-1415.2560.1415/-1618.-1415.2560.1319/0.25.1680.1025@942.-1415.2560.1415" timestamp="1606641741171" />
+    <state width="1747" height="307" key="GridCell.Tab.0.left/942.-1415.2560.1415/-1618.-1415.2560.1415/0.25.1680.929@942.-1415.2560.1415" timestamp="1606650345048" />
+    <state width="1747" height="307" key="GridCell.Tab.0.right" timestamp="1606650345049">
+      <screen x="942" y="-1415" width="2560" height="1415" />
+    </state>
+    <state width="1747" height="244" key="GridCell.Tab.0.right/942.-1415.2560.1415/-1618.-1415.2560.1319/0.25.1680.1025@942.-1415.2560.1415" timestamp="1606641741172" />
+    <state width="1747" height="307" key="GridCell.Tab.0.right/942.-1415.2560.1415/-1618.-1415.2560.1415/0.25.1680.929@942.-1415.2560.1415" timestamp="1606650345049" />
+    <state width="1747" height="307" key="GridCell.Tab.1.bottom" timestamp="1606650345050">
+      <screen x="942" y="-1415" width="2560" height="1415" />
+    </state>
+    <state width="1747" height="307" key="GridCell.Tab.1.bottom/942.-1415.2560.1415/-1618.-1415.2560.1415/0.25.1680.929@942.-1415.2560.1415" timestamp="1606650345050" />
+    <state width="1747" height="307" key="GridCell.Tab.1.center" timestamp="1606650345050">
+      <screen x="942" y="-1415" width="2560" height="1415" />
+    </state>
+    <state width="1747" height="307" key="GridCell.Tab.1.center/942.-1415.2560.1415/-1618.-1415.2560.1415/0.25.1680.929@942.-1415.2560.1415" timestamp="1606650345050" />
+    <state width="1747" height="307" key="GridCell.Tab.1.left" timestamp="1606650345050">
+      <screen x="942" y="-1415" width="2560" height="1415" />
+    </state>
+    <state width="1747" height="307" key="GridCell.Tab.1.left/942.-1415.2560.1415/-1618.-1415.2560.1415/0.25.1680.929@942.-1415.2560.1415" timestamp="1606650345050" />
+    <state width="1747" height="307" key="GridCell.Tab.1.right" timestamp="1606650345050">
+      <screen x="942" y="-1415" width="2560" height="1415" />
+    </state>
+    <state width="1747" height="307" key="GridCell.Tab.1.right/942.-1415.2560.1415/-1618.-1415.2560.1415/0.25.1680.929@942.-1415.2560.1415" timestamp="1606650345050" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/hm_09_name_测试.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

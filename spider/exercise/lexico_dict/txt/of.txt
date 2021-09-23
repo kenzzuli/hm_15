@@ -1,0 +1,467 @@
+{
+  "word_dict": "of",
+  "main_meaning_list": [
+    {
+      "gramb_list": [
+        {
+          "pos": [
+            "preposition"
+          ],
+          "meaning_list": [
+            {
+              "meaning_num": [
+                "1"
+              ],
+              "meaning": [
+                "Expressing the relationship between a part and a whole."
+              ],
+              "example": [
+                "the sleeve of his coat",
+                "nine of the children came to the show"
+              ],
+              "examples": [],
+              "synonyms": [],
+              "sub_senses": [
+                {
+                  "sub_sense_iteration": [
+                    "1.1"
+                  ],
+                  "sub_sense": [
+                    "With the word denoting the part functioning as the head of the phrase."
+                  ],
+                  "sub_sense_example": [
+                    "the sleeve of his coat"
+                  ],
+                  "sub_sense_examples": [
+                    "in the back of the car",
+                    "the days of the week",
+                    "Alana wiped her tears with the sleeve of her sweater.",
+                    "Our kids were still asleep in the back of the car.",
+                    "Moderate to vigorous exercise - if done most days of the week - also goes a long way toward keeping your heart healthy.",
+                    "Seal the lid of the container tightly and tape the lid with duct tape.",
+                    "Anna tightened her grip on the handle of the sword.",
+                    "I reached into the pocket of my jeans and took out a scrap of paper.",
+                    "Ben sat down heavily on the edge of the bed.",
+                    "She was lying on the floor of the bathroom adjoining the main bedroom."
+                  ],
+                  "sub_sense_synonyms": []
+                },
+                {
+                  "sub_sense_iteration": [
+                    "1.2"
+                  ],
+                  "sub_sense": [
+                    "After a number, quantifier, or partitive noun, with the word denoting the whole functioning as the head of the phrase."
+                  ],
+                  "sub_sense_example": [
+                    "nine of the children came to the show"
+                  ],
+                  "sub_sense_examples": [
+                    "a series of programmes",
+                    "a piece of cake",
+                    "Police said two of the men charged were using false identities.",
+                    "Some of the children had fallen asleep.",
+                    "His career as television's pre-eminent art historian started with a series of programmes made for ITV.",
+                    "She decided to buy a bottle of champagne and celebrate with Michele.",
+                    "She went inside and poured another cup of coffee.",
+                    "It costs a lot of money to make a movie.",
+                    "What I'd like right now is an enormous slice of chocolate cake.",
+                    "This is really what the island is known for - the gorgeous 12-mile stretch of fine sand.",
+                    "He wasn't interested in financial success, unlike most of his team mates.",
+                    "He grabbed a handful of fries and started eating."
+                  ],
+                  "sub_sense_synonyms": [
+                    "equal to",
+                    ", up to, capable, of, suited to, suitable for, able to do, qualified for, fit for, good enough for, sufficient for"
+                  ]
+                }
+              ]
+            },
+            {
+              "meaning_num": [
+                "2"
+              ],
+              "meaning": [
+                "Expressing the relationship between a scale or measure and a value."
+              ],
+              "example": [
+                "an increase of 5%",
+                "a boy of 15"
+              ],
+              "examples": [
+                "a height of 10 metres",
+                "The rise represents an increase of 36 per cent over three years.",
+                "Apple trees normally grow to a height of 20 to 30 feet.",
+                "Male lions can attain a weight of up to 225 kg.",
+                "The shares responded with a fall of 117.5p to 185p."
+              ],
+              "synonyms": [],
+              "sub_senses": [
+                {
+                  "sub_sense_iteration": [
+                    "2.1"
+                  ],
+                  "sub_sense": [
+                    "Expressing an age."
+                  ],
+                  "sub_sense_example": [
+                    "a boy of 15"
+                  ],
+                  "sub_sense_examples": [
+                    "Almost 40 years ago, as a boy of ten, I was subjected to persistent bullying at a new school.",
+                    "He was a man of middle age, tall with brown hair.",
+                    "For a baby of only three months, she was remarkably heavy.",
+                    "A thin woman stepped out of another room, a baby of six or seven months balanced on her hip."
+                  ],
+                  "sub_sense_synonyms": []
+                }
+              ]
+            },
+            {
+              "meaning_num": [
+                "3"
+              ],
+              "meaning": [
+                "Indicating an association between two entities, typically one of belonging, in which the first is the head of the phrase and the second is something associated with it."
+              ],
+              "example": [
+                "the son of a friend",
+                "the plays of Shakespeare"
+              ],
+              "examples": [
+                "the coast of Italy",
+                "a photograph of the bride",
+                "a former colleague of John's",
+                "He was about five years older than me but I knew him as he was the son of one of my mum's friends",
+                "Back in the early 1960s, the government of Italy decided to set up an agency to regulate the production of wines.",
+                "On the cover was a photograph of an elderly couple, a man standing behind a lady with his arms wrapped tightly around her.",
+                "The waitress who greeted me when I arrived turned out to be a former colleague of mine.",
+                "He is the director of the Irish Council for Civil Liberties.",
+                "Kevin was an old friend of Ryan's",
+                "He was wearing an old black silk shirt of Andy's, which was far too big for him.",
+                "Any strategy based on a reduction of the role of the qualified teacher is potentially disastrous.",
+                "Detective Superintendent Parkinson said they were keen to trace the owner of a black car parked outside the West End Bar."
+              ],
+              "synonyms": [
+                "by",
+                ", made by, done by, carried out by, caused by, from, in, of"
+              ],
+              "sub_senses": [
+                {
+                  "sub_sense_iteration": [
+                    "3.1"
+                  ],
+                  "sub_sense": [
+                    "Expressing the relationship between an author, artist, or composer and their works collectively."
+                  ],
+                  "sub_sense_example": [
+                    "the plays of Shakespeare"
+                  ],
+                  "sub_sense_examples": [
+                    "the paintings of Rembrandt",
+                    "Music inspired by the plays of Shakespeare was the theme for Saturday night's 10th anniversary concert.",
+                    "His mother sang and played the songs of Cole Porter and Jerome Kern",
+                    "At about this time Correggio travelled to Rome where he must have studied classical works and the paintings of Raphael and Michelangelo.",
+                    "If you've heard the symphonies of Elgar, Walton and Vaughan Williams, these should certainly be next on your list.",
+                    "Byzantium stands as an important symbol in the poems of Yeats."
+                  ],
+                  "sub_sense_synonyms": []
+                }
+              ]
+            },
+            {
+              "meaning_num": [
+                "4"
+              ],
+              "meaning": [
+                "Expressing the relationship between a direction and a point of reference."
+              ],
+              "example": [
+                "north of Watford"
+              ],
+              "examples": [
+                "The familiar chimneys of the main railway offices can be seen at the back, on the left of the picture.",
+                "He grew up in Encinitas, a small beach town just north of San Diego.",
+                "Kentucky is the largest beef-producing state east of the Mississippi.",
+                "The property is around 30 miles south of London and is near Gatwick Airport."
+              ],
+              "synonyms": [],
+              "sub_senses": null
+            },
+            {
+              "meaning_num": [
+                "5"
+              ],
+              "meaning": [
+                "Expressing the relationship between a general category or type and the thing being specified which belongs to such a category."
+              ],
+              "example": [
+                "the city of Prague"
+              ],
+              "examples": [
+                "the idea of a just society",
+                "the population of interbreeding individuals",
+                "this type of book",
+                "It was a packed house, with people of all ages enjoying a brilliant night out.",
+                "Two thirds of the artists were of Jewish backgrounds.",
+                "According to myth, the city of Rome was founded by twin brothers, Romulus and Remus, in 753 BC.",
+                "I like the idea of marriage as a life-long commitment.",
+                "There is a serious problem with this type of book.",
+                "She also said that the issue of education had come up again and again during her consultations with voters.",
+                "Her mother was an attractive woman of French-Canadian descent.",
+                "Each building will be clearly marked on a map of the city.",
+                "This Government is sending a very clear and unequivocal message to the people of New Zealand.",
+                "He let out a muffled cry of pain and fell to his knees."
+              ],
+              "synonyms": [],
+              "sub_senses": null
+            },
+            {
+              "meaning_num": [
+                "6"
+              ],
+              "meaning": [
+                "Following a noun derived from or related to a verb."
+              ],
+              "example": [
+                "The £10,000 prize is awarded to the person who, in the opinion of the jury, has made the greatest contribution to art in the previous 12 months.",
+                "the arrival of the police",
+                "the murder of the two boys"
+              ],
+              "examples": [
+                "Under the governing charter, all UN countries are bound to accept the decision of the 15-member council.",
+                "Residents are already making preparations for the arrival of the hurricane.",
+                "Government officials waited in Darwin for the arrival of the vessels.",
+                "There was no sound save for the howling of the wind outside.",
+                "The thoughts of the people concerned were not taken into account.",
+                "The paper has been the topic of much media speculation since the departure of its managing director several weeks ago."
+              ],
+              "synonyms": [],
+              "sub_senses": [
+                {
+                  "sub_sense_iteration": [
+                    "6.1"
+                  ],
+                  "sub_sense": [
+                    "Followed by a noun expressing the subject of the verb underlying the first noun."
+                  ],
+                  "sub_sense_example": [
+                    "the arrival of the police"
+                  ],
+                  "sub_sense_examples": [
+                    "the decision of the County Council",
+                    "the howling of the wind",
+                    "I almost went home, not particularly relishing the thought of an evening in a pub full of football supporters.",
+                    "He had nothing to do with the murder of the child.",
+                    "There has been strong criticism of the police for moving too slowly in the investigation.",
+                    "Van Gogh, like so many other Impressionist and Post-Impressionist artists, was an admirer of Japanese art.",
+                    "But even after the deal, there would be a cash shortfall and creditors will not receive full payment of their debts.",
+                    "75 percent of couples say that the preparation of the evening meal should be shared equally.",
+                    "This operation is an excellent example of how we are working with other agencies to clamp down on the selling of illegal goods."
+                  ],
+                  "sub_sense_synonyms": []
+                },
+                {
+                  "sub_sense_iteration": [
+                    "6.2"
+                  ],
+                  "sub_sense": [
+                    "Followed by a noun expressing the object of the verb underlying the first noun."
+                  ],
+                  "sub_sense_example": [
+                    "the murder of the two boys"
+                  ],
+                  "sub_sense_examples": [
+                    "payment of his debts",
+                    "an admirer of Dickens",
+                    "I am certain of that",
+                    "He could face up to seven years in prison if found guilty of all charges against him.",
+                    "She said she panics when people are behind her and has become suspicious of men.",
+                    "Well, it was kind of him to let you stay here.",
+                    "This case would be coming to an end soon, he was sure of that.",
+                    "Those guys won't bother you anymore - I'll make sure of that.",
+                    "She admits she's afraid of the dark.",
+                    "I am really proud of her and I am sure she will do well at college.",
+                    "In the end, we can be certain of one thing: the future is not likely to be boring.",
+                    "He acted out of character and is ashamed of his behaviour that night."
+                  ],
+                  "sub_sense_synonyms": []
+                }
+              ]
+            },
+            {
+              "meaning_num": [
+                "7"
+              ],
+              "meaning": [
+                "Where the head of the phrase is a predicative adjective."
+              ],
+              "example": [
+                "it was kind of you to ask"
+              ],
+              "examples": [
+                "I am certain of that"
+              ],
+              "synonyms": [],
+              "sub_senses": null
+            },
+            {
+              "meaning_num": [
+                "8"
+              ],
+              "meaning": [
+                "Indicating the relationship between a verb and an indirect object."
+              ],
+              "example": [
+                "I don't know of anything that would be suitable",
+                "he died of cancer"
+              ],
+              "examples": [],
+              "synonyms": [],
+              "sub_senses": [
+                {
+                  "sub_sense_iteration": [
+                    "8.1"
+                  ],
+                  "sub_sense": [
+                    "With a verb expressing a mental state."
+                  ],
+                  "sub_sense_example": [
+                    "I don't know of anything that would be suitable"
+                  ],
+                  "sub_sense_examples": [
+                    "There is a high proportion of this electorate who are not persuaded of his leadership abilities.",
+                    "Do you know of any grants, scholarships, or programs designed to help someone in my position?",
+                    "What do you think of the result of today's meeting?",
+                    "It's a fantastic achievement, particularly when you think of the competition we were up against.",
+                    "I couldn't figure out a way to convince him of my love."
+                  ],
+                  "sub_sense_synonyms": []
+                },
+                {
+                  "sub_sense_iteration": [
+                    "8.2"
+                  ],
+                  "sub_sense": [
+                    "Expressing a cause."
+                  ],
+                  "sub_sense_example": [
+                    "he died of cancer"
+                  ],
+                  "sub_sense_examples": [
+                    "He died of a heart attack at the age of 58."
+                  ],
+                  "sub_sense_synonyms": []
+                }
+              ]
+            },
+            {
+              "meaning_num": [
+                "9"
+              ],
+              "meaning": [
+                "Indicating the material or substance constituting something."
+              ],
+              "example": [
+                "the house was built of bricks"
+              ],
+              "examples": [
+                "walls of stone",
+                "The bungalows are built of wood, concrete, and brick.",
+                "Pale walls of sand-colored stone encircled the town.",
+                "They lived in a simple house with bamboo walls and a roof made of coconut leaves.",
+                "The furniture included a forties dresser, an oval sixties coffee table and two much newer Scandinavian-style bookcases of unvarnished pine.",
+                "The original buildings were constructed of timber and stone masonry, covered with white-washed plaster."
+              ],
+              "synonyms": [],
+              "sub_senses": null
+            },
+            {
+              "meaning_num": [
+                "10"
+              ],
+              "meaning": [
+                "Expressing time in relation to the following hour."
+              ],
+              "example": [
+                "it would be just a quarter of three in New York"
+              ],
+              "examples": [
+                "I want you home by quarter of five because your grandma's coming for dinner at five.",
+                "I'd love to stay here with you, but it's ten of two.",
+                "We were still eating supper when Gabe knocked on the door at quarter of eight."
+              ],
+              "synonyms": [],
+              "sub_senses": null
+            }
+          ]
+        }
+      ],
+      "usage_list": [
+        [
+          "It is a mistake to use of instead of have in constructions such as you should have asked (not you should of asked). For more information, see ",
+          "have"
+        ]
+      ],
+      "etymology_list": [
+        {
+          "etym_type": "phrases",
+          "etym_content": [
+            {
+              "phrase": [
+                "of a morning"
+              ],
+              "sense_region": [
+                "British "
+              ],
+              "sense_register": [
+                "informal "
+              ],
+              "phrase_info": {
+                "iteration": [
+                  "1",
+                  "2"
+                ],
+                "sense_register": [],
+                "explanation": [
+                  "On most mornings.",
+                  "At some time in the mornings."
+                ],
+                "sub_senses": []
+              }
+            },
+            {
+              "phrase": [
+                "of an evening"
+              ],
+              "sense_region": [
+                "British "
+              ],
+              "sense_register": [
+                "informal "
+              ],
+              "phrase_info": {
+                "iteration": [
+                  "1",
+                  "2"
+                ],
+                "sense_register": [],
+                "explanation": [
+                  "On most evenings.",
+                  "At some time in the evenings."
+                ],
+                "sub_senses": []
+              }
+            }
+          ]
+        },
+        {
+          "etym_type": "origin",
+          "etym_content": [
+            "Old English, of Germanic origin; related to Dutch af and German ab, from an Indo-European root shared by Latin ab and Greek apo."
+          ]
+        }
+      ]
+    }
+  ]
+}

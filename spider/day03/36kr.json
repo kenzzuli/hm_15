@@ -1,0 +1,1137 @@
+{
+  "navigator": {
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36"
+  },
+  "theme": "default",
+  "homeData": {
+    "code": 0,
+    "data": {
+      "homeFlow": {
+        "code": 0,
+        "data": {
+          "itemList": [
+            {
+              "itemId": 1304393464842629,
+              "itemType": 10,
+              "templateMaterial": {
+                "itemId": 1304393464842629,
+                "templateType": 1,
+                "widgetImage": "https://img.36krcdn.com/20210710/v2_afa94edaa0194ea9aa4ae52d4bf36441_img_000?x-oss-process=image/resize,m_mfit,w_600,h_400,limit_0/crop,w_600,h_400,g_center",
+                "publishTime": 1625889600000,
+                "widgetTitle": "“暗战”大小周：快手取消15天后，字节急了？",
+                "summary": "再加班，扛不住了",
+                "authorName": "豹变",
+                "authorRoute": "detail_author?userId=5295709",
+                "navName": "职场",
+                "navRoute": "nav_general?subnavNick=web_zhichang&subnavType=1",
+                "themeName": "字节跳动的版图",
+                "themeRoute": "detail_theme?itemId=327686225921"
+              },
+              "route": "detail_article?itemId=1304393464842629"
+            },
+            {
+              "itemId": 1303261948609155,
+              "itemType": 10,
+              "templateMaterial": {
+                "itemId": 1303261948609155,
+                "templateType": 1,
+                "widgetImage": "https://img.36krcdn.com/20210709/v2_c7f886e6c68b48cabdf04fbfe72f39f9_img_000?x-oss-process=image/resize,m_mfit,w_600,h_400,limit_0/crop,w_600,h_400,g_center",
+                "publishTime": 1625887849000,
+                "widgetTitle": "一图看懂大厂“医疗战”",
+                "summary": "谁也不会率先言败。",
+                "authorName": "科技新知",
+                "authorRoute": "detail_author?userId=5403566",
+                "navName": "推荐",
+                "navRoute": "nav_general?subnavNick=web_recommend&subnavType=1",
+                "themeName": "医疗健康",
+                "themeRoute": "detail_theme?itemId=887340443298048"
+              },
+              "route": "detail_article?itemId=1303261948609155"
+            },
+            {
+              "itemId": 1304408503732617,
+              "itemType": 10,
+              "templateMaterial": {
+                "itemId": 1304408503732617,
+                "templateType": 1,
+                "widgetImage": "https://img.36krcdn.com/20210710/v2_35c41feeb182433aa9eebd4269b48066_img_000?x-oss-process=image/resize,m_mfit,w_600,h_400,limit_0/crop,w_600,h_400,g_center",
+                "publishTime": 1625886980344,
+                "widgetTitle": "市场监管总局依法禁止虎牙公司与斗鱼国际控股有限公司合并",
+                "summary": "市场监管总局决定依法禁止此项经营者集中。",
+                "authorName": "36氪的朋友们",
+                "authorRoute": "detail_author?userId=375349",
+                "navName": "推荐",
+                "navRoute": "nav_general?subnavNick=web_recommend&subnavType=1",
+                "themeName": "大文娱",
+                "themeRoute": "detail_theme?itemId=887339665172743"
+              },
+              "route": "detail_article?itemId=1304408503732617"
+            },
+            {
+              "itemId": 1303579150958985,
+              "itemType": 10,
+              "templateMaterial": {
+                "itemId": 1303579150958985,
+                "templateType": 1,
+                "widgetImage": "https://img.36krcdn.com/20210709/v2_b3fd0869c89e47e3a7e9bd97ed2d9c80_img_png?x-oss-process=image/resize,m_mfit,w_600,h_400,limit_0/crop,w_600,h_400,g_center",
+                "publishTime": 1625884835000,
+                "widgetTitle": "别再问我什么是AI制药",
+                "summary": "古医尝遍百草，AI算尽新药。",
+                "authorName": "脑极体",
+                "authorRoute": "detail_author?userId=312431707",
+                "navName": "推荐",
+                "navRoute": "nav_general?subnavNick=web_recommend&subnavType=1",
+                "themeName": "医疗健康",
+                "themeRoute": "detail_theme?itemId=887340443298048"
+              },
+              "route": "detail_article?itemId=1303579150958985"
+            },
+            {
+              "itemType": 5000,
+              "templateMaterial": {
+                "templateType": 6,
+                "topMarkRoute": "nav_topic",
+                "topMark": "查看更多",
+                "catagoryList": [
+                  {
+                    "catagoryId": 1303459944008064,
+                    "catagoryImage": "https://img.36krcdn.com/20210709/v2_b966fe230d8c4e6a912799be00191f17_img_jpg?x-oss-process=image/resize,m_mfit,w_432,h_288,limit_0/crop,w_432,h_288,g_center",
+                    "catagoryTitle": "字节取消大小周，员工：从此是个双休人",
+                    "catagoryRoute": "detail_topic?itemId=1303459944008064",
+                    "catagoryIntroduce": "字节跳动宣布从8月1日起，取消大小周，如需加班可通过系统提交申请。自7月1日起，快手已取消大小周。大厂相继“反卷”的操作引起了激烈讨论，取消大小周就能给员工减负了吗？还是大厂们另有打算？"
+                  },
+                  {
+                    "catagoryId": 1303641403951744,
+                    "catagoryImage": "https://img.36krcdn.com/20210709/v2_d4f4031fef994a62998bed817f419f4c_img_jpg?x-oss-process=image/resize,m_mfit,w_432,h_288,limit_0/crop,w_432,h_288,g_center",
+                    "catagoryTitle": "36氪编辑精选丨一周重磅商业报道盘点 Vol.56",
+                    "catagoryRoute": "detail_topic?itemId=1303641403951744",
+                    "catagoryIntroduce": "有数据，有观点，有真相，带你回顾过去一周商业大事件。"
+                  },
+                  {
+                    "catagoryId": 1303490604960137,
+                    "catagoryImage": "https://img.36krcdn.com/20210709/v2_d4e045b5a49d4caeaaf8de8acdfb5987_img_jpg?x-oss-process=image/resize,m_mfit,w_432,h_288,limit_0/crop,w_432,h_288,g_center",
+                    "catagoryTitle": "资本热捧？这门传统生意怎么突然又火了",
+                    "catagoryRoute": "detail_topic?itemId=1303490604960137",
+                    "catagoryIntroduce": "今年以来，奶茶、拉面、烧烤们屡屡刷新着融资纪录。要说最近餐饮行业哪些品类爆火，其中一定有面条。近期，整个面类赛道迎来融资热潮：和府捞面、五爷拌面、遇见小面、兰州拉面连锁品牌“马记永”等餐饮项目纷纷获得融资。面条已然成为资本争相抢投的香饽饽，引发市场关注与网友热议。一碗小小的面条，怎么就成为了资本的热投领域？为何资本又开始青睐起餐饮这个“旧”行业？"
+                  }
+                ]
+              }
+            },
+            {
+              "itemId": 1304363435543169,
+              "itemType": 10,
+              "templateMaterial": {
+                "itemId": 1304363435543169,
+                "templateType": 1,
+                "widgetImage": "https://img.36krcdn.com/20210710/v2_13dc04429aa24cc18a0f73e0842da1c7_img_png?x-oss-process=image/resize,m_mfit,w_600,h_400,limit_0/crop,w_600,h_400,g_center",
+                "publishTime": 1625884434964,
+                "widgetTitle": "北京我爱我家部分门店自12日起闭店学习一周",
+                "summary": "贯彻“房住不炒”精神",
+                "authorName": "未来城不落",
+                "authorRoute": "detail_author?userId=991026445",
+                "navName": "推荐",
+                "navRoute": "nav_general?subnavNick=web_recommend&subnavType=1",
+                "themeName": "开发商都是多面手",
+                "themeRoute": "detail_theme?itemId=327685914625"
+              },
+              "route": "detail_article?itemId=1304363435543169"
+            },
+            {
+              "itemId": 1304364533500290,
+              "itemType": 10,
+              "templateMaterial": {
+                "itemId": 1304364533500290,
+                "templateType": 1,
+                "widgetImage": "https://img.36krcdn.com/20210710/v2_11cbd0815836434ca2d2a269893eef98_img_000?x-oss-process=image/resize,m_mfit,w_600,h_400,limit_0/crop,w_600,h_400,g_center",
+                "publishTime": 1625884285131,
+                "widgetTitle": "取消大小周后，互联网人都疯了",
+                "summary": "取消大小周后的众生相",
+                "authorName": "吓脑湿",
+                "authorRoute": "detail_author?userId=10101579",
+                "navName": "职场",
+                "navRoute": "nav_general?subnavNick=web_zhichang&subnavType=1",
+                "themeName": "职场每周必读",
+                "themeRoute": "detail_theme?itemId=327686520833"
+              },
+              "route": "detail_article?itemId=1304364533500290"
+            },
+            {
+              "itemId": 1303362154332803,
+              "itemType": 60,
+              "templateMaterial": {
+                "itemId": 1303362154332803,
+                "templateType": 1,
+                "widgetImage": "https://img.36krcdn.com/20210709/v2_9288372825fe4982a870055dc57d9785_img_jpg",
+                "publishTime": 1625829728275,
+                "widgetTitle": "除了钱学森先生，中国航天还有这些伟大值得我们铭记！",
+                "summary": "除了钱学森先生，中国航天还有这些伟大值得我们铭记！",
+                "authorName": "氪星研究所",
+                "authorRoute": "detail_author?userId=5307570",
+                "duration": 498,
+                "mark": "视频",
+                "markRoute": "nav_video"
+              },
+              "route": "detail_video?itemId=1303362154332803"
+            },
+            {
+              "itemId": 1303646975789444,
+              "itemType": 10,
+              "templateMaterial": {
+                "itemId": 1303646975789444,
+                "templateType": 1,
+                "widgetImage": "https://img.36krcdn.com/20210710/v2_b80de0ee61134fe7ae14751e613254f7_img_png",
+                "publishTime": 1625884140000,
+                "widgetTitle": "中国公司全球化周报｜抖音及TikTok蝉联全球移动应用（非游戏）下载榜冠军；贝索斯正式卸任亚马逊 CEO",
+                "summary": "聚焦中国公司全球化大事、提供世界各地最新创投新闻；致力于消除信息差，让读者将本周最值得关注的大事件尽收眼底。",
+                "authorName": "36氪出海",
+                "authorRoute": "detail_author?userId=11918142",
+                "navName": "推荐",
+                "navRoute": "nav_general?subnavNick=web_recommend&subnavType=1",
+                "themeName": "出海是门大生意",
+                "themeRoute": "detail_theme?itemId=327687405569"
+              },
+              "route": "detail_article?itemId=1303646975789444"
+            },
+            {
+              "itemId": 1302871439933829,
+              "itemType": 10,
+              "templateMaterial": {
+                "itemId": 1302871439933829,
+                "templateType": 1,
+                "widgetImage": "https://img.36krcdn.com/20210709/v2_455049ebf2ba4d4c88c95f90ed47b2f9_img_webp?x-oss-process=image/resize,m_mfit,w_600,h_400,limit_0/crop,w_600,h_400,g_center",
+                "publishTime": 1625881230000,
+                "widgetTitle": "“特斯拉又割了我7万块”",
+                "summary": "新版Model Y来了，“韭菜”味儿的。",
+                "authorName": "深燃",
+                "authorRoute": "detail_author?userId=5305161",
+                "navName": "推荐",
+                "navRoute": "nav_general?subnavNick=web_recommend&subnavType=1",
+                "themeName": "新能源车",
+                "themeRoute": "detail_theme?itemId=887340957231622"
+              },
+              "route": "detail_article?itemId=1302871439933829"
+            },
+            {
+              "itemId": 1299062924331398,
+              "itemType": 10,
+              "templateMaterial": {
+                "itemId": 1299062924331398,
+                "templateType": 1,
+                "widgetImage": "https://img.36krcdn.com/20210706/v2_56b3e19c58e443d5a1f55d61a6ec43b7_img_000?x-oss-process=image/resize,m_mfit,w_600,h_400,limit_0/crop,w_600,h_400,g_center",
+                "publishTime": 1625880637771,
+                "widgetTitle": "网红第一城的逆袭史，重庆是怎么成为「魔幻雾都」的？",
+                "summary": "搞啥子哦，勒豆是雾都迈？",
+                "authorName": "后浪研究所",
+                "authorRoute": "detail_author?userId=10246630",
+                "navName": "推荐",
+                "navRoute": "nav_general?subnavNick=web_recommend&subnavType=1",
+                "themeName": "年轻人啊",
+                "themeRoute": "detail_theme?itemId=327685652481"
+              },
+              "route": "detail_article?itemId=1299062924331398"
+            },
+            {
+              "itemId": 1298972331854209,
+              "itemType": 10,
+              "templateMaterial": {
+                "itemId": 1298972331854209,
+                "templateType": 1,
+                "widgetImage": "https://img.36krcdn.com/20210706/v2_d9f77f14c2f6495fb525e8e90cd812a8_img_jpg?x-oss-process=image/resize,m_mfit,w_600,h_400,limit_0/crop,w_600,h_400,g_center",
+                "publishTime": 1625878852409,
+                "widgetTitle": "学习和创造力的关键不是智力，而是“认知灵活性”",
+                "summary": "我们人类最伟大的成就主要依赖于创造力、想象力、好奇心和同理心等品质，而不是智商。",
+                "authorName": "神译局",
+                "authorRoute": "detail_author?userId=1864046570",
+                "navName": "推荐",
+                "navRoute": "nav_general?subnavNick=web_recommend&subnavType=1",
+                "themeName": "神译局",
+                "themeRoute": "detail_theme?itemId=1198586981828866"
+              },
+              "route": "detail_article?itemId=1298972331854209"
+            },
+            {
+              "itemType": 60,
+              "templateMaterial": {
+                "templateType": 6,
+                "topMarkRoute": "nav_video",
+                "topMark": "查看更多",
+                "widgetList": [
+                  {
+                    "widgetId": 1303385692586632,
+                    "widgetTitle": "腾讯员工平均每月薪酬7.6万元，你酸了吗？",
+                    "route": "detail_video?itemId=1303385692586632",
+                    "duration": 92,
+                    "widgetImage": "https://img.36krcdn.com/20210709/v2_5bc4e7bc727f406a9b83537e2514f3a6_img_png"
+                  },
+                  {
+                    "widgetId": 1303380842758787,
+                    "widgetTitle": "用意念控制汽车的时代还有多远？",
+                    "route": "detail_video?itemId=1303380842758787",
+                    "duration": 617,
+                    "widgetImage": "https://img.36krcdn.com/20210709/v2_aaeba3a741754b04a1cb11b90c22d2e8_img_jpg"
+                  },
+                  {
+                    "widgetId": 1303463786381702,
+                    "widgetTitle": "低度酒刮的什么风，连茅台都躲不过",
+                    "route": "detail_video?itemId=1303463786381702",
+                    "duration": 183,
+                    "widgetImage": "https://img.36krcdn.com/20210709/v2_35d7363841f448b2ba0dc84a5bddd57a_img_jpg"
+                  },
+                  {
+                    "widgetId": 1303567608398464,
+                    "widgetTitle": "叶叶财经：一家打印店，凭什么影响A股市场？到底有什么来头？",
+                    "route": "detail_video?itemId=1303567608398464",
+                    "duration": 163,
+                    "widgetImage": "https://mts-hz.36krcdn.com/20210709/v3_7902d2921fd6411691ad07f68dac1e25_img_jpg"
+                  }
+                ]
+              }
+            },
+            {
+              "itemId": 1303023506457222,
+              "itemType": 10,
+              "templateMaterial": {
+                "itemId": 1303023506457222,
+                "templateType": 1,
+                "widgetImage": "https://img.36krcdn.com/20210709/v2_348477d4be1948e4b7cf94110941fd9b_img_000?x-oss-process=image/resize,m_mfit,w_600,h_400,limit_0/crop,w_600,h_400,g_center",
+                "publishTime": 1625878757014,
+                "widgetTitle": "万亿市值的宁德时代，底气在哪里？",
+                "summary": "宁德时代大概率是能继续壮大的公司。",
+                "authorName": "海豚投研",
+                "authorRoute": "detail_author?userId=5369499",
+                "navName": "推荐",
+                "navRoute": "nav_general?subnavNick=web_recommend&subnavType=1",
+                "themeName": "新能源车",
+                "themeRoute": "detail_theme?itemId=887340957231622"
+              },
+              "route": "detail_article?itemId=1303023506457222"
+            },
+            {
+              "itemId": 1304202678307463,
+              "itemType": 10,
+              "templateMaterial": {
+                "itemId": 1304202678307463,
+                "templateType": 1,
+                "widgetImage": "https://img.36krcdn.com/20210710/v2_3e96673c48a540dda4e9f072fe356411_img_png",
+                "publishTime": 1625877861455,
+                "widgetTitle": "9点1氪 ｜字节跳动：将于8月1日起取消大小周模式；国家网信办：下架“滴滴企业版”等25款App；刘慈欣加入商汤科技，担任科幻星球研究中心主任",
+                "summary": "美团：正在改进骑手关心的差评申诉问题。",
+                "authorName": "真梓",
+                "authorRoute": "detail_author?userId=11868707",
+                "navName": "推荐",
+                "navRoute": "nav_general?subnavNick=web_recommend&subnavType=1",
+                "themeName": "早晚报",
+                "themeRoute": "detail_theme?itemId=327685521409"
+              },
+              "route": "detail_article?itemId=1304202678307463"
+            },
+            {
+              "itemId": 1303212768838275,
+              "itemType": 60,
+              "templateMaterial": {
+                "itemId": 1303212768838275,
+                "templateType": 1,
+                "widgetImage": "https://img.36krcdn.com/20210709/v2_c37bf1bc521948ea833e76cd0b1f132c_img_png",
+                "publishTime": 1625818490162,
+                "widgetTitle": "揭开“代糖”骗局：表面是健康，背后是生意",
+                "summary": "代糖=甜味剂？深扒代糖的前世今生，看完你还敢继续吃吗",
+                "authorName": "万能编辑部",
+                "authorRoute": "detail_author?userId=5054197",
+                "duration": 468,
+                "mark": "视频",
+                "markRoute": "nav_video"
+              },
+              "route": "detail_video?itemId=1303212768838275"
+            },
+            {
+              "itemId": 1302221848939141,
+              "itemType": 10,
+              "templateMaterial": {
+                "itemId": 1302221848939141,
+                "templateType": 1,
+                "widgetImage": "https://img.36krcdn.com/20210708/v2_08646fa688b4485eacb9bda5310d1a8b_img_jpg?x-oss-process=image/resize,m_mfit,w_600,h_400,limit_0/crop,w_600,h_400,g_center",
+                "publishTime": 1625875250706,
+                "widgetTitle": "关于自己，你可能不想承认的5件事",
+                "summary": "一堆糟糕的小决定，累积起来，会导致人生偏离正轨。",
+                "authorName": "神译局",
+                "authorRoute": "detail_author?userId=1864046570",
+                "navName": "推荐",
+                "navRoute": "nav_general?subnavNick=web_recommend&subnavType=1",
+                "themeName": "神译局",
+                "themeRoute": "detail_theme?itemId=1198586981828866"
+              },
+              "route": "detail_article?itemId=1302221848939141"
+            },
+            {
+              "itemId": 1303555681634950,
+              "itemType": 10,
+              "templateMaterial": {
+                "itemId": 1303555681634950,
+                "templateType": 1,
+                "widgetImage": "https://img.36krcdn.com/20210709/v2_6fb0b6c78fb44ff38f4b29ac7fbe563a_img_000?x-oss-process=image/resize,m_mfit,w_600,h_400,limit_0/crop,w_600,h_400,g_center",
+                "publishTime": 1625834907683,
+                "widgetTitle": "FM36.7 | 开普桑的大叔，在豪宅圈“平平淡淡地挥金如土”",
+                "summary": "直接交了3000万的全款。",
+                "authorName": "未来可栖",
+                "authorRoute": "detail_author?userId=122465660",
+                "navName": "房产",
+                "navRoute": "nav_general?subnavNick=real_estate&subnavType=1",
+                "themeName": "房地产下半场",
+                "themeRoute": "detail_theme?itemId=327686062081"
+              },
+              "route": "detail_article?itemId=1303555681634950"
+            },
+            {
+              "itemId": 1303469446171015,
+              "itemType": 10,
+              "templateMaterial": {
+                "itemId": 1303469446171015,
+                "templateType": 1,
+                "widgetImage": "https://img.36krcdn.com/20210709/v2_4ba81a294eaa497694f32d96f7360f5a_img_png",
+                "publishTime": 1625833268672,
+                "widgetTitle": "《俑之城》为什么没能满足年轻观众？",
+                "summary": "打安全牌，就没大招了",
+                "authorName": "ACGx",
+                "authorRoute": "detail_author?userId=326298",
+                "navName": "推荐",
+                "navRoute": "nav_general?subnavNick=web_recommend&subnavType=1",
+                "themeName": "游戏圈大事件",
+                "themeRoute": "detail_theme?itemId=327687553025"
+              },
+              "route": "detail_article?itemId=1303469446171015"
+            },
+            {
+              "itemId": 1303396344889735,
+              "itemType": 10,
+              "templateMaterial": {
+                "itemId": 1303396344889735,
+                "templateType": 1,
+                "widgetImage": "https://img.36krcdn.com/20210709/v2_7d3783a28ef94129a500b86b87072fd5_img_png",
+                "publishTime": 1625832668307,
+                "widgetTitle": "去音乐节的人都在干什么？",
+                "summary": "乐迷的狂欢节，资本的狂欢“劫”",
+                "authorName": "互联网那些事",
+                "authorRoute": "detail_author?userId=5322854",
+                "navName": "推荐",
+                "navRoute": "nav_general?subnavNick=web_recommend&subnavType=1",
+                "themeName": "新生活LIFESTYLE",
+                "themeRoute": "detail_theme?itemId=755524105951233"
+              },
+              "route": "detail_article?itemId=1303396344889735"
+            },
+            {
+              "itemId": 1303288107370880,
+              "itemType": 10,
+              "templateMaterial": {
+                "itemId": 1303288107370880,
+                "templateType": 1,
+                "widgetImage": "https://img.36krcdn.com/20210709/v2_b6fc661be6b84d92af6cf68b6bb98a05_img_png",
+                "publishTime": 1625832555126,
+                "widgetTitle": "36氪领读 | 致味女人：Why Women Cook？",
+                "summary": "希望每一个下厨的女性，都可以在厨房中随心所欲地成为独一无二的自己。",
+                "authorName": "36氪领读",
+                "authorRoute": "detail_author?userId=1767590325",
+                "navName": "推荐",
+                "navRoute": "nav_general?subnavNick=web_recommend&subnavType=1",
+                "themeName": "36氪领读",
+                "themeRoute": "detail_theme?itemId=327685554177"
+              },
+              "route": "detail_article?itemId=1303288107370880"
+            },
+            {
+              "itemId": 1303500389321092,
+              "itemType": 10,
+              "templateMaterial": {
+                "itemId": 1303500389321092,
+                "templateType": 1,
+                "widgetImage": "https://img.36krcdn.com/20210709/v2_c8afe65794d347758d172075b6c67bf2_img_png",
+                "publishTime": 1625832105877,
+                "widgetTitle": "网上相亲：被骗800万",
+                "summary": "婚恋交友平台成“杀猪盘”重灾区。",
+                "authorName": "铅笔道",
+                "authorRoute": "detail_author?userId=5278852",
+                "navName": "推荐",
+                "navRoute": "nav_general?subnavNick=web_recommend&subnavType=1",
+                "themeName": "新生活LIFESTYLE",
+                "themeRoute": "detail_theme?itemId=755524105951233"
+              },
+              "route": "detail_article?itemId=1303500389321092"
+            },
+            {
+              "itemId": 1303440475294337,
+              "itemType": 10,
+              "templateMaterial": {
+                "itemId": 1303440475294337,
+                "templateType": 1,
+                "widgetImage": "https://img.36krcdn.com/20210709/v2_1c4341f824374a94afe318a9f1142327_img_png",
+                "publishTime": 1625832082116,
+                "widgetTitle": "看开机广告，都是为你好？",
+                "summary": "没有广告，对我们很重要",
+                "authorName": "爱范儿",
+                "authorRoute": "detail_author?userId=16637033",
+                "navName": "推荐",
+                "navRoute": "nav_general?subnavNick=web_recommend&subnavType=1",
+                "themeName": "新生活LIFESTYLE",
+                "themeRoute": "detail_theme?itemId=755524105951233"
+              },
+              "route": "detail_article?itemId=1303440475294337"
+            },
+            {
+              "itemId": 1303345938418313,
+              "itemType": 10,
+              "templateMaterial": {
+                "itemId": 1303345938418313,
+                "templateType": 1,
+                "widgetImage": "https://img.36krcdn.com/20210709/v2_6a639981472e40a7aa39214a4217b12c_img_png",
+                "publishTime": 1625832052622,
+                "widgetTitle": "这家餐饮供应链公司要上市了，原来那么多头部连锁餐厅都是它的客户",
+                "summary": "千味央厨的优势和业务方向主要集中在B端，但由此也会带来第一大客户营收占比高、行业竞争加剧等风险。",
+                "authorName": "36氪的朋友们",
+                "authorRoute": "detail_author?userId=375349",
+                "navName": "推荐",
+                "navRoute": "nav_general?subnavNick=web_recommend&subnavType=1",
+                "themeName": "食品饮料",
+                "themeRoute": "detail_theme?itemId=887340198128130"
+              },
+              "route": "detail_article?itemId=1303345938418313"
+            },
+            {
+              "itemId": 1303307787782529,
+              "itemType": 10,
+              "templateMaterial": {
+                "itemId": 1303307787782529,
+                "templateType": 1,
+                "widgetImage": "https://img.36krcdn.com/20210709/v2_d764ff6533df4db4b0be9ccb4a2ed48d_img_png",
+                "publishTime": 1625831976247,
+                "widgetTitle": "“好像在哪见过你”现在有了科学解释，一群脑细胞帮你回忆那张脸",
+                "summary": "来看真正的神经网络",
+                "authorName": "36氪的朋友们",
+                "authorRoute": "detail_author?userId=375349",
+                "navName": "推荐",
+                "navRoute": "nav_general?subnavNick=web_recommend&subnavType=1",
+                "themeName": "新生活LIFESTYLE",
+                "themeRoute": "detail_theme?itemId=755524105951233"
+              },
+              "route": "detail_article?itemId=1303307787782529"
+            },
+            {
+              "itemId": 1303303622757001,
+              "itemType": 10,
+              "templateMaterial": {
+                "itemId": 1303303622757001,
+                "templateType": 1,
+                "widgetImage": "https://img.36krcdn.com/20210709/v2_811c2e25600f45af931621b79e98aafa_img_png",
+                "publishTime": 1625831719074,
+                "widgetTitle": "董小姐的空调不一定能当发电站，但牛放屁确实可以发电",
+                "summary": "五花八门的自发电方案",
+                "authorName": "量子位",
+                "authorRoute": "detail_author?userId=1852809498",
+                "navName": "推荐",
+                "navRoute": "nav_general?subnavNick=web_recommend&subnavType=1",
+                "themeName": "新生活LIFESTYLE",
+                "themeRoute": "detail_theme?itemId=755524105951233"
+              },
+              "route": "detail_article?itemId=1303303622757001"
+            }
+          ],
+          "itemMoreRoute": "nav_latest?subnavNick=web_news&subnavType=1"
+        }
+      },
+      "homeRecom": {
+        "code": 0,
+        "data": {
+          "bannerList": [
+            {
+              "itemId": 1304408503732617,
+              "itemType": 10,
+              "templateMaterial": {
+                "itemId": 1304408503732617,
+                "templateType": 0,
+                "widgetImage": "https://img.36krcdn.com/20210710/v2_c3d5de3144774795a998b4f2d80f51ad_img_000",
+                "publishTime": 1625887112257,
+                "widgetTitle": "市场监管总局依法禁止虎牙公司与斗鱼国际控股有限公司合并"
+              },
+              "route": "detail_article?itemId=1304408503732617"
+            },
+            {
+              "itemId": 10820,
+              "itemType": 0,
+              "templateMaterial": {
+                "positionId": 824,
+                "planId": 10820,
+                "adSdk": "QWXZbL_qlxmJjzOTu6qdxJgSSye8GJfOTkSMdKDTe_4H0kHphOFdczkLD6d8lmaQkWYdo4LP_qkyxA7JRtQU3Q",
+                "adExposureUrl": "https://adx.36kr.com/api/ad/exposure?sign=d2b359c5d1da3f6a770115a37763b738&param.adsdk=QWXZbL_qlxmJjzOTu6qdxJgSSye8GJfOTkSMdKDTe_4H0kHphOFdczkLD6d8lmaQkWYdo4LP_qkyxA7JRtQU3Q",
+                "adJsonContent": "{\"title\":\"2021未来城市科技峰会\",\"src\":\"https://img.36krcdn.com/20210705/v2_931dffa1cf134b3383b4b70241c90027_img_jpg\",\"href\":\"https://adx.36kr.com/api/ad/click?sign=c5023e3ba261dc12022e931bd41ac770&param.redirectUrl=aHR0cHM6Ly81OTIxNDA0NDg4ODExLmh1b2Rvbmd4aW5nLmNvbS9ldmVudC83NjA0NjAyNTEzNzAw&param.adsdk=QWXZbL_qlxmJjzOTu6qdxJgSSye8GJfOTkSMdKDTe_4H0kHphOFdczkLD6d8lmaQkWYdo4LP_qkyxA7JRtQU3Q\"}",
+                "flag": "商业策划",
+                "planType": 1
+              }
+            },
+            {
+              "itemId": 1302871439933829,
+              "itemType": 10,
+              "templateMaterial": {
+                "itemId": 1302871439933829,
+                "templateType": 0,
+                "widgetImage": "https://img.36krcdn.com/20210710/v2_acc5c1211d3f4a4c850f97ec1013e811_img_webp",
+                "publishTime": 1625885492716,
+                "widgetTitle": "“特斯拉又割了我7万块”"
+              },
+              "route": "detail_article?itemId=1302871439933829"
+            },
+            {
+              "itemId": 1302931964856712,
+              "itemType": 10,
+              "templateMaterial": {
+                "itemId": 1302931964856712,
+                "templateType": 0,
+                "widgetImage": "https://img.36krcdn.com/20210709/v2_3c0a8bc7f9674e71aa0bda7cb86d0f28_img_png",
+                "publishTime": 1625825808146,
+                "widgetTitle": "和领袖漫谈 | Oasis招募中国区KOL"
+              },
+              "route": "detail_article?itemId=1302931964856712"
+            },
+            {
+              "itemId": 1293037250513286,
+              "itemType": 10,
+              "templateMaterial": {
+                "itemId": 1293037250513286,
+                "templateType": 0,
+                "widgetImage": "https://img.36krcdn.com/20210707/v2_c70873fa25524e95af035f6066452193_img_png",
+                "publishTime": 1625629517769,
+                "widgetTitle": "Grab：从吴下阿蒙到地区巨头"
+              },
+              "route": "detail_article?itemId=1293037250513286"
+            },
+            {
+              "itemId": 1303023506457222,
+              "itemType": 10,
+              "templateMaterial": {
+                "itemId": 1303023506457222,
+                "templateType": 0,
+                "widgetImage": "https://img.36krcdn.com/20210710/v2_f72b74b4ca954aa18637adb96e1d4020_img_000",
+                "publishTime": 1625878946373,
+                "widgetTitle": "万亿市值的宁德时代，底气在哪里？"
+              },
+              "route": "detail_article?itemId=1303023506457222"
+            }
+          ],
+          "rightRecomList": [
+            {
+              "itemId": 1301480901364360,
+              "itemType": 10,
+              "templateMaterial": {
+                "itemId": 1301480901364360,
+                "templateType": 0,
+                "widgetImage": "https://img.36krcdn.com/20210709/v2_f5e2c2fb45464e109df1ccb6cb79895e_img_jpg",
+                "publishTime": 1625821818625,
+                "widgetTitle": "36氪首发 | 手打柠檬茶饮「柠季」获字节跳动数千万元A轮融资，湖南地区已布局140+家门店"
+              },
+              "route": "detail_article?itemId=1301480901364360"
+            },
+            {
+              "itemId": 1299384438704768,
+              "itemType": 10,
+              "templateMaterial": {
+                "itemId": 1299384438704768,
+                "templateType": 0,
+                "widgetImage": "https://img.36krcdn.com/20210709/v2_208c6a3424ae4462bcc2b2adb516fba8_img_jpeg",
+                "publishTime": 1625797281524,
+                "widgetTitle": "36氪独家 |「大禹智芯」获数千万元Pre-A轮融资，瞄准云计算第三引擎DPU"
+              },
+              "route": "detail_article?itemId=1299384438704768"
+            },
+            {
+              "itemId": 1302291393448581,
+              "itemType": 10,
+              "templateMaterial": {
+                "itemId": 1302291393448581,
+                "templateType": 0,
+                "widgetImage": "https://img.36krcdn.com/20210709/v2_289deafdb8054af8b42eef3020a83aa0_img_jpg",
+                "publishTime": 1625797262287,
+                "widgetTitle": "36氪首发 | 「森亿智能」获5亿元E轮融资，推动公立医院发展和公卫体系建设"
+              },
+              "route": "detail_article?itemId=1302291393448581"
+            },
+            {
+              "itemId": 1302156038949513,
+              "itemType": 10,
+              "templateMaterial": {
+                "itemId": 1302156038949513,
+                "templateType": 0,
+                "widgetImage": "https://img.36krcdn.com/20210709/v2_1519e7d792cb41c68e4ead07cf64d482_img_jpg",
+                "publishTime": 1625797247079,
+                "widgetTitle": "36氪首发丨「Singularity Data」获云启资本种子轮融资，开发下一代云原生流式数据库"
+              },
+              "route": "detail_article?itemId=1302156038949513"
+            }
+          ],
+          "latestNewsflash": {
+            "newsflashMoreRoute": "nav_newsflash",
+            "widgetList": [
+              {
+                "widgetId": 1304351818779268,
+                "widgetTitle": "市场监管总局依法禁止虎牙公司与斗鱼国际控股有限公司合并",
+                "widgetRoute": "detail_newsflash?itemId=1304351818779268",
+                "publishTime": 1625883317064,
+                "widgetContent": "2021年1月4日，市场监管总局对腾讯控股有限公司申报的虎牙公司与斗鱼国际控股有限公司合并案，依法进行经营者集中反垄断审查。根据《反垄断法》第二十八条和《经营者集中审查暂行规定》第三十五条规定，市场监管总局决定依法禁止此项经营者集中。（新华社）",
+                "sourceUrlRoute": "webview?url=https%3A%2F%2Fxhpfmapi.zhongguowangshi.com%2Fvh512%2Fshare%2F10112750%3Fchannel%3Dweixin"
+              },
+              {
+                "widgetId": 1304334884489864,
+                "widgetTitle": "嘉益股份：公司是国内星巴克水杯类产品制造商之一",
+                "widgetRoute": "detail_newsflash?itemId=1304334884489864",
+                "publishTime": 1625882283477,
+                "widgetContent": "嘉益股份(301004)在互动平台表示，公司是国内星巴克水杯类产品的制造商之一，星巴克天猫旗舰店上架产品有部分是公司生产制造，包括部分个性化的定制杯子。"
+              },
+              {
+                "widgetId": 1304318310353536,
+                "widgetTitle": "《北京折叠》作者郝景芳新作入选英国科幻最高奖",
+                "widgetRoute": "detail_newsflash?itemId=1304318310353536",
+                "publishTime": 1625881271872,
+                "widgetContent": "第35届阿瑟·克拉克奖公布了今年的入围短名单，曾以《北京折叠》获得雨果奖的中国科幻作家郝景芳的《流浪苍穹》（Vagabonds）入围，刘慈欣曾评价此书是2016年“中国最好的科幻长篇，没有之一。”（观察者网）",
+                "sourceUrlRoute": "webview?url=https%3A%2F%2Fbaijiahao.baidu.com%2Fs%3Fid%3D1704155700954774967%26wfr%3Dspider%26for%3Dpc"
+              },
+              {
+                "widgetId": 1304316688812418,
+                "widgetTitle": "奥海科技：目前暂未涉及电动车充电领域",
+                "widgetRoute": "detail_newsflash?itemId=1304316688812418",
+                "publishTime": 1625881172901,
+                "widgetContent": "奥海科技(002993)在互动平台表示，公司已具备相应的无线充电研发技术和专利、生产制造能力，目前暂未涉及电动车充电领域；公司会根据战略发展需求评估未来是否向芯片领域拓展。"
+              },
+              {
+                "widgetId": 1304283169262210,
+                "widgetTitle": "专家：不锈钢消费空间大，产业链建设亟待完善",
+                "widgetRoute": "detail_newsflash?itemId=1304283169262210",
+                "publishTime": 1625879127030,
+                "widgetContent": "在7月8日举行的2021（第一届）中国建筑用不锈钢创新论坛上，与会专家表示，我国不锈钢消费仍有较大发展空间。不锈钢具有耐腐蚀、少维护、低碳环保等特点，契合绿色建筑发展趋势，应加大不锈钢在建筑领域的推广力度。目前，不锈钢行业仍面临不少挑战，亟需在夯实发展基础、构建差异化竞争力、延伸产业链等方面加大努力。（中国证券报）",
+                "sourceUrlRoute": "webview?url=http%3A%2F%2Fegs.stcn.com%2Fnews%2Fdetail%2F917117.html"
+              }
+            ]
+          },
+          "liveRecomList": [
+            {
+              "itemId": 1301872366682756,
+              "itemType": 100,
+              "templateMaterial": {
+                "itemId": 1301872366682756,
+                "templateType": 0,
+                "widgetImage": "https://img.36krcdn.com/20210708/v2_09c38e3f05fb46fa83e6efd18875236a_img_jpg?x-oss-process=image/resize,m_mfit,w_600,h_336/crop,w_600,h_336,g_center",
+                "widgetTitle": "中国经济增长奇迹与百年未有之大变局",
+                "widgetStatus": 2,
+                "watchStat": "3.1w",
+                "liveTime": 1625742000000
+              },
+              "route": "detail_live_played?itemId=1301872366682756"
+            },
+            {
+              "itemId": 1301759345525124,
+              "itemType": 100,
+              "templateMaterial": {
+                "itemId": 1301759345525124,
+                "templateType": 0,
+                "widgetImage": "https://img.36krcdn.com/20210708/v2_b377c23cfa86429e9e010fdd23f26f39_img_png?x-oss-process=image/resize,m_mfit,w_600,h_336/crop,w_600,h_336,g_center",
+                "widgetTitle": "“复旦管理大视野”对话科创企业领袖",
+                "widgetStatus": 1,
+                "watchStat": "2418",
+                "liveTime": 1625895000000
+              },
+              "route": "detail_live?itemId=1301759345525124"
+            },
+            {
+              "itemId": 1301976016112265,
+              "itemType": 100,
+              "templateMaterial": {
+                "itemId": 1301976016112265,
+                "templateType": 0,
+                "widgetImage": "https://img.36krcdn.com/20210708/v2_5576bc35689f45f9aaa3efb47d5d0ed8_img_jpg?x-oss-process=image/resize,m_mfit,w_600,h_336/crop,w_600,h_336,g_center",
+                "widgetTitle": "2021未来城市科技峰会",
+                "widgetStatus": 1,
+                "watchStat": "4914",
+                "liveTime": 1626139800501
+              },
+              "route": "detail_live?itemId=1301976016112265"
+            }
+          ]
+        }
+      },
+      "hotlist": {
+        "code": 0,
+        "data": [
+          {
+            "itemId": 1303316435208836,
+            "itemType": 10,
+            "templateMaterial": {
+              "itemId": 1303316435208836,
+              "templateType": 3,
+              "widgetImage": "https://img.36krcdn.com/20210709/v2_721cc28c87854fdabb45d56a94249382_img_jpg?x-oss-process=image/resize,m_mfit,w_600,h_400,limit_0/crop,w_600,h_400,g_center",
+              "publishTime": 1625821519512,
+              "widgetTitle": "36氪独家 | 原阿里钉钉CEO无招将离职创业，被资本疯抢，多名钉钉老将加入"
+            },
+            "route": "detail_article?itemId=1303316435208836"
+          },
+          {
+            "itemId": 1301480901364360,
+            "itemType": 10,
+            "templateMaterial": {
+              "itemId": 1301480901364360,
+              "templateType": 3,
+              "widgetImage": "https://img.36krcdn.com/20210708/v2_9ece7a5b47d94edc88079088a8f38c9b_img_jpg?x-oss-process=image/resize,m_mfit,w_600,h_400,limit_0/crop,w_600,h_400,g_center",
+              "publishTime": 1625818549889,
+              "widgetTitle": "36氪首发 | 手打柠檬茶饮「柠季」获字节跳动数千万元A轮融资，湖南地区已布局140+家门店"
+            },
+            "route": "detail_article?itemId=1301480901364360"
+          },
+          {
+            "itemId": 1303200038750594,
+            "itemType": 10,
+            "templateMaterial": {
+              "itemId": 1303200038750594,
+              "templateType": 1,
+              "widgetImage": "https://img.36krcdn.com/20210709/v2_2b95945759324e1e840d29d015fed188_img_png",
+              "publishTime": 1625813454583,
+              "widgetTitle": "字节跳动杀入长沙，刚刚投资了一家手打柠檬茶"
+            },
+            "route": "detail_article?itemId=1303200038750594"
+          },
+          {
+            "itemId": 1300736475007617,
+            "itemType": 10,
+            "templateMaterial": {
+              "itemId": 1300736475007617,
+              "templateType": 1,
+              "widgetImage": "https://img.36krcdn.com/20210708/v2_46d6cf155cb84494b603af415f187d08_img_png?x-oss-process=image/resize,m_mfit,w_600,h_400,limit_0/crop,w_600,h_400,g_center",
+              "publishTime": 1625800661501,
+              "widgetTitle": "智氪 | 安踏的对手，只剩耐克了？"
+            },
+            "route": "detail_article?itemId=1300736475007617"
+          },
+          {
+            "itemId": 1304202678307463,
+            "itemType": 10,
+            "templateMaterial": {
+              "itemId": 1304202678307463,
+              "templateType": 1,
+              "widgetImage": "https://img.36krcdn.com/20210710/v2_3e96673c48a540dda4e9f072fe356411_img_png",
+              "publishTime": 1625877861455,
+              "widgetTitle": "9点1氪 ｜字节跳动：将于8月1日起取消大小周模式；国家网信办：下架“滴滴企业版”等25款App；刘慈欣加入商汤科技，担任科幻星球研究中心主任"
+            },
+            "route": "detail_article?itemId=1304202678307463"
+          },
+          {
+            "itemId": 1291786387638664,
+            "itemType": 10,
+            "templateMaterial": {
+              "itemId": 1291786387638664,
+              "templateType": 1,
+              "widgetImage": "https://img.36krcdn.com/20210701/v2_811ea88a511f47fe92fb5fba9fb8e3cc_img_png",
+              "publishTime": 1625801569368,
+              "widgetTitle": "未来将兴起、但还没有人准备好的18种工作"
+            },
+            "route": "detail_article?itemId=1291786387638664"
+          },
+          {
+            "itemId": 1303205842832003,
+            "itemType": 10,
+            "templateMaterial": {
+              "itemId": 1303205842832003,
+              "templateType": 1,
+              "widgetImage": "https://img.36krcdn.com/20210709/v2_df4a50b4807c429abde82937fed8ba88_img_png",
+              "publishTime": 1625813844431,
+              "widgetTitle": "标续Model Y：特斯拉的阳谋？"
+            },
+            "route": "detail_article?itemId=1303205842832003"
+          },
+          {
+            "itemId": 1303145282472321,
+            "itemType": 10,
+            "templateMaterial": {
+              "itemId": 1303145282472321,
+              "templateType": 1,
+              "widgetImage": "https://img.36krcdn.com/20210709/v2_fd0e728163fd47829b50e8f8555c039b_img_jpg?x-oss-process=image/resize,m_mfit,w_600,h_400,limit_0/crop,w_600,h_400,g_center",
+              "publishTime": 1625811650024,
+              "widgetTitle": "焦点分析｜估值43亿美金的Nextdoor准备上市，但中国的邻里社交都在微信群里"
+            },
+            "route": "detail_article?itemId=1303145282472321"
+          },
+          {
+            "itemId": 1303431462930818,
+            "itemType": 10,
+            "templateMaterial": {
+              "itemId": 1303431462930818,
+              "templateType": 1,
+              "widgetImage": "https://img.36krcdn.com/20210709/v2_059325230f534a238aae8baa0f5a2999_img_png",
+              "publishTime": 1625827465453,
+              "widgetTitle": "冰岛一周4天工作制成功了，离我们还远吗？"
+            },
+            "route": "detail_article?itemId=1303431462930818"
+          },
+          {
+            "itemId": 1303247264942729,
+            "itemType": 10,
+            "templateMaterial": {
+              "itemId": 1303247264942729,
+              "templateType": 1,
+              "widgetImage": "https://img.36krcdn.com/20210709/v2_6c82e11512ed4083ab7727c6888751ed_img_jpeg?x-oss-process=image/resize,m_mfit,w_600,h_400,limit_0/crop,w_600,h_400,g_center",
+              "publishTime": 1625823267203,
+              "widgetTitle": "焦点分析 | 字节跳动一收手，概念股们抖三抖？"
+            },
+            "route": "detail_article?itemId=1303247264942729"
+          }
+        ]
+      },
+      "recommendMotif": {
+        "code": 0,
+        "data": {
+          "themeList": [
+            {
+              "categoryId": 327685521409,
+              "categoryTitle": "早晚报",
+              "categoryImage": "https://img.36krcdn.com/20200412/v2_0deb3711ca124154ac79289bb9e72a9a_img_000",
+              "categoryType": 0,
+              "statFollow": 734090,
+              "statFollowFormat": "73.4万",
+              "hasFollow": 0,
+              "newestPostTitle": "9点1氪 ｜字节跳动：将于8月1日起取消大小周模式；国家网信办：下架“滴滴企业版”等25款App；刘慈欣加入商汤科技，担任科幻星球研究中心主任",
+              "newestPostPublishTime": 1625877861455,
+              "categoryRoute": "/motif/327685521409",
+              "newestPostRoute": "/p/1304202678307463",
+              "articleNum": 1514
+            },
+            {
+              "categoryId": 327685423105,
+              "categoryTitle": "深氪",
+              "categoryImage": "https://img.36krcdn.com/20200412/v2_f48f62a20cb24348bebf9f7c785f3df0_img_000",
+              "categoryType": 0,
+              "statFollow": 667010,
+              "statFollowFormat": "66.7万",
+              "hasFollow": 0,
+              "newestPostTitle": "大疆造车疑云丨深氪Lite",
+              "newestPostPublishTime": 1624883833191,
+              "categoryRoute": "/motif/327685423105",
+              "newestPostRoute": "/p/1287960573980424",
+              "articleNum": 119
+            },
+            {
+              "categoryId": 971990712381445,
+              "categoryTitle": "36氪独家",
+              "categoryImage": "https://img.36krcdn.com/20201117/v2_076c141d0c124c17a64c1ae2c871ae5c_img_jpeg",
+              "categoryType": 0,
+              "statFollow": 1263,
+              "statFollowFormat": "1263",
+              "hasFollow": 0,
+              "newestPostTitle": "36氪独家 | 原阿里钉钉CEO无招将离职创业，被资本疯抢，多名钉钉老将加入",
+              "newestPostPublishTime": 1625821519512,
+              "categoryRoute": "/motif/971990712381445",
+              "newestPostRoute": "/p/1303316435208836",
+              "articleNum": 263
+            },
+            {
+              "categoryId": 1198587555695112,
+              "categoryTitle": "36氪首发",
+              "categoryImage": "https://img.36krcdn.com/20210426/v2_a8c5bf5eb52648378375a1a0aac669e9_img_png?x-oss-process=image/resize,m_mfit,w_348,h_348,limit_0/crop,w_348,h_348,g_center",
+              "categoryType": 0,
+              "statFollow": 192,
+              "statFollowFormat": "192",
+              "hasFollow": 0,
+              "newestPostTitle": "医疗AI企业抢位“商业化”，GE医疗发布集成AI平台",
+              "newestPostPublishTime": 1625826929877,
+              "categoryRoute": "/motif/1198587555695112",
+              "newestPostRoute": "/p/1303388106001025",
+              "articleNum": 104
+            },
+            {
+              "categoryId": 327685455873,
+              "categoryTitle": "最前线",
+              "categoryImage": "https://img.36krcdn.com/20200412/v2_f80664ca3d964170a26cd5d882d48239_img_000",
+              "categoryType": 0,
+              "statFollow": 639918,
+              "statFollowFormat": "63.9万",
+              "hasFollow": 0,
+              "newestPostTitle": "最前线丨贝壳首席科学家叶杰平：“人工+智能”是新居住AI领域重要方向",
+              "newestPostPublishTime": 1625805889899,
+              "categoryRoute": "/motif/327685455873",
+              "newestPostRoute": "/p/1303003915537032",
+              "articleNum": 4582
+            }
+          ],
+          "moreThemeRoute": "/motif-catalog/column",
+          "pageCallback": "eyJmaXJzdElkIjoxMDUwMDMxNSwibGFzdElkIjoxMDUwMDMwOX0"
+        }
+      }
+    }
+  },
+  "channel": [
+    {
+      "id": 0,
+      "key": "web_news",
+      "name": "最新",
+      "mark": "none",
+      "route": "nav_latest?subnavNick=web_news&subnavType=1"
+    },
+    {
+      "id": 1,
+      "key": "web_recommend",
+      "name": "推荐",
+      "mark": "none",
+      "route": "nav_general?subnavNick=web_recommend&subnavType=1"
+    },
+    {
+      "id": 2,
+      "key": "contact",
+      "name": "创投",
+      "mark": "none",
+      "route": "nav_general?subnavNick=contact&subnavType=1"
+    },
+    {
+      "id": 3,
+      "key": "ccs",
+      "name": "Markets",
+      "mark": "none",
+      "route": "nav_general?subnavNick=ccs&subnavType=1"
+    },
+    {
+      "id": 4,
+      "key": "travel",
+      "name": "汽车",
+      "mark": "none",
+      "route": "nav_general?subnavNick=travel&subnavType=1"
+    },
+    {
+      "id": 5,
+      "key": "technology",
+      "name": "科技",
+      "mark": "none",
+      "route": "nav_general?subnavNick=technology&subnavType=1"
+    },
+    {
+      "id": 6,
+      "key": "enterpriseservice",
+      "name": "企服",
+      "mark": "none",
+      "route": "nav_general?subnavNick=enterpriseservice&subnavType=1"
+    },
+    {
+      "id": 7,
+      "key": "happy_life",
+      "name": "生活",
+      "mark": "none",
+      "route": "nav_general?subnavNick=happy_life&subnavType=1"
+    },
+    {
+      "id": 8,
+      "key": "innovate",
+      "name": "创新",
+      "mark": "none",
+      "route": "nav_general?subnavNick=innovate&subnavType=1"
+    },
+    {
+      "id": 9,
+      "key": "real_estate",
+      "name": "房产",
+      "mark": "none",
+      "route": "nav_general?subnavNick=real_estate&subnavType=1"
+    },
+    {
+      "id": 10,
+      "key": "web_zhichang",
+      "name": "职场",
+      "mark": "none",
+      "route": "nav_general?subnavNick=web_zhichang&subnavType=1"
+    },
+    {
+      "id": 11,
+      "key": "other",
+      "name": "其他",
+      "mark": "none",
+      "route": "nav_general?subnavNick=other&subnavType=1"
+    }
+  ],
+  "locationChannel": [
+    {
+      "id": 0,
+      "key": "guangdong",
+      "name": "广东",
+      "route": "nav_station?subnavNick=guangdong&subnavType=2"
+    },
+    {
+      "id": 1,
+      "key": "jiangsu",
+      "name": "江苏",
+      "route": "nav_station?subnavNick=jiangsu&subnavType=2"
+    },
+    {
+      "id": 2,
+      "key": "sichuan",
+      "name": "四川",
+      "route": "nav_station?subnavNick=sichuan&subnavType=2"
+    },
+    {
+      "id": 3,
+      "key": "qingdao",
+      "name": "山东",
+      "route": "nav_station?subnavNick=qingdao&subnavType=2"
+    },
+    {
+      "id": 4,
+      "key": "liaoning",
+      "name": "辽宁",
+      "route": "nav_station?subnavNick=liaoning&subnavType=2"
+    },
+    {
+      "id": 5,
+      "key": "nanchang",
+      "name": "南昌",
+      "route": "nav_station?subnavNick=nanchang&subnavType=2"
+    },
+    {
+      "id": 6,
+      "key": "hainan",
+      "name": "海南",
+      "route": "nav_station?subnavNick=hainan&subnavType=2"
+    },
+    {
+      "id": 7,
+      "key": "zhejiang",
+      "name": "浙江",
+      "route": "nav_station?subnavNick=zhejiang&subnavType=2"
+    },
+    {
+      "id": 8,
+      "key": "henan",
+      "name": "河南",
+      "route": "nav_station?subnavNick=henan&subnavType=2"
+    },
+    {
+      "id": 9,
+      "key": "xian",
+      "name": "陕西",
+      "route": "nav_station?subnavNick=xian&subnavType=2"
+    },
+    {
+      "id": 10,
+      "key": "chongqing",
+      "name": "重庆",
+      "route": "nav_station?subnavNick=chongqing&subnavType=2"
+    },
+    {
+      "id": 11,
+      "key": "hunan",
+      "name": "湖南",
+      "route": "nav_station?subnavNick=hunan&subnavType=2"
+    },
+    {
+      "id": 12,
+      "key": "guizhou",
+      "name": "贵州",
+      "route": "nav_station?subnavNick=guizhou&subnavType=2"
+    }
+  ],
+  "locationStationNav": {
+    "id": 7,
+    "key": "zhejiang",
+    "name": "浙江",
+    "route": "nav_station?subnavNick=zhejiang&subnavType=2"
+  },
+  "userInfo": null,
+  "isCheckedUserInfo": false
+}
